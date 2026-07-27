@@ -7,6 +7,6 @@ This site hosts the browser versions of the course slides.
 
 ## Course slides
 
-- [Day 1 sample: AI intuition and presentation features](slides/day1/quarto-demo.html)
+- [Day 1: Foundations of AI and the Digital Economy](slides/day1/ai-intuition-progress.html)
 
 The PDF versions will be distributed separately through the university course system.
