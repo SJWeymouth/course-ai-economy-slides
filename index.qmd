@@ -1,0 +1,12 @@
+---
+title: "The AI Economy"
+subtitle: "Business Strategies and Policy Issues — Summer 2026"
+---
+
+This site hosts the browser versions of the course slides.
+
+## Course slides
+
+- [Day 1 sample: AI intuition and presentation features](slides/day1/quarto-demo.html)
+
+The PDF versions will be distributed separately through the university course system.
