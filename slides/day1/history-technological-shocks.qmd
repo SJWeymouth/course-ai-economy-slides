@@ -2,6 +2,7 @@
 title: "An Introduction to the History of Technological Shocks"
 subtitle: "Day 1A · The AI Economy"
 author: "Stephen Weymouth"
+institute: "Provost's Distinguished Associate Professor"
 date: ""
 format:
   revealjs:
@@ -50,15 +51,15 @@ execute:
 
 ![](../../assets/first_unbundle.jpg){fig-alt="The first unbundling of production and consumption" .r-stretch}
 
-## History-Changing Technology: Steam Engine {.visual-stage}
+## History Changing Technology: Steam Engine {.visual-stage}
 
 ![](../../assets/steamboat.png){fig-alt="Steam-powered boat" .r-stretch}
 
-## History-Changing Technology: Steam Engine {.visual-stage}
+## History Changing Technology: Steam Engine {.visual-stage}
 
 ![](../../assets/train2.jpg){fig-alt="Steam-powered train" .r-stretch}
 
-## History-Changing Technology: Internet {.visual-stage}
+## History Changing Technology: Internet {.visual-stage}
 
 ![](../../assets/ict1.jpg){fig-alt="Internet and communications technology" .r-stretch}
 
@@ -141,7 +142,7 @@ To understand the politics, we need to understand who has won and who has lost.
 
 ![](../../assets/Trump_protectionism1.png){fig-alt="Donald Trump discussing protectionist trade policy" .r-stretch}
 
-## Is AI Another General-Purpose Technology?
+## AI Another GPT?
 
 :::: {.columns}
 
@@ -151,7 +152,7 @@ To understand the politics, we need to understand who has won and who has lost.
 
 ::: {.column width="45%"}
 - AI is redefining how managers make decisions and how firms create value.
-- Businesses increasingly use AI—data analysis for prediction and decision-making—to increase scale and scope and offer personalized products.
+- Businesses increasingly using AI (data analysis for prediction and decision-making) to increase scale and scope, and to offer personalized products.
 :::
 
 ::::
