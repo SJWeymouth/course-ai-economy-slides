@@ -6,6 +6,7 @@ subtitle: "Business Strategies and Policy Issues — Summer 2026"
 This site hosts the browser versions of the course slides.
 
 ## Course slides
+- [Day 1A: History of Technological Shocks](slides/day1/history-technological-shocks.html)
 
 - [Day 1: Foundations of AI and the Digital Economy](slides/day1/ai-intuition-progress.html)
 
