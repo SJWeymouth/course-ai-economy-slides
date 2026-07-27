@@ -7,10 +7,10 @@ deck_path <- file.path("slides", "day1", "history-technological-shocks.qmd")
 assets_dir <- "assets"
 
 # Option 1: set the Dropbox folder here, for example:
-# source_dir <- "C:/Users/Stephen/Dropbox/Teaching/Images"
+source_dir <- "C:/Users/sw439/Dropbox/Courses/Slides/images"
 #
 # Option 2: leave this blank and the script will ask you for the folder.
-source_dir <- ""
+#source_dir <- ""
 
 # ---- Fallback list used if the .qmd file is not yet in the repository ----
 fallback_assets <- c(
