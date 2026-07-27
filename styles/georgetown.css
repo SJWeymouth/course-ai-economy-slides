@@ -1,0 +1,271 @@
+:root {
+  --gt-navy: #041e42;
+  --gt-blue: #365f91;
+  --gt-taupe: #8a7f75;
+  --gt-pale-blue: #dce4ed;
+  --gt-paper: #f7f5f1;
+}
+
+.reveal {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  box-sizing: border-box;
+}
+
+.reveal .slides section.slide.level2 > h2 {
+  margin-bottom: 0.62em;
+  padding-bottom: 0.18em;
+  border-bottom: 1px solid var(--gt-pale-blue);
+}
+
+.reveal h3 {
+  color: var(--gt-blue);
+  font-weight: 600;
+}
+
+.reveal p,
+.reveal li {
+  letter-spacing: -0.005em;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-left: 1.15em;
+}
+
+.reveal li {
+  margin-bottom: 0.18em;
+}
+
+.reveal blockquote {
+  width: auto;
+  margin: 0.45em 0;
+  padding: 0.18em 0 0.18em 0.82em;
+  color: var(--gt-navy);
+  background: transparent;
+  border-left: 5px solid #9cadc4;
+  box-shadow: none;
+  font-style: normal;
+}
+
+.reveal code {
+  border-radius: 0;
+}
+
+.reveal pre {
+  width: 100%;
+  box-shadow: none;
+  border-left: 4px solid #9cadc4;
+  background: #f4f5f7;
+}
+
+.reveal .columns {
+  gap: 3.5%;
+  align-items: center;
+}
+
+.reveal .column > :first-child {
+  margin-top: 0;
+}
+
+.reveal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.reveal .r-stretch,
+.reveal .stretch {
+  max-width: 94%;
+  max-height: 71vh;
+}
+
+.reveal .slide-number {
+  right: 26px;
+  bottom: 20px;
+  padding: 0;
+  color: #6b727a;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.reveal .footer {
+  bottom: 20px;
+  left: 34px;
+  width: auto;
+  color: #777f87;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.reveal .progress {
+  height: 3px;
+  color: var(--gt-navy);
+}
+
+.reveal .controls {
+  color: var(--gt-navy);
+  opacity: 0.5;
+}
+
+/* Opening slide */
+
+#title-slide {
+  text-align: center;
+}
+
+#title-slide::before {
+  content: "";
+  position: absolute;
+  top: -7vh;
+  left: 50%;
+  width: 92px;
+  height: 5px;
+  transform: translateX(-50%);
+  background: var(--gt-navy);
+}
+
+#title-slide::after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 64px;
+  margin: 2.6em auto 0;
+  background: url("../assets/georgetown-university-wordmark.png") center / contain
+    no-repeat;
+}
+
+#title-slide h1.title {
+  max-width: 1080px;
+  margin: 0 auto 0.32em;
+  color: var(--gt-navy);
+  font-size: 2.15em;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+#title-slide .subtitle {
+  margin-bottom: 2.2em;
+  color: #5d6874;
+  font-size: 0.93em;
+}
+
+#title-slide .quarto-title-author-name {
+  color: #202830;
+  font-size: 0.84em;
+  font-weight: 650;
+}
+
+/* Quarto section dividers */
+
+.reveal .slides section.title-slide.level1 {
+  padding: 0 10%;
+  background: var(--gt-navy);
+  color: #ffffff;
+}
+
+.reveal .slides section.title-slide.level1::before {
+  content: "";
+  display: block;
+  width: 74px;
+  height: 5px;
+  margin: 0 auto 0.8em;
+  background: #9cadc4;
+}
+
+.reveal .slides section.title-slide.level1 h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.72em;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+/* Image-led slides */
+
+.reveal .slides section.photo-title h2 {
+  display: inline-block;
+  max-width: 72%;
+  margin: 0;
+  padding: 0.24em 0.42em 0.29em;
+  color: #ffffff;
+  background: rgba(4, 30, 66, 0.86);
+  border: 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.reveal .slides section.photo-title .photo-caption {
+  position: absolute;
+  right: 0;
+  bottom: 38px;
+  max-width: 58%;
+  margin: 0;
+  padding: 0.5em 0.7em;
+  color: #17202a;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.16);
+  font-size: 0.78em;
+}
+
+.reveal .slides section.photo-title .photo-caption p {
+  margin: 0 0 0.4em;
+}
+
+.reveal .slides section.photo-title .photo-caption p:last-child {
+  margin-bottom: 0;
+}
+
+.reveal .slides section.visual-stage img {
+  max-width: 92%;
+  max-height: 72vh;
+}
+
+.reveal .slides section.visual-stage > p:last-child {
+  margin-bottom: 0;
+}
+
+.reveal .slides section.center {
+  text-align: center;
+}
+
+.reveal .slides section.center h2 {
+  text-align: left;
+}
+
+.reveal .slides section.question-slide > h2 {
+  border-bottom: 0;
+}
+
+.reveal .slides section.question-slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reveal .slides section.question-slide::before {
+  content: "";
+  width: 64px;
+  height: 4px;
+  margin: 0 auto 1.2em;
+  background: #9cadc4;
+}
+
+@media print {
+  .reveal .footer {
+    color: #777f87 !important;
+  }
+}

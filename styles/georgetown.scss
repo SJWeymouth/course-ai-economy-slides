@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+$body-bg: #ffffff;
+$body-color: #1d2329;
+$font-family-sans-serif: "Aptos", "Avenir Next", "Segoe UI", Helvetica, Arial,
+  sans-serif;
+$presentation-font-size-root: 30px;
+$presentation-line-height: 1.28;
+
+$presentation-heading-font: "Aptos Display", "Avenir Next", "Segoe UI",
+  Helvetica, Arial, sans-serif;
+$presentation-heading-color: #041e42;
+$presentation-heading-font-weight: 500;
+$presentation-heading-line-height: 1.12;
+$presentation-heading-letter-spacing: -0.015em;
+$presentation-heading-text-transform: none;
+$presentation-h1-font-size: 2.05em;
+$presentation-h2-font-size: 1.42em;
+$presentation-h3-font-size: 1.08em;
+$presentation-h4-font-size: 1em;
+
+$link-color: #005eb8;
+$selection-bg: #9cadc4;
+$selection-color: #041e42;
+$presentation-list-bullet-color: #8a7f75;
+$code-block-font-size: 0.62em;
+$code-inline-font-size: 0.88em;
+$border-radius: 0;
+
+/*-- scss:rules --*/
+
+strong {
+  font-weight: 650;
+}
+
+blockquote {
+  border-left-color: #9cadc4 !important;
+}
+
