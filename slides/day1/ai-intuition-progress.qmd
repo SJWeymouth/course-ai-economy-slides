@@ -1,0 +1,535 @@
+---
+title: "Foundations of AI and the Digital Economy"
+subtitle: "Day 1: AI Intuition, Progress, and Capabilities"
+author: "Stephen Weymouth"
+date: ""
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    controls: true
+    progress: true
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.08
+    incremental: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## The AI Moment Is Here
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/altman1.png){fig-alt="Sam Altman" width="78%"}
+
+Sam Altman, CEO of OpenAI
+:::
+
+::: {.column width="58%"}
+> AI will create "a new kind of society."
+
+. . .
+
+### What is your reaction to that quote?
+:::
+
+::::
+
+::: {.notes}
+Open with the quote rather than a definition. Ask students for instinctive reactions before moving to course framing.
+:::
+
+## The Digital Economy: Foundations and Transformations
+
+**Session Goals**
+
+::: {.incremental}
+- Explore AI as a transformative force in business and society.
+- Understand key AI milestones and breakthroughs.
+- Explore AI's mechanics, including machine learning and LLMs.
+- Evaluate AI's capabilities and weaknesses through class activities.
+:::
+
+## AI Is Transformational
+
+:::: {.columns}
+
+::: {.column width="58%"}
+![](../../assets/AI_graphic.png){fig-alt="Artificial intelligence graphic" width="92%"}
+:::
+
+::: {.column width="42%"}
+::: {.incremental}
+- AI redefines how managers make decisions and how firms create value.
+- Businesses will increase scale and scope, automate processes, and offer personalized products.
+:::
+:::
+
+::::
+
+## This Course {.center}
+
+<div style="font-size: 2.2rem; line-height: 1.35; text-align: center; margin-top: 12%;">
+<strong>AI, a general-purpose technology, is disrupting business processes, introducing new societal risks, and fragmenting global economic relations.</strong>
+</div>
+
+## The Societal Impact
+
+![](../../assets/stanford_hai_24.png){fig-alt="Stanford HAI graphic on AI's societal impact" .r-stretch}
+
+## Hope and Concern
+
+![](../../assets/ai_harm_survey.png){fig-alt="Survey on hope and concern about AI" .r-stretch}
+
+## What We Won't Do
+
+![](../../assets/equation.png){fig-alt="Equation from Goodfellow et al. 2014" .r-stretch}
+
+<div style="text-align:center;">Source: Goodfellow et al. 2014</div>
+
+## What We Won't Do
+
+![](../../assets/ml_code.png){fig-alt="Python code for AI" .r-stretch}
+
+<div style="text-align:center;">Python code for AI</div>
+
+## Recent Milestones in Computing Intelligence {.center}
+
+<div style="font-size: 2.2rem; line-height: 1.35; text-align: center; margin-top: 16%;">
+Let's begin by reviewing some recent milestones in computing intelligence.
+</div>
+
+# Milestones in Computing Intelligence
+
+## Alan Turing's Challenge
+
+![](../../assets/turing_bbc_greatest.jpg){fig-alt="Alan Turing" .r-stretch}
+
+## Turing Test and Artificial Intelligence
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/turing_paper.png){fig-alt="Turing's 1950 paper" width="82%"}
+:::
+
+::: {.column width="58%"}
+![](../../assets/turing_test_diagram.png){fig-alt="Diagram of the Turing Test" width="94%"}
+:::
+
+::::
+
+. . .
+
+<div style="text-align:center; font-size:1.35rem;">
+The test evaluates observable behavior rather than the machine's internal process.
+</div>
+
+## Big Blue Beats Garry Kasparov (1997)
+
+![](../../assets/big_blue.jpg){fig-alt="IBM Big Blue and Garry Kasparov" .r-stretch}
+
+## IBM Watson Wins Jeopardy (2014)
+
+![](../../assets/watson.jpg){fig-alt="IBM Watson on Jeopardy" .r-stretch}
+
+## The "Holy Cow" Moment
+
+![](../../assets/baldwin_holy_cow.png){fig-alt="Holy Cow moment" .r-stretch}
+
+## AlphaGo Beats 18-Time Champ Lee Sedol (2016)
+
+![](../../assets/sedol.jpg){fig-alt="Lee Sedol playing AlphaGo" .r-stretch}
+
+## OpenAI Releases ChatGPT-4 (2023)
+
+![](../../assets/gpt4advances.png){fig-alt="GPT-4 advances" width="82%"}
+
+## Why Are the Breakthroughs Happening Now?
+
+::: {.incremental}
+- Big data.
+- Exponential growth in computational capacity, or "compute": processing power provided by CPUs, GPUs, or specialized hardware such as TPUs.
+:::
+
+![](../../assets/compute.jpg){fig-alt="Compute growth" width="60%"}
+
+## Comparing Processing Units
+
+![](../../assets/processing.png){fig-alt="Comparison of processing units" .r-stretch}
+
+## Exponential Growth in Computing Power
+
+![](../../assets/iphone_apollo.png){fig-alt="iPhone and Apollo computing comparison" .r-stretch}
+
+. . .
+
+<div style="text-align:center; font-size:1.55rem;">
+2x as much progress in two years as in the previous 46.
+</div>
+
+## Moore's Law
+
+![](../../assets/moores.png){fig-alt="Moore's Law" .r-stretch}
+
+# What Is AI and How Does It Work?
+
+## What Is AI?
+
+:::: {.columns}
+
+::: {.column width="38%"}
+![](../../assets/prediction.png){fig-alt="Prediction graphic" width="78%"}
+:::
+
+::: {.column width="62%"}
+::: {.incremental}
+- Why is prediction important and valuable?
+- How is image recognition a type of prediction?
+- How is AlphaGo's victory attributable to prediction?
+- What does Amazon predict?
+:::
+:::
+
+::::
+
+## Machine Learning
+
+![](../../assets/ai_evolution.png){fig-alt="Evolution of AI" .r-stretch}
+
+> "The field of study that gives computers the ability to learn without being explicitly programmed."
+
+Arthur Samuel
+
+## What Explains Advances in Machine Learning?
+
+Complicated real-world tasks like image recognition were too difficult to program using rules-based programming.
+
+. . .
+
+For example: **If it has a tail, then it's a dog?**
+
+![](../../assets/tail.jpg){fig-alt="Dog tail example" width="55%"}
+
+## Understanding AI
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/rometty1.jpeg){fig-alt="Ginni Rometty" width="78%"}
+
+Ginni Rometty, former IBM CEO
+:::
+
+::: {.column width="58%"}
+> "Everything you know until today is programmable---an entire era for decades has been programmable. [AI] would be the beginning of a new era where you didn't program. Machines would look at data, understand, reason over it, and they continue to learn: understand, reason and learn, not program, in my simple definition."
+:::
+
+::::
+
+## Why ML Is Transformational
+
+Machine learning is a **general-purpose technology** like the steam engine or electricity.
+
+. . .
+
+General-purpose technologies:
+
+::: {.incremental}
+- drive innovation and spawn new capabilities;
+- restructure value chains in industries;
+- redistribute income and create economic shifts.
+:::
+
+# How Does Machine Learning Work?
+
+# Example: Reinforcement Learning
+
+## Learning to Play **Go** (1)
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/go.png){fig-alt="Go board" width="82%"}
+:::
+
+::: {.column width="58%"}
+It's Black's turn. AlphaGo begins with an initial assumption:
+
+```text
+for all time steps t, and for all locations l, 
+    it is legal to play a stone at location l 
+    at time t.
+```
+
+- The algorithm tries A: that's allowed---as are B and C. Then it tries D: that's illegal---as is E.
+- Through self-play, AlphaGo tests its hypothesis by attempting moves and observing outcomes.
+:::
+
+::::
+
+## Learning to Play **Go** (2)
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/go.png){fig-alt="Go board" width="82%"}
+:::
+
+::: {.column width="58%"}
+Based on feedback from the environment, AlphaGo adjusts its hypothesis:
+
+```text
+for all time steps t, and for all locations l, 
+    if l is unoccupied at time t, 
+    then it is legal to play a stone at location l 
+    at time t.
+```
+
+This iterative refinement aligns with reinforcement learning principles.
+:::
+
+::::
+
+## Learning to Play **Go** (3)
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/go.png){fig-alt="Go board" width="82%"}
+:::
+
+::: {.column width="58%"}
+Then it tries F: illegal. After repeated trials, AlphaGo formulates more sophisticated hypotheses:
+
+```text
+for all time steps t, and for all locations l, 
+    if l is unoccupied at time t 
+        and l is not surrounded by opponent stones, 
+    then it is legal to play a stone at location l 
+    at time t.
+```
+:::
+
+::::
+
+## Learning to Play **Go** (4)
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/go.png){fig-alt="Go board" width="82%"}
+:::
+
+::: {.column width="58%"}
+- Next, it tries G: legal. "Hmmm," it says.
+- After more experiments, it settles on the hypothesis that G is OK, even though it is surrounded, because it captures the white stone at D and becomes un-surrounded immediately.
+- Reinforcement learning refines hypotheses about capturing opponent stones and optimizing long-term board advantage.
+:::
+
+::::
+
+# Example: Supervised Learning
+
+## AI for Image Recognition
+
+![](../../assets/tesla.jpg){fig-alt="Tesla image-recognition example" .r-stretch}
+
+Imagine you want a machine to identify car images from a selection of pictures that include cars and non-cars.
+
+. . .
+
+**What features do you write into the algorithm?**
+
+## It Can Be Quite Complicated
+
+![](../../assets/car_collage.jpg){fig-alt="Car collage" .r-stretch}
+
+Too many variations to write one set of rules. Also, the approach is not scalable to other objects: you would have to write a completely new set of rules.
+
+## Deep Learning Neural Networks
+
+![](../../assets/neural_net.jpeg){fig-alt="Deep learning neural network" width="70%"}
+
+- Model the brain: recognition not through rules, but by practice and feedback.
+
+## What Is **Deep Learning**?
+
+::: {.incremental}
+- Learning means **improving performance based on experience**.
+- A deep learning system is self-teaching: it trains itself to process and learn from data.
+:::
+
+![](../../assets/deep_learning_subset.png){fig-alt="Deep learning subset diagram" width="70%"}
+
+## Example: Deep Learning for Picture Recognition
+
+![](../../assets/pixels.png){fig-alt="Pixels and RGB values" width="70%"}
+
+- From the computer's point of view, an image is a large table of numbers.
+- Each number corresponds to one of three RGB values for one pixel of the image.
+- The algorithm generates a hypothesis that takes a table of numbers as input and predicts an output.
+
+## Deep Learning Relies on Neural Networks
+
+![](../../assets/dl_face.png){fig-alt="Deep learning face recognition" width="70%"}
+
+- The input layer receives information the network will process, such as pixels of a picture.
+- Early layers identify patterns of contrast such as edges; deeper layers extract higher-level features.
+- The output layer provides predicted results, such as human face: 98%; balloon: 2%.
+
+## Neural Networks
+
+![](../../assets/neural_russell.png){fig-alt="Neural network diagram" .r-stretch}
+
+Each node is given a weight that represents the strength of its relationship with the output.
+
+## First Training, Then Prediction
+
+![](../../assets/neural_net_training.png){fig-alt="Neural network training" width="85%"}
+
+**Learning** takes place in the network by adjusting weights to reduce the prediction error on the *labeled* examples.
+
+## Key Question {.center}
+
+<div style="font-size: 2.6rem; text-align: center; margin-top: 18%;">
+What is the key input for supervised learning algorithms?
+</div>
+
+## Key Input for Deep Learning: **Big Data**
+
+:::: {.columns}
+
+::: {.column width="42%"}
+![](../../assets/ng.jpg){fig-alt="Andrew Ng" width="78%"}
+
+Andrew Ng, former chief scientist of Baidu and one of the leaders of the Google Brain Project
+:::
+
+::: {.column width="58%"}
+> "The rocket engine is the deep learning models and the fuel is the huge amounts of data we can feed to these algorithms."
+:::
+
+::::
+
+## Labelled Data Is Vital for Supervised ML
+
+![](../../assets/china_label.jpg){fig-alt="Data labeling in China" .r-stretch}
+
+<div style="text-align:center;">Data labeling in China</div>
+
+# Example: Unsupervised Learning and LLMs
+
+## What Are LLMs?
+
+- ChatGPT is a language model designed to interpret, generate, and respond to human language.
+- It represents a third type of unsupervised-learning neural net based on Transformer architecture.
+- A Transformer is a neural network design that uses self-attention mechanisms, which weight token importance, to model relationships among tokens and produce context-aware predictions.
+
+## How LLMs Work
+
+![](../../assets/gpt_explainer.png){fig-alt="GPT explainer" width="70%"}
+
+- **Tokenization:** breaks text into smaller units for processing.
+- **Encoding:** maps relationships and extracts contextual meaning with attention mechanisms.
+- **Decoding:** predicts tokens and generates a coherent response.
+- **Post-processing:** refines the output for clarity and fluency.
+
+## How LLMs Process Tasks
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Open-Ended Tasks
+
+- Example: "Write a poem about AI."
+- LLMs predict plausible sequences based on patterns in their training data.
+- Responses are not constrained by external content and allow for randomness and variety.
+:::
+
+::: {.column width="50%"}
+### Context-Bound Tasks
+
+- Example: "Summarize this article."
+- LLMs incorporate provided content as part of the context.
+- Responses are constrained by tokenized content.
+:::
+
+::::
+
+## Activity: Thinking Like an AI (Mollick, 2024)
+
+### 1. Next-Token Prediction
+
+**Prompt:** "the best type of university course is..."
+
+::: {.incremental}
+- Run the prompt multiple times and observe variations.
+- Modify the input, such as by capitalizing words or changing "best."
+- Discuss how small input changes affect the responses.
+- What does this reveal about randomness and how LLMs generate text?
+:::
+
+## Activity: Thinking Like an AI (Mollick, 2024)
+
+### 2. Explore Context-Bound Tasks
+
+**Upload:** Chapter 1 of *The Coming Wave* to ChatGPT.
+
+**Prompt:** "Summarize this chapter in one sentence."
+
+::: {.incremental}
+- Compare the summary with your understanding of the chapter.
+- Compare the summary to the person sitting next to you.
+- Rephrase the prompt to make it more specific.
+- Discuss how the model decides which details to prioritize.
+- Consider the implications for business analysis or policy making.
+:::
+
+## Discussion
+
+- How does randomness affect the variety of responses you observed across multiple runs of the same prompt?
+- When you modified the input, how did the tone, focus, or phrasing of the responses change?
+- How does the model decide which details to prioritize in its response?
+- What does this tell us about how specific words or instructions guide the model's focus?
+- What are the implications of this behavior for real-world business applications?
+
+## Frontier Technology: AI Agents
+
+![](../../assets/agents.jpeg){fig-alt="AI agents" width="70%"}
+
+- Diverse potential applications, from assisting in academic research and scheduling meetings to facilitating online shopping and vacation planning.
+
+## The Coming Wave
+
+![](../../assets/wave_cover.jpg){fig-alt="Cover of The Coming Wave" width="62%"}
+
+## Turn-and-Talk Activity
+
+In pairs, discuss Suleyman's central claim about why AI and synthetic biology cannot be contained.
+
+::: {.incremental}
+- Is containment truly impossible, or is Suleyman overstating the challenge?
+- Draft a one-sentence response to Suleyman: should we aim to contain the "coming wave," or adapt to it?
+:::
+
+. . .
+
+**In this class, be prepared to engage, debate, and think critically.**
+
+# Group Project Selection
+
+## Group Projects
+
+![](../../assets/basel_2025_teams.png){fig-alt="Basel 2025 teams" .r-stretch}
+
+- As noted in the syllabus, the group project is a focus of the course.
+- Groups will develop a simulation on a policy issue related to AI.
+- Meet with your teams to discuss a topic for your group project.
+- In 20 minutes, we will reconvene to record the selections.
