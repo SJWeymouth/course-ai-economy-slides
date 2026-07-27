@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - slides/**/*.qmd
+
+website:
+  title: "The AI Economy — Summer 2026"
+  site-url: "https://sjweymouth.github.io/course-ai-economy-slides/"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: full
