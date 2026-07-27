@@ -25,7 +25,7 @@ execute:
   message: false
 ---
 
-## Welcome to The AI Economy! {.center .question-slide}
+# Welcome to The AI Economy! {background-color="#041e42"}
 
 ## I Teach and Write about Globalization
 
@@ -45,23 +45,17 @@ execute:
 
 ::::
 
-## A Brief Review of Technology and the Global Economy {.center .question-slide}
+# A Brief Review of Technology and the Global Economy {background-color="#041e42"}
 
 ## The First Unbundling {.visual-stage}
 
 ![](../../assets/first_unbundle.jpg){fig-alt="The first unbundling of production and consumption" .r-stretch}
 
-## History Changing Technology: Steam Engine {.visual-stage}
+## History Changing Technology: Steam Engine {.photo-title background-image="../../assets/steamboat.png" background-size="cover" background-position="center"}
 
-![](../../assets/steamboat.png){fig-alt="Steam-powered boat" .r-stretch}
+## History Changing Technology: Steam Engine {.photo-title background-image="../../assets/train2.jpg" background-size="cover" background-position="center"}
 
-## History Changing Technology: Steam Engine {.visual-stage}
-
-![](../../assets/train2.jpg){fig-alt="Steam-powered train" .r-stretch}
-
-## History Changing Technology: Internet {.visual-stage}
-
-![](../../assets/ict1.jpg){fig-alt="Internet and communications technology" .r-stretch}
+## History Changing Technology: Internet {.photo-title background-image="../../assets/ict1.jpg" background-size="contain" background-position="center" background-color="#ffffff"}
 
 ## ICT Lowers the Cost of Moving *Ideas* {.visual-stage}
 
@@ -120,11 +114,9 @@ To understand the politics, we need to understand who has won and who has lost.
 
 ![](../../assets/deindustrialization.png){fig-alt="United States deindustrialization" .r-stretch}
 
-## Former US Manufacturing Towns {.visual-stage}
+## Former US Manufacturing Towns {.photo-title background-image="../../assets/mckeesport.jpg" background-size="cover" background-position="center"}
 
-![](../../assets/mckeesport.jpg){fig-alt="McKeesport, Pennsylvania" .r-stretch}
-
-<div style="text-align:center; font-size:0.72em;">McKeesport, Pennsylvania</div>
+<div class="photo-caption">McKeesport, Pennsylvania</div>
 
 ## Manufacturing Employment in 1970 {.visual-stage}
 
@@ -136,11 +128,9 @@ To understand the politics, we need to understand who has won and who has lost.
 
 <div style="text-align:center; font-size:0.72em;">Trump (2016) compared with Romney (2012)</div>
 
-## Why Does Trump Do So Well in Former Manufacturing Areas? {.center .question-slide}
+# Why Does Trump Do So Well in Former Manufacturing Areas? {background-color="#041e42"}
 
-## Trump's Protectionism {.visual-stage}
-
-![](../../assets/Trump_protectionism1.png){fig-alt="Donald Trump discussing protectionist trade policy" .r-stretch}
+## Trump's Protectionism {.photo-title background-image="../../assets/Trump_protectionism1.png" background-size="contain" background-position="center" background-color="#ffffff"}
 
 ## AI Another GPT?
 
