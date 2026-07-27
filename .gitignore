@@ -7,3 +7,4 @@
 *_files/
 
 **/*.quarto_ipynb
+asset_copy_report*.csv

@@ -1,0 +1,177 @@
+---
+title: "An Introduction to the History of Technological Shocks"
+subtitle: "Day 1A · The AI Economy"
+author: "Stephen Weymouth"
+date: ""
+format:
+  revealjs:
+    theme: ../../styles/georgetown.scss
+    css: ../../styles/georgetown.css
+    slide-number: true
+    transition: fade
+    controls: false
+    menu: false
+    progress: true
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.055
+    incremental: false
+    footer: "Georgetown University · McDonough School of Business"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Welcome to The AI Economy! {.center .question-slide}
+
+## I Teach and Write about Globalization
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](../../assets/cover.png){fig-alt="Cover of Digital Globalization" width="82%"}
+:::
+
+::: {.column width="60%"}
+- Joined Georgetown faculty in 2010
+- PhD, University of California, San Diego
+- Expertise on the political environment of business
+- Focus on how globalization impacts firms, governments, and individuals
+- Special Sworn Employee, US Bureau of Economic Analysis (2012–2022)
+:::
+
+::::
+
+## A Brief Review of Technology and the Global Economy {.center .question-slide}
+
+## The First Unbundling {.visual-stage}
+
+![](../../assets/first_unbundle.jpg){fig-alt="The first unbundling of production and consumption" .r-stretch}
+
+## History-Changing Technology: Steam Engine {.visual-stage}
+
+![](../../assets/steamboat.png){fig-alt="Steam-powered boat" .r-stretch}
+
+## History-Changing Technology: Steam Engine {.visual-stage}
+
+![](../../assets/train2.jpg){fig-alt="Steam-powered train" .r-stretch}
+
+## History-Changing Technology: Internet {.visual-stage}
+
+![](../../assets/ict1.jpg){fig-alt="Internet and communications technology" .r-stretch}
+
+## ICT Lowers the Cost of Moving *Ideas* {.visual-stage}
+
+![](../../assets/ICT.jpg){fig-alt="Information and communications technology lowers the cost of moving ideas" .r-stretch}
+
+## Second Unbundling: The GVC Revolution {.visual-stage}
+
+![](../../assets/second_unbundle.jpg){fig-alt="The second unbundling and global value chains" .r-stretch}
+
+## Second Unbundling: The GVC Revolution {.visual-stage}
+
+![](../../assets/dreamliner.png){fig-alt="Boeing Dreamliner global value chain" .r-stretch}
+
+## Technology Altered Global Income Distribution
+
+![](../../assets/share_shift.jpg){fig-alt="Shift in global income shares between the G7 and I6" width="88%"}
+
+<div style="text-align:center; font-size:0.65em;">Source: Baldwin (2016)</div>
+
+- **G7:** US, Germany, Japan, France, Britain, Canada, Italy
+- **I6:** China, Korea, India, Poland, Indonesia, Thailand
+
+## Technology Altered Global Production
+
+![](../../assets/g7.jpg){fig-alt="Change in the G7 share of global production" width="64%"}
+
+<div style="text-align:center; font-size:0.65em;">Source: Baldwin (2016)</div>
+
+- **G7:** US, Germany, Japan, France, Britain, Canada, Italy
+- **I6:** China, Korea, India, Poland, Indonesia, Thailand
+
+## Technology Changed US Employment
+
+![](../../assets/emp_shares.jpg){fig-alt="Changes in United States employment shares" width="82%"}
+
+- 8 million manufacturing jobs and 43,000 establishments disappeared.
+
+## Politics (Policy) Implications
+
+To understand the politics, we need to understand who has won and who has lost.
+
+::: {.incremental}
+- Who are the winners of the First Unbundling? Who are the losers?
+- Who are the winners of the Second Unbundling? Who are the losers?
+:::
+
+## Trade Implications {.visual-stage}
+
+![](../../assets/tradebalance_goods_services.svg){fig-alt="United States trade balance in goods and services" .r-stretch}
+
+## China's Export Dominance {.visual-stage}
+
+![](../../assets/chinese_exports.png){fig-alt="China's dominance in global exports" .r-stretch}
+
+## US Deindustrialization {.visual-stage}
+
+![](../../assets/deindustrialization.png){fig-alt="United States deindustrialization" .r-stretch}
+
+## Former US Manufacturing Towns {.visual-stage}
+
+![](../../assets/mckeesport.jpg){fig-alt="McKeesport, Pennsylvania" .r-stretch}
+
+<div style="text-align:center; font-size:0.72em;">McKeesport, Pennsylvania</div>
+
+## Manufacturing Employment in 1970 {.visual-stage}
+
+![](../../assets/mnf_emp_1970.png){fig-alt="Manufacturing employment across the United States in 1970" .r-stretch}
+
+## Populism in the US {.visual-stage}
+
+![](../../assets/trump_romney.png){fig-alt="Trump's 2016 performance compared with Romney's 2012 performance" .r-stretch}
+
+<div style="text-align:center; font-size:0.72em;">Trump (2016) compared with Romney (2012)</div>
+
+## Why Does Trump Do So Well in Former Manufacturing Areas? {.center .question-slide}
+
+## Trump's Protectionism {.visual-stage}
+
+![](../../assets/Trump_protectionism1.png){fig-alt="Donald Trump discussing protectionist trade policy" .r-stretch}
+
+## Is AI Another General-Purpose Technology?
+
+:::: {.columns}
+
+::: {.column width="55%"}
+![](../../assets/AI_graphic.png){fig-alt="Artificial intelligence graphic" width="90%"}
+:::
+
+::: {.column width="45%"}
+- AI is redefining how managers make decisions and how firms create value.
+- Businesses increasingly use AI—data analysis for prediction and decision-making—to increase scale and scope and offer personalized products.
+:::
+
+::::
+
+## What Costs Does AI Lower? {.question-slide}
+
+- Steam engines lowered the cost of moving goods.
+- ICT lowered the cost of moving ideas.
+- **What costs does AI lower?**
+
+## What Does AI Potentially Unbundle? {.question-slide}
+
+- Steam engines lowered the cost of moving goods.
+- ICT lowered the cost of moving ideas.
+- What costs does AI lower?
+- **What does AI potentially unbundle?**
+
+## Wrap Up
+
+- General-purpose technologies change systems of production and exchange.
+- Previous technological shocks fundamentally altered the economy and the global distribution of income.
+- The economic effects of previous shocks reverberated politically.
+- We are entering an era of profound political and economic change, driven by AI.
