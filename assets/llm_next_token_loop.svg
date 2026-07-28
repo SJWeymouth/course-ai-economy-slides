@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
+  <title id="title">How a language model generates text one token at a time</title>
+  <desc id="desc">A four-step loop from prompt and prior tokens, through a transformer, to next-token probabilities and token selection, then back to the growing context.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#041e42"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#041e42" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="460" rx="28" fill="#f7f9fc"/>
+  <text x="700" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#041e42">Generation is a repeated prediction loop</text>
+
+  <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="45" y="112" width="300" height="138" rx="22" fill="#ffffff" stroke="#6c8ebf" stroke-width="3"/>
+    <text x="195" y="161" text-anchor="middle" font-size="24" font-weight="700" fill="#041e42">Prompt + prior tokens</text>
+    <text x="195" y="202" text-anchor="middle" font-size="19" fill="#334e68">The model's current context</text>
+
+    <rect x="390" y="112" width="255" height="138" rx="22" fill="#e8f0fb" stroke="#6c8ebf" stroke-width="3"/>
+    <text x="517.5" y="161" text-anchor="middle" font-size="25" font-weight="700" fill="#041e42">Transformer</text>
+    <text x="517.5" y="202" text-anchor="middle" font-size="19" fill="#334e68">Processes relationships</text>
+
+    <rect x="690" y="112" width="300" height="138" rx="22" fill="#ffffff" stroke="#6c8ebf" stroke-width="3"/>
+    <text x="840" y="153" text-anchor="middle" font-size="25" font-weight="700" fill="#041e42">Next-token</text>
+    <text x="840" y="185" text-anchor="middle" font-size="25" font-weight="700" fill="#041e42">probabilities</text>
+    <text x="840" y="220" text-anchor="middle" font-size="19" fill="#334e68">A probability for each token</text>
+
+    <rect x="1035" y="112" width="320" height="138" rx="22" fill="#e8f0fb" stroke="#6c8ebf" stroke-width="3"/>
+    <text x="1195" y="153" text-anchor="middle" font-size="25" font-weight="700" fill="#041e42">Choose or sample</text>
+    <text x="1195" y="185" text-anchor="middle" font-size="25" font-weight="700" fill="#041e42">one token</text>
+    <text x="1195" y="220" text-anchor="middle" font-size="19" fill="#334e68">Append it to the context</text>
+  </g>
+
+  <g stroke="#041e42" stroke-width="5" fill="none" marker-end="url(#arrow)">
+    <line x1="345" y1="181" x2="380" y2="181"/>
+    <line x1="645" y1="181" x2="680" y2="181"/>
+    <line x1="990" y1="181" x2="1025" y2="181"/>
+    <path d="M1195 258 C1195 325, 195 325, 195 265"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="700" y="370" text-anchor="middle" font-size="24" font-weight="700" fill="#041e42">Repeat until the response is complete</text>
+    <text x="700" y="416" text-anchor="middle" font-size="20" fill="#526d82">Small changes in context—or in sampling—can produce different continuations.</text>
+  </g>
+</svg>
