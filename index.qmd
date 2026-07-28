@@ -1,7 +1,3 @@
----
-title: false
----
-
 # The AI Economy
 
 <p class="lead">Business Strategies and Policy Issues — University of Basel</p>
