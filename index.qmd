@@ -1,9 +1,12 @@
 ---
-title: "The AI Economy"
-pagetitle: "The AI Economy"
-subtitle: "Business Strategies and Policy Issues — University of Basel"
-author: "Professor Stephen Weymouth"
+title: false
 ---
+
+# The AI Economy
+
+<p class="lead">Business Strategies and Policy Issues — University of Basel</p>
+
+Professor Stephen Weymouth
 
 This site hosts the course slides and in-class activities.
 

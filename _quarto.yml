@@ -8,7 +8,7 @@ project:
     - activities/*.pdf
 
 website:
-  title: "The AI Economy — Summer 2026"
+  title: "The AI Economy"
   site-url: "https://sjweymouth.github.io/course-ai-economy-slides/"
   navbar:
     left:
