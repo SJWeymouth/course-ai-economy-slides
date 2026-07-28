@@ -466,7 +466,7 @@ Successive layers refine the representation of each token.
 - Is **cash** a noun or a verb?
 - Which earlier words matter for the next prediction?
 
-**Attention** lets relevant tokens share information.
+**Attention** is a learned numerical weighting process that lets the model weigh which other tokens are most relevant when interpreting each token
 
 :::
 
