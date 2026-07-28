@@ -419,44 +419,94 @@ Andrew Ng, former chief scientist of Baidu and one of the leaders of the Google 
 
 <div class="photo-caption">Data labeling in China</div>
 
-# Example: Unsupervised Learning and LLMs {background-color="#041e42"}
+# How Large Language Models Work {background-color="#041e42"}
 
-## What Are LLMs?
+## The Basic Mechanism
 
-- ChatGPT is a language model designed to interpret, generate, and respond to human language.
-- It represents a third type of unsupervised-learning neural net based on Transformer architecture.
-- A Transformer is a neural network design that uses self-attention mechanisms, which weight token importance, to model relationships among tokens and produce context-aware predictions.
+During pretraining, a large language model learns to predict tokens from context. When generating text, it repeats that prediction one token at a time.
 
-## How LLMs Work
+![](../../assets/llm_next_token_loop.svg){
+  fig-alt="Four-step loop showing a prompt and prior tokens passing through a Transformer to next-token probabilities and token selection"
+  width="94%"
+}
 
-![](../../assets/gpt_explainer.png){fig-alt="GPT explainer" width="70%"}
+- **Tokens** are words, parts of words, punctuation, or symbols.
+- The selected token is added to the context, and the process repeats.
+- Sampling choices can produce different—but still plausible—continuations.
 
-- **Tokenization:** breaks text into smaller units for processing.
-- **Encoding:** maps relationships and extracts contextual meaning with attention mechanisms.
-- **Decoding:** predicts tokens and generates a coherent response.
-- **Post-processing:** refines the output for clarity and fluency.
+::: {.callout-note}
+This is **self-supervised learning**: the text itself supplies the target token.
+:::
 
-## How LLMs Process Tasks
+## How Transformers Use Context
+
+:::: {.columns}
+
+::: {.column width="64%"}
+
+![](../../assets/transformer_context_layers.svg){
+  fig-alt="Stylized diagram showing Transformer layers refining the contextual meaning of tokens in the sentence John wants his bank to cash the check"
+  width="100%"
+}
+
+<div style="font-size:0.55em; text-align:center; margin-top:-0.4em;">
+Concept inspired by Lee and Trott, “Large Language Models, Explained with a Minimum of Math and Jargon” (Understanding AI, 2023). Original course diagram.
+</div>
+
+:::
+
+::: {.column width="36%"}
+
+### Context Changes Meaning
+
+Successive layers refine the representation of each token.
+
+- Is **bank** a riverbank or a financial institution?
+- Who does **his** refer to?
+- Is **cash** a noun or a verb?
+- Which earlier words matter for the next prediction?
+
+**Attention** lets relevant tokens share information.
+
+:::
+
+::::
+
+## Two Kinds of LLM Tasks
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-### Open-Ended Tasks
 
-- Example: "Write a poem about AI."
-- LLMs predict plausible sequences based on patterns in their training data.
-- Responses are not constrained by external content and allow for randomness and variety.
+### Open-Ended Generation
+
+**Prompt:** “Write a poem about AI.”
+
+- Many responses could be appropriate.
+- Style, tone, and content can vary.
+- Randomness produces different outputs.
+
 :::
 
 ::: {.column width="50%"}
-### Context-Bound Tasks
 
-- Example: "Summarize this article."
-- LLMs incorporate provided content as part of the context.
-- Responses are constrained by tokenized content.
+### Context-Bound Generation
+
+**Prompt:** “Summarize this article.”
+
+- The supplied text becomes part of the context.
+- The response should be grounded in that text.
+- The model still decides what matters most.
+
 :::
 
 ::::
+
+### Teaching Point
+
+LLMs are powerful because they turn many tasks into language prediction.
+
+But the same mechanism helps explain why they can be fluent, plausible, and wrong.
 
 ## Activity: Thinking Like an AI (Mollick, 2024)
 
