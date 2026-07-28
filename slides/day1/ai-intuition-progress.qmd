@@ -502,40 +502,12 @@ Successive layers refine the representation of each token.
 
 ::::
 
-### Teaching Point
+### Key Takeaway
 
 LLMs are powerful because they turn many tasks into language prediction.
 
 But the same mechanism helps explain why they can be fluent, plausible, and wrong.
 
-## Activity: Thinking Like an AI (Mollick, 2024)
-
-### 1. Next-Token Prediction
-
-**Prompt:** "the best type of university course is..."
-
-::: {.incremental}
-- Run the prompt multiple times and observe variations.
-- Modify the input, such as by capitalizing words or changing "best."
-- Discuss how small input changes affect the responses.
-- What does this reveal about randomness and how LLMs generate text?
-:::
-
-## Activity: Thinking Like an AI (Mollick, 2024)
-
-### 2. Explore Context-Bound Tasks
-
-**Upload:** Chapter 1 of *The Coming Wave* to ChatGPT.
-
-**Prompt:** "Summarize this chapter in one sentence."
-
-::: {.incremental}
-- Compare the summary with your understanding of the chapter.
-- Compare the summary to the person sitting next to you.
-- Rephrase the prompt to make it more specific.
-- Discuss how the model decides which details to prioritize.
-- Consider the implications for business analysis or policy making.
-:::
 
 ## Discussion
 
