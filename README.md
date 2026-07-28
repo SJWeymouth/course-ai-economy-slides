@@ -1,38 +1,56 @@
-# The AI Economy — Summer 2026 slides
+# The AI Economy
 
-Quarto/Reveal.js source files for the course slide decks.
+Source repository for the University of Basel course website and Quarto/Reveal.js slide decks:
 
-## Local workflow
+https://sjweymouth.github.io/course-ai-economy-slides/
 
-1. Clone this repository to your computer.
+The deployed website is a single page with two sections:
+
+- **Slides** — links maintained manually in `index.qmd`
+- **Activities** — links generated automatically from the private course repository
+
+## Slide workflow
+
+1. Pull the latest `main` branch.
 2. Open `course-ai-economy-slides.Rproj` in RStudio.
-3. Open a `.qmd` file and click **Render** to preview the deck locally.
-4. Commit and push changes to `main`.
+3. Edit or create a deck under `slides/dayN/`.
+4. Render the `.qmd` file locally to check the deck.
+5. Add or update its link under **Slides** in `index.qmd`.
+6. Commit and push the source, assets, and `index.qmd` changes to `main`.
 
-## Shared assets
+A deck can be successfully deployed at its direct URL without appearing on the homepage. It appears under **Slides** only after its link is added to `index.qmd`.
 
-All slide decks draw from the single root-level `assets/` folder. Keep the larger master image archive in Dropbox and copy only files actually used by the course into `assets/`.
+## Shared slide assets
 
-Reference shared files from a deck with a project-root path, for example:
+All decks use the root-level `assets/` folder. Keep the larger master image archive in Dropbox and copy only the files used by the course into this repository.
+
+Reference a shared asset from a deck with a project-root path:
 
 ```markdown
 ![](/assets/filename.png)
 ```
 
-## GitHub Pages publishing
+The scripts in `scripts/` copy selected Dropbox assets into the repository when needed.
 
-The workflow at `.github/workflows/publish.yml` automatically installs Quarto and R, renders the site into `_site`, and deploys it to GitHub Pages whenever `main` changes.
+## Activity publishing
 
-After the workflow file is present:
+Do not edit the activity PDFs or `activities/list.qmd` in this repository. They are generated from LaTeX sources in the private `SJWeymouth/course-ai-economy-2026` repository.
 
-1. Open the repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. Open the **Actions** tab and watch the `Publish Quarto slides` workflow.
-5. When it succeeds, the site will be available at:
+The automated path is:
 
-`https://sjweymouth.github.io/course-ai-economy-slides/`
+**Overleaf → `course-ai-economy-2026` → compiled public PDFs → this repository → course website**
 
-## Adding a new deck
+The course workflow publishes student-facing PDFs from `activities/core/` and `activities/simulations/`. It commits the PDFs to `activities/` here and regenerates `activities/list.qmd`, which `index.qmd` includes in the one-page site.
 
-Create a new `.qmd` file under `slides/dayN/`, render it locally, and add a link to `index.qmd`. The PDFs can be exported separately and posted to the university course system.
+## GitHub Pages deployment
+
+The workflow at `.github/workflows/publish.yml` renders the Quarto project into `_site` and deploys it to GitHub Pages whenever `main` changes.
+
+After a push:
+
+1. Open the repository's **Actions** tab.
+2. Watch **Publish Quarto slides**.
+3. Allow about 1–3 minutes for the build and deployment; occasionally it may take longer.
+4. If the workflow is green but the browser still shows the old page, force-refresh with **Ctrl+F5**.
+
+Do not commit generated `_site/` files.
