@@ -3,11 +3,14 @@ title: "The AI Economy"
 subtitle: "Business Strategies and Policy Issues — Summer 2026"
 ---
 
-This site hosts the browser versions of the course slides.
+This site hosts the course slides and in-class activities.
 
-## Course slides
+## Slides
+
 - [Day 1A: History of Technological Shocks](slides/day1/history-technological-shocks.html)
 
 - [Day 1: Foundations of AI and the Digital Economy](slides/day1/ai-intuition-progress.html)
 
-The PDF versions will be distributed separately through the university course system.
+## Activities
+
+{{< include activities/list.qmd >}}
