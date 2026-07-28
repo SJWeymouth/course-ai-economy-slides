@@ -1,5 +1,6 @@
 ---
 title: "The AI Economy"
+pagetitle: "The AI Economy"
 subtitle: "Business Strategies and Policy Issues — University of Basel"
 ---
 
