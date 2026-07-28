@@ -4,8 +4,9 @@ Source repository for the University of Basel course website and Quarto/Reveal.j
 
 https://sjweymouth.github.io/course-ai-economy-slides/
 
-The deployed website is a single page with two sections:
+The deployed website is a single page with three sections:
 
+- **Syllabus** — a stable link to the PDF published automatically from the private course repository
 - **Slides** — links maintained manually in `index.qmd`
 - **Activities** — links generated automatically from the private course repository
 
@@ -32,15 +33,15 @@ Reference a shared asset from a deck with a project-root path:
 
 The scripts in `scripts/` copy selected Dropbox assets into the repository when needed.
 
-## Activity publishing
+## Syllabus and activity publishing
 
-Do not edit the activity PDFs or `activities/list.qmd` in this repository. They are generated from LaTeX sources in the private `SJWeymouth/course-ai-economy-2026` repository.
+Do not edit the syllabus PDF, activity PDFs, or `activities/list.qmd` in this repository. They are generated from LaTeX sources in the private `SJWeymouth/course-ai-economy-2026` repository.
 
 The automated path is:
 
-**Overleaf → `course-ai-economy-2026` → compiled public PDFs → this repository → course website**
+**Overleaf → `course-ai-economy-2026` → compiled syllabus and public activity PDFs → this repository → course website**
 
-The course workflow publishes student-facing PDFs from `activities/core/` and `activities/simulations/`. It commits the PDFs to `activities/` here and regenerates `activities/list.qmd`, which `index.qmd` includes in the one-page site.
+The course workflow publishes `syllabus/AI_Economy_2026_Syllabus.tex` as `syllabus/AI_Economy_2026_Syllabus.pdf`. It also publishes student-facing PDFs from `activities/core/` and `activities/simulations/`, commits them to `activities/`, and regenerates `activities/list.qmd`. The homepage links to the stable syllabus path and includes the generated activity list.
 
 ## GitHub Pages deployment
 
