@@ -1,6 +1,6 @@
 ---
 title: "The AI Economy"
-subtitle: "Business Strategies and Policy Issues — Summer 2026"
+subtitle: "Business Strategies and Policy Issues — University of Basel"
 ---
 
 This site hosts the course slides and in-class activities.
