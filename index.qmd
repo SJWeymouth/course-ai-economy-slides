@@ -8,8 +8,7 @@ This site hosts the course slides and in-class activities.
 ## Slides
 
 - [Day 1A: History of Technological Shocks](slides/day1/history-technological-shocks.html)
-
-- [Day 1: Foundations of AI and the Digital Economy](slides/day1/ai-intuition-progress.html)
+- [Day 1B: Foundations of AI and the Digital Economy](slides/day1/ai-intuition-progress.html)
 
 ## Activities
 
