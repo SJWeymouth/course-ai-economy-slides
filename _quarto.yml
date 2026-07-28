@@ -4,6 +4,8 @@ project:
   render:
     - index.qmd
     - slides/**/*.qmd
+  resources:
+    - activities/*.pdf
 
 website:
   title: "The AI Economy — Summer 2026"
