@@ -4,7 +4,11 @@
 
 Professor Stephen Weymouth
 
-This site hosts the course slides and in-class activities.
+This site hosts the course syllabus, slides, and in-class activities.
+
+## Syllabus
+
+- [Course syllabus (PDF)](syllabus/AI_Economy_2026_Syllabus.pdf)
 
 ## Slides
 
