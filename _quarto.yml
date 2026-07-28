@@ -6,6 +6,7 @@ project:
     - slides/**/*.qmd
   resources:
     - activities/*.pdf
+    - syllabus/*.pdf
 
 website:
   title: "The AI Economy"
