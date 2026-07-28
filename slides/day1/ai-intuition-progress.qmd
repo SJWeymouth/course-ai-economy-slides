@@ -79,16 +79,27 @@ Open with the quote rather than a definition. Ask students for instinctive react
 ## This Course {.center}
 
 <div style="font-size: 2.2rem; line-height: 1.35; text-align: center; margin-top: 12%;">
-<strong>AI, a general-purpose technology, is disrupting business processes, introducing new societal risks, and fragmenting global economic relations.</strong>
+<strong>AI, a general-purpose technology, is altering business processes, introducing new societal risks, and fragmenting global economic relations. How should individuals and society respond?</strong>
 </div>
 
 ## The Societal Impact {.visual-stage}
 
-![](../../assets/stanford_hai_24.png){fig-alt="Stanford HAI graphic on AI's societal impact" .r-stretch}
+![](../../assets/stanford_hai_26.png){fig-alt="Stanford HAI graphic on AI's societal impact" .r-stretch}
 
-## Hope and Concern {.visual-stage}
 
-![](../../assets/ai_harm_survey.png){fig-alt="Survey on hope and concern about AI" .r-stretch}
+## AI Investment {.visual-stage}
+
+![](../../assets/ai_investment.png){fig-alt="Investment data" .r-stretch}
+
+
+## AI and Jobs {.visual-stage}
+
+![](../../assets/ai_jobs.png){fig-alt="Survey on AI" .r-stretch}
+
+## AI and Energy {.visual-stage}
+
+![](../../assets/llm_power.png){fig-alt="Survey on AI" .r-stretch}
+
 
 ## What We Won't Do {.visual-stage}
 
@@ -515,7 +526,7 @@ But the same mechanism helps explain why they can be fluent, plausible, and wron
 - When you modified the input, how did the tone, focus, or phrasing of the responses change?
 - How does the model decide which details to prioritize in its response?
 - What does this tell us about how specific words or instructions guide the model's focus?
-- What are the implications of this behavior for real-world business applications?
+- What are the implications of this behavior for real-world business applications? 
 
 ## Frontier Technology: AI Agents
 
