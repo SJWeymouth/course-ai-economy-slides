@@ -74,9 +74,7 @@ McKinsey & Company, “The State of AI in 2025,” November 5, 2025.
 
 ## Business Model and Operating Model
 
-![](../../assets/business-operating.png){
-  fig-alt="Business model based on value creation and value capture connected to an operating model based on scale, scope, and learning"
-}
+![](../../assets/business-operating.png){fig-alt="Business and operating model framework" .r-stretch}
 
 ::: {.notes}
 Define the two main terms before discussing the details in the figure. A **business model** explains how a company helps customers and earns money. An **operating model** explains how its people, data, technology, and work processes deliver the product or service.
@@ -150,9 +148,7 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ## Amazon Connects Its Main Businesses
 
-![](../../assets/amazon_sequoia_fulfillment.jpg){
-  fig-alt="Amazon fulfillment center using the Sequoia robotic system to store and move inventory"
-}
+![](../../assets/amazon_sequoia_fulfillment.jpg){fig-alt="Amazon Sequoia robots in a fulfillment center" .r-stretch}
 
 ::: {.notes}
 Use Amazon to make the idea concrete. Product recommendations, demand forecasts, prices, advertising, sellers, warehouses, delivery, and cloud services share data and technology instead of operating as separate projects.
@@ -203,9 +199,7 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ## More Use Can Improve the Service and Attract More Use
 
-![](../../assets/AI_virtuous.png){
-  fig-alt="Circular diagram in which more usage produces more data, better algorithms, better service, and then more usage"
-}
+![](../../assets/AI_virtuous.png){fig-alt="AI virtuous cycle" .r-stretch}
 
 ::: {.notes}
 Explain the loop in one pass: more use generates more data; usable data may improve algorithms; better performance improves the service; a better service attracts more use.
@@ -220,9 +214,7 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ## Growth of Online Subscription Software Had Slowed Before 2026
 
-![](../../assets/saas_growth_collapse.png){
-  fig-alt="Chart showing median year-over-year revenue growth for 58 public SaaS companies declining from a 36 percent peak in early 2022 to 15 percent in early 2025"
-}
+![](../../assets/saas_growth_collapse.png){fig-alt="Public SaaS median revenue growth from 2021 to 2025" .r-stretch}
 
 ::: {.notes}
 Define SaaS before discussing the chart: **software as a service** is software sold as an online subscription. Use the chart as background, not as proof that AI caused the decline. Typical revenue growth for public SaaS companies had already fallen from 36 percent in early 2022 to 15 percent in early 2025.
@@ -243,19 +235,13 @@ S&P Global Market Intelligence, “Software sell-off may be overdone, yet expose
 ::: {.column width="50%"}
 ### Firms whose shares rose
 
-![](../../assets/b2b_bifurcation_higher.png){
-  fig-alt="Upper half of a chart showing strong 2025 stock performance among firms including Palantir, Cloudflare, MongoDB, Shopify, and CrowdStrike"
-  width="100%"
-}
+![](../../assets/b2b_bifurcation_higher.png){fig-alt="2025 stock gains among selected B2B software firms" width="100%"}
 :::
 
 ::: {.column width="50%"}
 ### Firms whose shares fell
 
-![](../../assets/b2b_bifurcation_lower.png){
-  fig-alt="Lower half of a chart showing weak 2025 stock performance among firms including ServiceNow, Salesforce, Atlassian, Adobe, Monday.com, and HubSpot"
-  width="100%"
-}
+![](../../assets/b2b_bifurcation_lower.png){fig-alt="2025 stock losses among selected B2B software firms" width="100%"}
 :::
 
 ::::
@@ -273,9 +259,7 @@ SaaStr, “The Great B2B Bifurcation of 2025,” December 2025. Figure supplied 
 
 ## An AI Agent Combines a Model with Tools
 
-![](../../assets/ai_agent_tools_report_2026.png){
-  fig-alt="Diagram showing an AI model connected to memory, web browsing, and computer-use tools"
-}
+![](../../assets/ai_agent_tools_report_2026.png){fig-alt="AI agent connected to memory, web, and computer tools" .r-stretch}
 
 ::: {.notes}
 Begin with traditional business software. It provides screens, forms, rules, and a fixed order of steps. People understand the process and move each case from one step to the next.
@@ -326,9 +310,7 @@ Nishar and Nohr, “How Gen AI Could Disrupt SaaS,” 2025.
 
 ## AI Agents Can Complete Longer Tasks
 
-![](../../assets/ai_agent_task_length_report_2026.png){
-  fig-alt="Chart showing that AI systems can complete increasingly long software tasks with an 80 percent success rate"
-}
+![](../../assets/ai_agent_task_length_report_2026.png){fig-alt="AI agent task length over time" .r-stretch}
 
 ::: {.notes}
 This chart measures the length of well-specified software tasks that an AI agent can complete successfully 80 percent of the time. The task length has increased rapidly. Recent systems can complete some tasks that would take a professional approximately 25 to 30 minutes.
@@ -448,9 +430,7 @@ Ask where the agent still depends on the existing company’s data, permission, 
 
 ## Some Companies Now Expect Employees to Use AI
 
-![](../../assets/mollick_figure_2.png){
-  fig-alt="Company communications from Shopify and Duolingo announcing AI-first workplace expectations"
-}
+![](../../assets/mollick_figure_2.png){fig-alt="Shopify and Duolingo AI workplace announcements" .r-stretch}
 
 ::: {.notes}
 Mollick uses these company messages to show that some employers now expect workers to use AI. But an instruction to “use AI” does not change the company’s data, work process, rewards, responsibilities, or measures of success.
@@ -461,9 +441,7 @@ Mollick, “Making AI Work,” 2025. Figure reproduced from the assigned reading
 
 ## Most Companies Have Not Moved Beyond Small AI Tests
 
-![](../../assets/mckinsey_exhibit_1.png){
-  fig-alt="McKinsey Exhibit 1 showing 88 percent of organizations use AI in at least one business function, while most remain in experimentation or piloting"
-}
+![](../../assets/mckinsey_exhibit_1.png){fig-alt="AI adoption and scaling by organizations" .r-stretch}
 
 ::: {.notes}
 McKinsey surveyed 1,993 participants in 105 nations. Regular use is widespread, but nearly two-thirds of organizations remain in experimentation or pilot phases.
@@ -476,9 +454,7 @@ McKinsey & Company, “The State of AI in 2025,” Exhibits 1 and 5 and accompan
 
 ## Few Companies Use AI Agents Widely
 
-![](../../assets/mckinsey_exhibit_2.png){
-  fig-alt="McKinsey Exhibit 2 comparing experimentation and scaling of AI agents across business functions"
-}
+![](../../assets/mckinsey_exhibit_2.png){fig-alt="AI agent use across business functions" .r-stretch}
 
 ::: {.notes}
 Most organizations that use agents beyond small tests do so in only one or two departments. In every department shown, no more than 10 percent of respondents report wide use of agents.
@@ -526,9 +502,7 @@ McKinsey & Company, “The State of AI in 2025,” 2025.
 
 ## Companies Often Report Benefits Before a Large Profit Effect
 
-![](../../assets/mckinsey_exhibit_6.png){
-  fig-alt="McKinsey Exhibit 6 showing reported organization-wide benefits from AI, led by innovation and employee satisfaction"
-}
+![](../../assets/mckinsey_exhibit_6.png){fig-alt="Reported organization-wide benefits from AI" .r-stretch}
 
 ::: {.notes}
 Organizations often report benefits in new products, employee satisfaction, customer satisfaction, and competitive position before they report a large effect on profit. These may be early signs of progress, but firms must still measure costs, revenue, and profit.
@@ -539,9 +513,7 @@ McKinsey & Company, “The State of AI in 2025,” Exhibit 6, 2025.
 
 ## Companies Reporting Larger Gains More Often Redesign the Full Process
 
-![](../../assets/mckinsey_exhibit_11.png){
-  fig-alt="McKinsey Exhibit 11 showing that AI high performers are nearly three times as likely to fundamentally redesign workflows"
-}
+![](../../assets/mckinsey_exhibit_11.png){fig-alt="Workflow redesign among AI high performers" .r-stretch}
 
 ::: {.callout-note}
 55% of the companies reporting larger gains redesigned the full process, compared with 20% of other companies. This does not prove that redesign caused the gains.
@@ -588,9 +560,7 @@ Mollick, “Making AI Work,” 2025.
 
 ## Three Groups Must Work Together
 
-![](../../assets/mollick_figure_1.png){
-  fig-alt="Ethan Mollick's Venn diagram showing organizational leadership, the lab, and the crowd as overlapping parts of AI transformation"
-}
+![](../../assets/mollick_figure_1.png){fig-alt="Leadership, the lab, and the crowd" .r-stretch}
 
 ::: {.callout-note}
 Leaders set direction. A central AI team tests and builds. Employees identify useful applications and practical problems.
