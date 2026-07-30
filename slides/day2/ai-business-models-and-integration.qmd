@@ -66,7 +66,6 @@ The first session explains how a company changes when data and AI become part of
 [Sources]
 Marco Iansiti and Karim R. Lakhani, Competing in the Age of AI, 2020.
 Deep Nishar and Nitin Nohria, “How Gen AI Could Disrupt SaaS—and Change the Companies That Use It,” Harvard Business Review, May 21, 2025.
-Ethan Mollick, “Making AI Work: Leadership, Lab, and Crowd,” May 22, 2025.
 McKinsey & Company, “The State of AI in 2025,” November 5, 2025.
 :::
 
@@ -428,17 +427,6 @@ Ask where the agent still depends on the existing company’s data, permission, 
 
 # When Employee AI Use Does Not Improve Company Results {background-color="#041e42"}
 
-## Some Companies Now Expect Employees to Use AI
-
-![](../../assets/mollick_figure_2.png){fig-alt="Shopify and Duolingo AI workplace announcements" .r-stretch}
-
-::: {.notes}
-Mollick uses these company messages to show that some employers now expect workers to use AI. But an instruction to “use AI” does not change the company’s data, work process, rewards, responsibilities, or measures of success.
-
-[Sources]
-Mollick, “Making AI Work,” 2025. Figure reproduced from the assigned reading.
-:::
-
 ## Most Companies Have Not Moved Beyond Small AI Tests
 
 ![](../../assets/mckinsey_exhibit_1.png){fig-alt="AI adoption and scaling by organizations" .r-stretch}
@@ -450,17 +438,6 @@ Emphasize that “use” is a low standard. It may mean only that someone in one
 
 [Sources]
 McKinsey & Company, “The State of AI in 2025,” Exhibits 1 and 5 and accompanying text, 2025.
-:::
-
-## Few Companies Use AI Agents Widely
-
-![](../../assets/mckinsey_exhibit_2.png){fig-alt="AI agent use across business functions" .r-stretch}
-
-::: {.notes}
-Most organizations that use agents beyond small tests do so in only one or two departments. In every department shown, no more than 10 percent of respondents report wide use of agents.
-
-[Sources]
-McKinsey & Company, “The State of AI in 2025,” Exhibit 2 and accompanying text, 2025.
 :::
 
 ## Few Companies Report a Large Effect on Profit {.center}
@@ -500,17 +477,6 @@ Ask: what must happen between an employee saving one hour and the company earnin
 McKinsey & Company, “The State of AI in 2025,” 2025.
 :::
 
-## Companies Often Report Benefits Before a Large Profit Effect
-
-![](../../assets/mckinsey_exhibit_6.png){fig-alt="Reported organization-wide benefits from AI" .r-stretch}
-
-::: {.notes}
-Organizations often report benefits in new products, employee satisfaction, customer satisfaction, and competitive position before they report a large effect on profit. These may be early signs of progress, but firms must still measure costs, revenue, and profit.
-
-[Sources]
-McKinsey & Company, “The State of AI in 2025,” Exhibit 6, 2025.
-:::
-
 ## Companies Reporting Larger Gains More Often Redesign the Full Process
 
 ![](../../assets/mckinsey_exhibit_11.png){fig-alt="Workflow redesign among AI high performers" .r-stretch}
@@ -526,163 +492,37 @@ The firms reporting the largest financial gains are also more likely to seek gro
 McKinsey & Company, “The State of AI in 2025,” Exhibits 9–14, 2025.
 :::
 
-## Why Can Employees Save Time While Company Results Stay Flat?
+## A Faster Task May Not Improve the Full Process
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-### Employees
+### One task improves
 
-- Use AI more often
-- Finish some tasks faster
+An employee prepares a sales proposal in 20 minutes instead of two hours.
 :::
 
 ::: {.column width="50%"}
-### The company
+### The company may not improve
 
-- Costs may not fall
-- Full processes may not become faster
-- Customer results may not improve
+Pricing, legal review, approval, and customer follow-up still take ten days.
 :::
 
 ::::
 
-::: {.notes}
-Mollick’s puzzle is that AI improves many tasks and employees already use it, yet company results may remain unchanged. An improvement to one person’s task does not automatically improve the complete process.
+::: {.callout-note}
+The company benefits only if the complete process becomes faster, cheaper, or more effective.
+:::
 
-Distinguish a task from a process. AI may help an employee draft a proposal faster, but the proposal still moves through pricing, legal review, approval, and customer follow-up. If those steps do not change, the total time needed to make a sale may remain the same. The employee experiences a gain while the company sees little effect.
+::: {.notes}
+Distinguish a task from a complete process. AI may help an employee draft a proposal faster, but the proposal still moves through pricing, legal review, approval, and customer follow-up. If those steps do not change, the total time needed to make a sale may remain the same.
 
 Ask students for examples from work or university: where has AI made one step faster without changing the total time or result? Listen for a later step becoming the new delay, saved time being filled with more work, or AI output requiring extra checking.
 
-[Sources]
-Mollick, “Making AI Work,” 2025.
-:::
-
-## Three Groups Must Work Together
-
-![](../../assets/mollick_figure_1.png){fig-alt="Leadership, the lab, and the crowd" .r-stretch}
-
-::: {.callout-note}
-Leaders set direction. A central AI team tests and builds. Employees identify useful applications and practical problems.
-:::
-
-::: {.notes}
-Use this one diagram to explain all three roles.
-
-Leaders choose the problems to solve, decide which risks are acceptable, assign responsibility, and provide money and staff. Without leadership, experiments remain separate and no one is responsible for results across the company.
-
-The “lab” is a central AI team. It explores new possibilities, tests ideas, and turns useful experiments into tools and methods that other teams can reuse.
-
-The “crowd” means employees who know the daily work. They understand unusual cases, shortcuts, customer needs, and practical problems that a central team may miss. Their private experiments may contain useful knowledge, but unclear rules or fear of job loss may stop them from sharing it.
-
-The three groups must work together. Employees find useful applications, the central team tests and improves them, and leaders decide which ones to expand. No group has enough information alone.
+Measure the task in minutes saved. Measure the complete process using total time, number of cases completed, sales success, cost, or quality. Time saved is useful evidence, but it is not the final company result.
 
 [Sources]
-Mollick, “Making AI Work,” 2025.
-Figure reproduced from the assigned reading.
-:::
-
-## A Faster Task Does Not Guarantee a Faster Process
-
-:::: {.columns}
-
-::: {.column width="50%"}
-### Add AI to one task
-
-Same process, faster step
-:::
-
-::: {.column width="50%"}
-### Redesign the full process
-
-Change the order of steps, who does them, and who approves them
-:::
-
-::::
-
-::: {.callout-note}
-**Time for one task → Time and quality of the full process → Cost or sales**
-:::
-
-::: {.notes}
-If one task becomes faster but later approvals, data entry, or decisions do not change, the result of the full process may not improve. The delay often moves to a later step. Improving the whole process may require changing the order of work, responsibilities, data, and approval rules.
-
-Measure three levels. For the task, measure minutes saved. For the full process, measure total time, number of cases completed, or sales success. For the business result, measure cost, revenue, or profit. Also track a risk measure such as quality, errors, or rule violations.
-
-Time saved is useful evidence, but it is not the final result. Ask what the employee does with the saved time and whether the rest of the process can handle more work.
-
-[Sources]
-Mollick, “Making AI Work,” 2025.
 McKinsey & Company, “The State of AI in 2025,” 2025.
-Day 2B activity, “From Adoption to Enterprise Value.”
-:::
-
-## Activity Case: High AI Use, No Change in Company Results {.center}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-::: {.metric}
-75%
-:::
-
-::: {.metric-label}
-weekly employee use
-:::
-:::
-
-::: {.column width="50%"}
-::: {.metric .muted}
-≈ 0
-:::
-
-::: {.metric-label}
-change in profit, total work time, or customer results
-:::
-:::
-
-::::
-
-::: {.notes}
-This is the fictional case from the Day 2B activity. Employees report saving time, but profit, total completion time, and customer results have barely changed.
-
-Give students the puzzle before the instructions: how can both numbers be true? Invite two or three explanations. Possible answers include employees filling the saved time with other work, later steps remaining slow, some connected roles not using AI, extra checking, weak links to other systems, or measures that count use instead of results.
-
-Do not resolve the puzzle on this slide. The activity asks teams to choose one complete process and find where the expected benefit disappears.
-
-[Sources]
-Day 2B activity, “From Adoption to Enterprise Value.” The case is fictional.
-:::
-
-## Activity: Where Did the Value Go? {.center}
-
-Employees use AI. Individual tasks become faster.
-
-But the company is not faster, cheaper, or more effective.
-
-> What prevents a task-level improvement from becoming a company result?
-
-::: {.notes}
-Allow about 20 minutes: 4 minutes to find the largest problem, 10 minutes to redesign one complete process, and 6 minutes to name who is responsible, choose measures, and set a six-month target.
-
-Keep the scope narrow. Each team chooses one complete process rather than proposing an AI plan for the whole company. Teams identify the main problems, change the process, divide work between people and the agent, identify required data and approval rules, name one responsible person, and choose measures for operations, money, and risk.
-
-The six-month target must be observable. “Use AI more” is too vague. “Reduce the time needed to prepare and approve a proposal from ten days to seven without increasing pricing errors” can be tested.
-
-[Sources]
-Day 2B activity, “From Adoption to Enterprise Value.”
-:::
-
-## Activity Debrief
-
-1. Which step limited the result?
-2. Who was responsible for the full process?
-3. What result would show that the change worked?
-
-::: {.notes}
-Use these questions to compare the redesigns. Ask each reporting team to state which step caused the delay, who is responsible for the full process, and one measure that would show whether the change worked.
-
-Ask teams to connect the AI change to a result for the process and then to cost or revenue. If they say time savings reduce cost, ask how staffing or workload will actually change. If they expect more sales, ask which step previously limited the number of customers served. End with risk: what result would cause the firm to pause or change the system?
 :::
 
 ## Day 2 Takeaways
