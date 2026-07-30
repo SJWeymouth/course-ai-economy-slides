@@ -124,6 +124,11 @@
   max-height: 420px !important;
 }
 
+.reveal .slides section.slide.level2 > img.r-stretch.figure-large {
+  height: 610px !important;
+  max-height: 610px !important;
+}
+
 .reveal .slide-number {
   right: 26px;
   bottom: 20px;

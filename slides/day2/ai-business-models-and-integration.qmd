@@ -214,7 +214,7 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ## Growth of Online Subscription Software Had Slowed Before 2026
 
-![](../../assets/saas_growth_collapse.png){fig-alt="Public SaaS median revenue growth from 2021 to 2025" .r-stretch}
+![](../../assets/saas_growth_collapse.png){fig-alt="Public SaaS median revenue growth from 2021 to 2025" .r-stretch .figure-large}
 
 ::: {.notes}
 Define SaaS before discussing the chart: **software as a service** is software sold as an online subscription. Use the chart as background, not as proof that AI caused the decline. Typical revenue growth for public SaaS companies had already fallen from 36 percent in early 2022 to 15 percent in early 2025.
