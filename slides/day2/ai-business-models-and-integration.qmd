@@ -24,35 +24,38 @@ execute:
   message: false
 ---
 
-## Today’s Questions
+## Today’s Questions {.center}
 
 :::: {.columns}
 
 ::: {.column width="33%"}
-```{=html}
-<div style="text-align:center; margin-top:18%;">
-  <div style="font-size:3em; color:#041e42; font-weight:650;">1</div>
-  <div style="font-size:1.25em;">How do companies build AI into their main work?</div>
-</div>
-```
+::: {.metric}
+1
+:::
+
+::: {.metric-label}
+How do companies build AI into their main work?
+:::
 :::
 
 ::: {.column width="33%"}
-```{=html}
-<div style="text-align:center; margin-top:18%;">
-  <div style="font-size:3em; color:#365f91; font-weight:650;">2</div>
-  <div style="font-size:1.25em;">What changes when software can take action?</div>
-</div>
-```
+::: {.metric .secondary}
+2
+:::
+
+::: {.metric-label}
+What changes when software can take action?
+:::
 :::
 
 ::: {.column width="33%"}
-```{=html}
-<div style="text-align:center; margin-top:18%;">
-  <div style="font-size:3em; color:#9cadc4; font-weight:650;">3</div>
-  <div style="font-size:1.25em;">Why does employee use not always improve company results?</div>
-</div>
-```
+::: {.metric .muted}
+3
+:::
+
+::: {.metric-label}
+Why does employee use not always improve company results?
+:::
 :::
 
 ::::
@@ -73,7 +76,6 @@ McKinsey & Company, “The State of AI in 2025,” November 5, 2025.
 
 ![](../../assets/business-operating.png){
   fig-alt="Business model based on value creation and value capture connected to an operating model based on scale, scope, and learning"
-  width="91%"
 }
 
 ::: {.notes}
@@ -91,17 +93,14 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ## Some Companies Build AI into Their Main Work
 
-```{=html}
-<div style="font-size:1.22em; line-height:1.75; color:#041e42; margin:4% auto 0; width:86%;">
-  <div><strong>1.</strong> Everyday work produces data.</div>
-  <div><strong>2.</strong> Software uses the data to support decisions.</div>
-  <div><strong>3.</strong> The company tests whether those decisions improve the result.</div>
-  <div><strong>4.</strong> What the company learns changes the next decision.</div>
-</div>
-<div style="text-align:center; margin:2.5em auto 0; width:82%; font-size:1.15em; color:#365f91;">
-A company that builds this cycle into its main work is often called <strong>AI-native</strong>.
-</div>
-```
+1. Everyday work produces data.
+2. Software uses the data to support decisions.
+3. The company tests whether those decisions improve the result.
+4. What the company learns changes the next decision.
+
+::: {.callout-note}
+A company that builds this cycle into its main work is often called **AI-native**.
+:::
 
 ::: {.notes}
 Define **AI-native company** in ordinary language: a company that builds data and AI into its main way of working, rather than adding one AI tool to an unchanged process.
@@ -114,35 +113,26 @@ Ask: “What could stop this cycle?” Possible answers include data stored in s
 Iansiti and Lakhani, Competing in the Age of AI, 2020.
 :::
 
-## AI Can Change How a Company Grows
+## AI Can Change How a Company Grows {.center}
 
 :::: {.columns}
 
 ::: {.column width="33%"}
-```{=html}
-<div style="text-align:center; margin-top:25%;">
-  <div style="font-size:1.45em; color:#041e42; font-weight:650;">Serve more customers</div>
-  <div style="margin-top:0.5em;">without hiring people at the same rate</div>
-</div>
-```
+### Serve more customers
+
+without hiring people at the same rate
 :::
 
 ::: {.column width="33%"}
-```{=html}
-<div style="text-align:center; margin-top:25%;">
-  <div style="font-size:1.45em; color:#365f91; font-weight:650;">Support more products</div>
-  <div style="margin-top:0.5em;">with shared data and technology</div>
-</div>
-```
+### Support more products
+
+with shared data and technology
 :::
 
 ::: {.column width="33%"}
-```{=html}
-<div style="text-align:center; margin-top:25%;">
-  <div style="font-size:1.45em; color:#71839b; font-weight:650;">Improve through use</div>
-  <div style="margin-top:0.5em;">when information from use improves later decisions</div>
-</div>
-```
+### Improve through use
+
+when information from use improves later decisions
 :::
 
 ::::
@@ -162,7 +152,6 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ![](../../assets/amazon_sequoia_fulfillment.jpg){
   fig-alt="Amazon fulfillment center using the Sequoia robotic system to store and move inventory"
-  width="92%"
 }
 
 ::: {.notes}
@@ -181,26 +170,24 @@ Amazon, "Amazon announces 2 new ways it’s using robots to assist employees and
 ::: {.column width="50%"}
 ### How customers benefit
 
-**Discover** relevant products<br>
-**Buy** with less friction<br>
-**Receive** orders reliably
+- **Discover** relevant products
+- **Buy** with less friction
+- **Receive** orders reliably
 :::
 
 ::: {.column width="50%"}
 ### How Amazon earns money
 
-**Retail and seller fees**<br>
-**Prime and advertising**<br>
-**Delivery services and cloud computing (AWS)**
+- **Retail and seller fees**
+- **Prime and advertising**
+- **Delivery services and cloud computing (AWS)**
 :::
 
 ::::
 
-```{=html}
-<div style="text-align:center; margin-top:2.2em; font-size:1.25em; color:#365f91;">
+::: {.callout-note}
 The same data and technology support both sides.
-</div>
-```
+:::
 
 ::: {.notes}
 Start on the left. Recommendations help customers find products. Search, reviews, prices, and easy payment make buying simpler. Forecasting and logistics improve delivery. Each interaction also creates information that may improve the next one.
@@ -218,7 +205,6 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ![](../../assets/AI_virtuous.png){
   fig-alt="Circular diagram in which more usage produces more data, better algorithms, better service, and then more usage"
-  width="54%"
 }
 
 ::: {.notes}
@@ -234,11 +220,9 @@ Iansiti and Lakhani, Competing in the Age of AI, 2020.
 
 ## Growth of Online Subscription Software Had Slowed Before 2026
 
-```{=html}
-<img src="../../assets/saas_growth_collapse.png"
-  alt="Chart showing median year-over-year revenue growth for 58 public SaaS companies declining from a 36 percent peak in early 2022 to 15 percent in early 2025"
-  style="display:block; height:760px; width:auto; margin:0 auto;">
-```
+![](../../assets/saas_growth_collapse.png){
+  fig-alt="Chart showing median year-over-year revenue growth for 58 public SaaS companies declining from a 36 percent peak in early 2022 to 15 percent in early 2025"
+}
 
 ::: {.notes}
 Define SaaS before discussing the chart: **software as a service** is software sold as an online subscription. Use the chart as background, not as proof that AI caused the decline. Typical revenue growth for public SaaS companies had already fallen from 36 percent in early 2022 to 15 percent in early 2025.
@@ -287,44 +271,24 @@ This leads to the question in the HBR reading: when software can act for the use
 SaaStr, “The Great B2B Bifurcation of 2025,” December 2025. Figure supplied by the instructor.
 :::
 
-## An AI Agent Can Choose Steps and Use Other Software
+## An AI Agent Combines a Model with Tools
 
-:::: {.columns}
-
-::: {.column width="48%"}
-### The agent chooses the steps
-
-```{=html}
-<img src="../../assets/ibm_agent_plan.png"
-  alt="IBM diagram showing an agent using input, memory, planning, and execution"
-  style="display:block; height:620px; width:auto; margin:0 auto;">
-```
-:::
-
-::: {.column width="52%"}
-### The agent uses other software to act
-
-```{=html}
-<img src="../../assets/ibm_agent_action.png"
-  alt="IBM diagram showing agent execution invoking a tool that sends commands to an external resource"
-  style="display:block; width:100%; height:auto; margin:155px auto 0;">
-```
-:::
-
-::::
+![](../../assets/ai_agent_tools_report_2026.png){
+  fig-alt="Diagram showing an AI model connected to memory, web browsing, and computer-use tools"
+}
 
 ::: {.notes}
 Begin with traditional business software. It provides screens, forms, rules, and a fixed order of steps. People understand the process and move each case from one step to the next.
 
 Nishar and Nohria argue that an AI agent may allow a person to state a goal instead. The agent can collect information, choose steps, use other software, request approval, and complete several parts of the task.
 
-Use the two enlarged parts of IBM’s diagram from left to right. An event or user request becomes an input. The agent uses memory and planning to decide what to do. Execution then calls a tool, and that tool sends queries or commands to an external resource. The important change is the final link: the system can do more than produce text—it can alter another system.
+Use the figure from left to right. A user provides a goal. The AI model repeatedly plans what to do next. Memory lets it retain useful information, web browsing lets it collect information, and computer-use tools let it work in other software. The important distinction is that the model alone is not the complete agent. The tools and connections around the model allow the system to act.
 
 Do not imply that the existing systems disappear. The agent still needs company records, rules, permission to act, and software that records payments or other changes. The business question is who earns the money when users no longer work directly through every screen.
 
 [Sources]
 Nishar and Nohr, “How Gen AI Could Disrupt SaaS,” 2025.
-IBM, “An IBM Guide to Agentic AI Systems,” conceptual agent architecture, 2025.
+International AI Safety Report 2026, Figure 1.3.
 :::
 
 ## Example: Repaying an Employee’s Travel Expenses
@@ -334,30 +298,20 @@ IBM, “An IBM Guide to Agentic AI Systems,” conceptual agent architecture, 20
 ::: {.column width="58%"}
 ### Traditional process
 
-```{=html}
-<div style="font-size:1.15em; line-height:2.2; color:#041e42;">
 Upload receipt → Enter details → Choose category → Approve → Pay
-</div>
-```
 :::
 
 ::: {.column width="42%"}
 ### Process supported by an AI agent
 
-```{=html}
-<div style="font-size:1.65em; color:#365f91; font-weight:650; margin-top:0.9em;">
-“Reimburse my Basel trip.”
-</div>
-```
+> “Reimburse my Basel trip.”
 :::
 
 ::::
 
-```{=html}
-<div style="text-align:center; margin-top:2.6em; font-size:1.15em; color:#365f91; font-weight:600;">
+::: {.callout-note}
 The agent collects evidence, applies policy, prepares the payment, and sends unusual cases to a person.
-</div>
-```
+:::
 
 ::: {.notes}
 Walk through the example from the employee’s perspective. Instead of locating forms and selecting codes, the employee states the outcome: “Reimburse my Basel trip.”
@@ -370,67 +324,49 @@ Ask students where a person must approve the work. A person might approve unusua
 Nishar and Nohr, “How Gen AI Could Disrupt SaaS,” 2025.
 :::
 
-## AI Agents Change Which Parts of Business Software Matter
+## AI Agents Can Complete Longer Tasks
 
-:::: {.columns}
-
-::: {.column width="50%"}
-### May matter less
-
-- Screens and forms
-- Fees based on the number of users
-- Processes with fixed steps
-:::
-
-::: {.column width="50%"}
-### May matter more
-
-- Company data that competitors cannot access
-- Permission to act and a record of every action
-- Connections to business systems and customers
-:::
-
-::::
-
-```{=html}
-<div style="text-align:center; margin-top:3em; font-size:1.35em; color:#365f91;">
-A useful agent still depends on the data and systems behind the screen.
-</div>
-```
+![](../../assets/ai_agent_task_length_report_2026.png){
+  fig-alt="Chart showing that AI systems can complete increasingly long software tasks with an 80 percent success rate"
+}
 
 ::: {.notes}
-Explain the left side first. If an agent can work across several applications, users may spend less time inside each product. A company may need fewer paid user accounts, and software based on fixed steps may become less useful.
+This chart measures the length of well-specified software tasks that an AI agent can complete successfully 80 percent of the time. The task length has increased rapidly. Recent systems can complete some tasks that would take a professional approximately 25 to 30 minutes.
 
-Then turn to the right side. The agent still needs reliable records, permission to act, connections to company systems, and access to customers. These assets may become more important as the visible screen becomes less important.
+Emphasize the limit as well as the progress. An 80 percent success rate means that one in five attempts still fails. The report also notes that success falls as tasks become longer or encounter unexpected problems. Performance on well-specified software tasks does not automatically transfer to every type of business work.
 
-The point is not that subscription software disappears. The important part of the product may shift from the screen to the data, permission, and system connections needed to complete the work.
+Use this evidence to motivate the next question. As agents become able to complete more work, reliable company data, permission to act, monitoring, and human approval become more important. These may strengthen the position of an existing software company even if its screens and forms become less important.
 
 [Sources]
-Nishar and Nohr, “How Gen AI Could Disrupt SaaS,” 2025.
+International AI Safety Report 2026, Figure 1.7 and accompanying discussion.
+Kwa et al., “Measuring AI Ability to Complete Long Tasks,” 2025.
 :::
 
 ## What Existing Software Companies Can Do
 
-```{=html}
-<div style="display:grid; grid-template-columns:1fr 1fr; column-gap:3.8em; row-gap:2.3em; width:86%; margin:7% auto 0; color:#041e42;">
-  <div>
-    <div style="font-size:1.25em; font-weight:650;">Build agents into the existing product</div>
-    <div style="font-size:0.95em; margin-top:0.35em;">Help customers complete work without leaving the product.</div>
-  </div>
-  <div>
-    <div style="font-size:1.25em; font-weight:650;">Let outside agents connect</div>
-    <div style="font-size:0.95em; margin-top:0.35em;">Provide secure access to the product’s data and actions.</div>
-  </div>
-  <div>
-    <div style="font-size:1.25em; font-weight:650; color:#365f91;">Charge for completed work</div>
-    <div style="font-size:0.95em; margin-top:0.35em;">Rely less on fees based on the number of users.</div>
-  </div>
-  <div>
-    <div style="font-size:1.25em; font-weight:650; color:#365f91;">Remain the trusted source of company records</div>
-    <div style="font-size:0.95em; margin-top:0.35em;">Keep the data, permissions, and record of past actions that agents need.</div>
-  </div>
-</div>
-```
+:::: {.columns}
+
+::: {.column width="50%"}
+### Build agents into the product
+
+Help customers complete work without leaving the product.
+
+### Charge for completed work
+
+Rely less on fees based on the number of users.
+:::
+
+::: {.column width="50%"}
+### Let outside agents connect
+
+Provide secure access to the product’s data and actions.
+
+### Remain the trusted source of company records
+
+Keep the data, permissions, and record of past actions that agents need.
+:::
+
+::::
 
 ::: {.notes}
 Explain the four choices in the words shown on the slide. A company can put its own agent inside the product, allow outside agents to connect safely, charge for completed work instead of each user, or remain the trusted place where company records and permissions are stored.
@@ -443,24 +379,25 @@ Nishar and Nohr, “How Gen AI Could Disrupt SaaS,” 2025.
 
 ## Existing Software Companies May Benefit from Trusted Data and Clear Rules
 
-```{=html}
-<div style="display:grid; grid-template-columns:1fr 1fr; gap:4em; width:82%; margin:9% auto 0;">
-  <div>
-    <div style="font-size:1.35em; color:#365f91; font-weight:650;">Rules customers need</div>
-    <div style="font-size:1.05em; margin-top:0.7em;">Clear approval rules, a record of each action, and a way for people to stop or correct the agent</div>
-  </div>
-  <div>
-    <div style="font-size:1.35em; color:#365f91; font-weight:650;">Advantages existing companies may have</div>
-    <div style="font-size:1.05em; margin-top:0.7em;">Reliable company data, links to daily work, customer trust, and access to existing customers</div>
-  </div>
-</div>
-```
+:::: {.columns}
 
-```{=html}
-<div style="text-align:center; margin:3.5em auto 0; width:82%; font-size:1.25em; color:#365f91;">
+::: {.column width="50%"}
+### Rules customers need
+
+Clear approval rules, a record of each action, and a way for people to stop or correct the agent.
+:::
+
+::: {.column width="50%"}
+### Advantages existing companies may have
+
+Reliable company data, links to daily work, customer trust, and access to existing customers.
+:::
+
+::::
+
+::: {.callout-note}
 Before an agent acts, the company must decide what it may do, when a person must approve, and how mistakes will be corrected.
-</div>
-```
+:::
 
 ::: {.notes}
 An agent needs clear access rights, approval rules, a record of its actions, rules for unusual cases, and a person who is responsible. Customers may prefer an agent that works inside a system they already trust and control.
@@ -474,42 +411,37 @@ Nishar and Nohr, “How Gen AI Could Disrupt SaaS,” 2025.
 Day 2A activity, “Rebuilding SaaS for an Agentic Era.”
 :::
 
-## Activity: Redesign Software Around a Customer Goal
+## Activity: What Happens to Software When AI Can Act? {.center}
 
-```{=html}
-<div style="font-size:1.3em; line-height:1.8; color:#041e42; margin:5% auto 0; width:82%;">
-  <div><strong>1.</strong> State the customer’s goal.</div>
-  <div><strong>2.</strong> Identify the information and actions the agent needs.</div>
-  <div><strong>3.</strong> Decide where a person must approve or correct the work.</div>
-  <div><strong>4.</strong> Explain what the existing software company would still do better than a new competitor.</div>
-</div>
-```
+Business software has traditionally guided people through screens, forms, and fixed steps.
+
+An AI agent can sometimes work toward a goal across several systems.
+
+> Does this weaken the software company—or make its data, trust, and permission to act more valuable?
 
 ::: {.notes}
-Allow about 25 minutes: 3 minutes to choose the customer goal, 12 minutes to design the system, 5 minutes to judge the software company’s remaining advantage, and 5 minutes to prepare a short report.
+Students use the “Redesigning Software with an AI Agent” handout. Allow 12 minutes: 2 minutes to choose the product and customer goal, 6 minutes to design the agent, and 4 minutes to judge the existing company and prepare the report.
 
-Teams redesign one familiar business-software product around a customer goal. Tell them not to begin with “add a chatbot.” Begin with what the customer is trying to accomplish. Then identify what the agent must know, decide, and do; where a person must approve; which unusual cases go to a person; and what information would help the system improve.
+Tell teams to begin with the customer’s goal, not with the current product’s features. They should identify what the agent must know, decide, and do; where a person must approve or stop it; and which unusual cases must go to a person.
 
-Teams should also decide whether the existing software company becomes weaker, remains necessary, or becomes stronger. They must name the one advantage—such as data, trust, or customer access—that best explains their answer.
+Teams then decide whether the existing software company becomes weaker, remains necessary, or becomes stronger. They must name the one advantage—such as data, trust, permission to act, or customer access—that best explains their answer.
+
+Ask only two or three teams to report. Limit each report to 90 seconds.
 
 [Sources]
-Day 2A activity, “Rebuilding SaaS for an Agentic Era.”
+Day 2A activity, “Redesigning Software with an AI Agent.”
 :::
 
 ## Activity Debrief
 
-```{=html}
-<div style="font-size:1.55em; line-height:2.25; color:#041e42; margin-top:5%;">
-  <div>Which screens or steps were no longer needed?</div>
-  <div>Where must a person decide?</div>
-  <div>Which existing advantage became more important?</div>
-</div>
-```
+1. What can the agent do that the current product cannot?
+2. Where must a person approve, stop, or correct it?
+3. Does the existing company become weaker, remain necessary, or become stronger? Why?
 
 ::: {.notes}
-Use these three questions to compare team designs. Ask only two or three teams to report, then invite short contrasts from the room.
+Allow about 5 minutes. Use the questions to compare the teams’ conclusions.
 
-Press for a specific answer rather than a general claim that “people remain involved.” Where exactly is approval required? What information reaches that person? What happens if no one responds? Ask which screens, transfers between teams, paid user accounts, or complete applications are no longer needed. Close by identifying which existing advantage remained useful.
+Ask where the agent still depends on the existing company’s data, permission, or software. Press for a specific answer about human involvement: where exactly is approval required, and what happens if the person does not respond? End by asking what new fact would change each team’s conclusion.
 :::
 
 # When Employee AI Use Does Not Improve Company Results {background-color="#041e42"}
@@ -518,7 +450,6 @@ Press for a specific answer rather than a general claim that “people remain in
 
 ![](../../assets/mollick_figure_2.png){
   fig-alt="Company communications from Shopify and Duolingo announcing AI-first workplace expectations"
-  width="96%"
 }
 
 ::: {.notes}
@@ -532,7 +463,6 @@ Mollick, “Making AI Work,” 2025. Figure reproduced from the assigned reading
 
 ![](../../assets/mckinsey_exhibit_1.png){
   fig-alt="McKinsey Exhibit 1 showing 88 percent of organizations use AI in at least one business function, while most remain in experimentation or piloting"
-  width="91%"
 }
 
 ::: {.notes}
@@ -548,7 +478,6 @@ McKinsey & Company, “The State of AI in 2025,” Exhibits 1 and 5 and accompan
 
 ![](../../assets/mckinsey_exhibit_2.png){
   fig-alt="McKinsey Exhibit 2 comparing experimentation and scaling of AI agents across business functions"
-  width="88%"
 }
 
 ::: {.notes}
@@ -558,26 +487,28 @@ Most organizations that use agents beyond small tests do so in only one or two d
 McKinsey & Company, “The State of AI in 2025,” Exhibit 2 and accompanying text, 2025.
 :::
 
-## Few Companies Report a Large Effect on Profit
+## Few Companies Report a Large Effect on Profit {.center}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-```{=html}
-  <div style="text-align:center; margin-top:17%;">
-  <div style="font-size:3.3em; color:#041e42; font-weight:650;">39%</div>
-  <div style="font-size:1.15em;">report any effect on company profit</div>
-</div>
-```
+::: {.metric}
+39%
+:::
+
+::: {.metric-label}
+report any effect on company profit
+:::
 :::
 
 ::: {.column width="50%"}
-```{=html}
-  <div style="text-align:center; margin-top:17%;">
-  <div style="font-size:3.3em; color:#365f91; font-weight:650;">≈ 6%</div>
-  <div style="font-size:1.15em;">report that AI adds at least 5% to company profit</div>
-</div>
-```
+::: {.metric .secondary}
+≈ 6%
+:::
+
+::: {.metric-label}
+report that AI adds at least 5% to company profit
+:::
 :::
 
 ::::
@@ -597,7 +528,6 @@ McKinsey & Company, “The State of AI in 2025,” 2025.
 
 ![](../../assets/mckinsey_exhibit_6.png){
   fig-alt="McKinsey Exhibit 6 showing reported organization-wide benefits from AI, led by innovation and employee satisfaction"
-  width="91%"
 }
 
 ::: {.notes}
@@ -611,7 +541,6 @@ McKinsey & Company, “The State of AI in 2025,” Exhibit 6, 2025.
 
 ![](../../assets/mckinsey_exhibit_11.png){
   fig-alt="McKinsey Exhibit 11 showing that AI high performers are nearly three times as likely to fundamentally redesign workflows"
-  width="91%"
 }
 
 ::: {.callout-note}
@@ -661,14 +590,11 @@ Mollick, “Making AI Work,” 2025.
 
 ![](../../assets/mollick_figure_1.png){
   fig-alt="Ethan Mollick's Venn diagram showing organizational leadership, the lab, and the crowd as overlapping parts of AI transformation"
-  width="52%"
 }
 
-```{=html}
-<div style="text-align:center; margin-top:1em; font-size:1.05em; color:#365f91;">
-Leaders set direction. A central AI team tests and builds. Employees identify useful ways to apply AI and practical problems.
-</div>
-```
+::: {.callout-note}
+Leaders set direction. A central AI team tests and builds. Employees identify useful applications and practical problems.
+:::
 
 ::: {.notes}
 Use this one diagram to explain all three roles.
@@ -704,15 +630,9 @@ Change the order of steps, who does them, and who approves them
 
 ::::
 
-```{=html}
-<div style="display:flex; justify-content:center; align-items:center; gap:0.55em; margin-top:3.4em; font-size:1.35em; font-weight:650;">
-  <span style="color:#041e42;">Time for one task</span>
-  <span style="color:#9cadc4;">→</span>
-  <span style="color:#365f91;">Time and quality of the full process</span>
-  <span style="color:#9cadc4;">→</span>
-  <span style="color:#041e42;">Cost or sales</span>
-</div>
-```
+::: {.callout-note}
+**Time for one task → Time and quality of the full process → Cost or sales**
+:::
 
 ::: {.notes}
 If one task becomes faster but later approvals, data entry, or decisions do not change, the result of the full process may not improve. The delay often moves to a later step. Improving the whole process may require changing the order of work, responsibilities, data, and approval rules.
@@ -727,26 +647,28 @@ McKinsey & Company, “The State of AI in 2025,” 2025.
 Day 2B activity, “From Adoption to Enterprise Value.”
 :::
 
-## Activity Case: High AI Use, No Change in Company Results
+## Activity Case: High AI Use, No Change in Company Results {.center}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-```{=html}
-<div style="text-align:center; margin-top:18%;">
-  <div style="font-size:3.3em; color:#041e42; font-weight:650;">75%</div>
-  <div style="font-size:1.2em;">weekly employee use</div>
-</div>
-```
+::: {.metric}
+75%
+:::
+
+::: {.metric-label}
+weekly employee use
+:::
 :::
 
 ::: {.column width="50%"}
-```{=html}
-  <div style="text-align:center; margin-top:18%;">
-  <div style="font-size:3.3em; color:#9cadc4; font-weight:650;">≈ 0</div>
-  <div style="font-size:1.2em;">change in profit, total work time, or customer results</div>
-</div>
-```
+::: {.metric .muted}
+≈ 0
+:::
+
+::: {.metric-label}
+change in profit, total work time, or customer results
+:::
 :::
 
 ::::
@@ -762,16 +684,13 @@ Do not resolve the puzzle on this slide. The activity asks teams to choose one c
 Day 2B activity, “From Adoption to Enterprise Value.” The case is fictional.
 :::
 
-## Activity: Connect AI Use to a Company Result
+## Activity: Where Did the Value Go? {.center}
 
-```{=html}
-<div style="font-size:1.3em; line-height:1.8; color:#041e42; margin:6% auto 0; width:82%;">
-  <div><strong>1.</strong> Choose one complete work process.</div>
-  <div><strong>2.</strong> Find the main step that limits speed or quality.</div>
-  <div><strong>3.</strong> Change the roles, data, and approval rules around that step.</div>
-  <div><strong>4.</strong> Name one person responsible and choose one measure for speed or quality, one for money, and one for risk.</div>
-</div>
-```
+Employees use AI. Individual tasks become faster.
+
+But the company is not faster, cheaper, or more effective.
+
+> What prevents a task-level improvement from becoming a company result?
 
 ::: {.notes}
 Allow about 20 minutes: 4 minutes to find the largest problem, 10 minutes to redesign one complete process, and 6 minutes to name who is responsible, choose measures, and set a six-month target.
@@ -786,13 +705,9 @@ Day 2B activity, “From Adoption to Enterprise Value.”
 
 ## Activity Debrief
 
-```{=html}
-<div style="font-size:1.55em; line-height:2.25; color:#041e42; margin-top:5%;">
-  <div>Which step limited the result?</div>
-  <div>Who was responsible for the full process?</div>
-  <div>What result would show that the change worked?</div>
-</div>
-```
+1. Which step limited the result?
+2. Who was responsible for the full process?
+3. What result would show that the change worked?
 
 ::: {.notes}
 Use these questions to compare the redesigns. Ask each reporting team to state which step caused the delay, who is responsible for the full process, and one measure that would show whether the change worked.
@@ -802,19 +717,13 @@ Ask teams to connect the AI change to a result for the process and then to cost 
 
 ## Day 2 Takeaways
 
-```{=html}
-<div style="font-size:1.35em; line-height:1.85; color:#041e42; margin:4% auto 0; width:88%;">
-  <div><strong>Some companies build AI into their main work</strong> so that data from everyday use can improve later decisions.</div>
-  <div><strong>AI agents can choose steps and use other software,</strong> which may change how business software is used and priced.</div>
-  <div><strong>Company results usually improve only when the full work process changes,</strong> including responsibilities and approval rules.</div>
-</div>
-```
+- **Some companies build AI into their main work** so that data from everyday use can improve later decisions.
+- **AI agents can choose steps and use other software,** which may change how business software is used and priced.
+- **Company results usually improve only when the full work process changes,** including responsibilities and approval rules.
 
-```{=html}
-<div style="text-align:center; margin-top:2.3em; font-size:1.25em; color:#365f91;">
+::: {.callout-note}
 Providing AI tools is only the first step.
-</div>
-```
+:::
 
 ::: {.notes}
 Close by reconnecting the three sections. Companies built around data and AI show how technology can change daily work. AI agents may change how business software is used and sold. Companies see measurable results only when they also change complete work processes, responsibilities, data, approval rules, and measurement.
