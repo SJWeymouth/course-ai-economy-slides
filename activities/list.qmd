@@ -2,3 +2,4 @@
 
 - [AI Audit](activities/01_Day1_AI_Audit.pdf)
 - [Redesigning Software with an AI Agent](activities/02_Day2_SAAS.pdf)
+- [AI and Employment Evidence Audit](activities/03_Day3_Employment.pdf)
