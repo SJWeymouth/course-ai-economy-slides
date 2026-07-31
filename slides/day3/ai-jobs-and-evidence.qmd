@@ -1,6 +1,6 @@
 ---
 title: "AI, Jobs, and the Evidence"
-subtitle: "Day 3 · Labor Markets and Inequality"
+subtitle: ""
 author: "Stephen Weymouth"
 date: ""
 format:
