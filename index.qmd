@@ -21,3 +21,8 @@ This site hosts the course syllabus, slides, and in-class activities.
 ## Activities
 
 {{< include activities/list.qmd >}}
+
+## Group Project
+- [Briefing and Instructions](syllabus/Group_Project_Briefing.pdf)
+
+
