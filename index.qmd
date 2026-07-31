@@ -16,6 +16,7 @@ This site hosts the course syllabus, slides, and in-class activities.
 - [Day 1B: Foundations of AI and the Digital Economy](slides/day1/ai-intuition-progress.html)
 - [Day 2: How AI Changes Companies, Software, and Work](slides/day2/ai-business-models-and-integration.html)
 - [Day 3: AI, Jobs, and the Evidence](slides/day3/ai-jobs-and-evidence.html)
+- [Day 4: The Energy Footprint of AI](slides/day4/ai-energy-and-sustainability.html)
 
 ## Activities
 

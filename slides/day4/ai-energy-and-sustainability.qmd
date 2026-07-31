@@ -1,0 +1,500 @@
+---
+title: "The Energy Footprint of AI"
+subtitle: "Day 4 · Sustainability and Energy"
+author: "Stephen Weymouth"
+date: ""
+format:
+  revealjs:
+    theme: ../../styles/georgetown.scss
+    css: ../../styles/georgetown.css
+    slide-number: true
+    transition: fade
+    controls: false
+    menu: false
+    progress: true
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.055
+    incremental: false
+    footer: "Georgetown University · McDonough School of Business"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Today's Questions {.center}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+::: {.metric}
+1
+:::
+
+::: {.metric-label}
+How much energy does AI use?
+:::
+:::
+
+::: {.column width="33%"}
+::: {.metric .secondary}
+2
+:::
+
+::: {.metric-label}
+Do corporate climate promises hold up?
+:::
+:::
+
+::: {.column width="33%"}
+::: {.metric .muted}
+3
+:::
+
+::: {.metric-label}
+Who pays the local costs, and who decides?
+:::
+:::
+
+::::
+
+::: {.notes}
+Set up the day in one line: we move from the global energy picture, to one company's promises, to a single town making a real decision.
+
+[Sources]
+IEA, Key Questions on Energy and AI, 2025–26; Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024.
+:::
+
+## AI's Environmental Effect Has Two Sides
+
+**Net environmental effect = Costs − Benefits**
+
+:::: {.columns}
+
+::: {.column width="48%"}
+### Costs
+
+- **T**raining and **I**nference energy
+- **R**esource extraction: minerals, land, water
+- **W**aste, heat, and pollution
+:::
+
+::: {.column width="48%"}
+### Benefits
+
+- **O**ptimizing energy and industry
+- **M**onitoring emissions and nature
+- **S**upporting clean-tech innovation
+:::
+
+::::
+
+::: {.notes}
+This is the simple frame for the whole day, carried over from last year. AI has an environmental cost and an environmental benefit. The net effect is what matters, and it is uncertain. Ask students to keep filling in both sides as we go.
+
+[Sources]
+Course materials, Day 3–4 (2025); IEA, Key Questions on Energy and AI, 2025–26.
+:::
+
+# AI's Energy Demand {background-color="#041e42"}
+
+## Inside a Data Centre {.photo-title background-image="../../assets/data_hall.jpg" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+Rows of servers run and are cooled around the clock.
+:::
+
+::: {.notes}
+Use this to make "a data centre" concrete before the numbers. Each rack holds many servers that run continuously and must be cooled continuously. Ask students what they think uses more power: training a model once, or running it for millions of users every day. (Increasingly, it is the running.)
+
+[Sources]
+Photograph from the course image library (instructor-provided). Confirm final credit before publishing.
+:::
+
+## Power to Train AI Is Rising Fast {.visual-stage}
+
+![](../../assets/llm_power.png){fig-alt="Total power draw required to train frontier AI models from 2011 to 2025, rising on a log scale from hundreds of watts to over 100 million watts" .r-stretch}
+
+::: {.notes}
+Each dot is a frontier model. The vertical axis is the power needed to train it, on a log scale. Training power has risen by orders of magnitude, from hundreds of watts to over 100 million watts for the largest recent models.
+
+Clarify: this is training power, not the total electricity a data centre uses. It shows the direction of travel, not the full footprint.
+
+[Sources]
+Epoch AI, 2026; chart from the 2026 AI Index Report (Stanford HAI).
+:::
+
+## Data-Centre Electricity Roughly Doubles by 2030 {.visual-stage}
+
+![](../../assets/day4_datacenter_electricity.png){fig-alt="Bar chart showing global data-centre electricity rising from about 485 terawatt-hours in 2025 to about 945 terawatt-hours in 2030" .r-stretch}
+
+::: {.notes}
+The IEA projects global data-centre electricity roughly doubling by 2030, to about 3 percent of world electricity. AI is the main driver of the increase.
+
+Qualification: 3 percent of world demand is large but not the whole story. The strain is concentrated in specific places and on specific grids, which is what the activity is about.
+
+This is a chart I built from the IEA's numbers because I could not extract the published figure directly. It can be swapped for the IEA's own figure.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+:::
+
+## One Rack Can Use as Much Power as 65 Homes
+
+:::: {.columns}
+
+::: {.column width="33%"}
+::: {.metric}
+65
+:::
+
+::: {.metric-label}
+homes' worth of power in one 2027 server rack
+:::
+:::
+
+::: {.column width="33%"}
+::: {.metric .secondary}
+11×
+:::
+
+::: {.metric-label}
+rise in rack power density, 2020 to 2025
+:::
+:::
+
+::: {.column width="33%"}
+::: {.metric .muted}
+&gt;50%
+:::
+
+::: {.metric-label}
+change in a rack's load within one second
+:::
+:::
+
+::::
+
+::: {.notes}
+Concrete image: by 2027 a single rack, about the size of a refrigerator, can draw the power of dozens of homes, and its load can swing by more than half in a second. Grids were not built for demand this concentrated and this variable.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+:::
+
+## Each Task Is Cheaper, but We Run Far More
+
+:::: {.columns}
+
+::: {.column width="48%"}
+::: {.metric}
+÷10
+:::
+
+::: {.metric-label}
+energy per AI task, roughly, each year
+:::
+:::
+
+::: {.column width="48%"}
+::: {.metric .secondary}
+×100–1000
+:::
+
+::: {.metric-label}
+energy for video and reasoning versus a text query
+:::
+:::
+
+::::
+
+::: {.callout-important}
+Efficiency is improving, but rising use is outpacing it.
+:::
+
+::: {.notes}
+This corrects a common shorthand that "AI power use doubles every year." Individual tasks are getting much cheaper. But we are asking AI to do far more, and far heavier, work. Total demand keeps rising. This is a rebound effect: cheaper units, many more units.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+:::
+
+## The Bottleneck Is Now the Power Grid {.photo-title background-image="../../assets/electrical_substation.jpg" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+New data centres wait years to connect to substations like this one.
+:::
+
+::: {.notes}
+Money is not the binding constraint; the grid is. Connection queues are long. Some developers respond by building their own gas generation to start faster, which pushes emissions and costs onto the local area. This is exactly the tension the town-hall activity puts on the table.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2025–26. Photograph from the course image library (instructor-provided).
+:::
+
+## Connecting to the Grid Is Slow and Costly
+
+:::: {.columns}
+
+::: {.column width="33%"}
+::: {.metric}
+4–6 yrs
+:::
+
+::: {.metric-label}
+to connect a large new load to the grid
+:::
+:::
+
+::: {.column width="33%"}
+::: {.metric .secondary}
++70%
+:::
+
+::: {.metric-label}
+rise in gas-turbine orders in 2025
+:::
+:::
+
+::: {.column width="33%"}
+::: {.metric .muted}
+15–27 GW
+:::
+
+::: {.metric-label}
+on-site gas at data centres by 2030
+:::
+:::
+
+::::
+
+::: {.notes}
+The numbers behind the previous photo. Long queues and equipment shortages push developers toward on-site gas. That choice is what a town then has to react to.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+:::
+
+## Emissions Rise, but AI Can Also Cut Energy Use
+
+:::: {.columns}
+
+::: {.column width="48%"}
+::: {.metric}
+350 Mt
+:::
+
+::: {.metric-label}
+data-centre emissions by 2035, about 2% of the power sector
+:::
+:::
+
+::: {.column width="48%"}
+::: {.metric .secondary}
+13 EJ
+:::
+
+::: {.metric-label}
+energy AI could help save by 2035, about 3% of final energy
+:::
+:::
+
+::::
+
+::: {.notes}
+Return to the ledger. Data-centre emissions roughly double by 2035. At the same time, AI applied to industry, transport, and grids could save several times the energy data centres use, if those savings are actually realized. The honest conclusion is that the net sign is not settled.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+:::
+
+# Corporate Promises and Local Costs {background-color="#041e42"}
+
+## Microsoft Promised to Be Carbon Negative by 2030
+
+:::: {.columns}
+
+::: {.column width="33%"}
+### Carbon negative
+
+Remove more carbon than it emits
+:::
+
+::: {.column width="33%"}
+### Water positive
+
+Replenish more water than it uses
+:::
+
+::: {.column width="33%"}
+### Zero waste
+
+Send no waste to landfill
+:::
+
+::::
+
+::: {.notes}
+Microsoft made one of the most ambitious corporate climate pledges in technology, all by 2030, and promotes AI as a climate tool. Hold this promise next to the emissions data on the next slide.
+
+[Sources]
+Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024; Microsoft, Environmental Sustainability Report, 2024.
+:::
+
+## Microsoft's Emissions Rose About 29% Since 2020 {.visual-stage}
+
+![](../../assets/day4_microsoft_emissions.png){fig-alt="Bar chart showing Microsoft total emissions rising about 29 percent from a 2020 baseline of 100 to 129 in the 2024 report, almost entirely Scope 3" .r-stretch}
+
+::: {.notes}
+Emissions went up, not down. Almost all of the increase is Scope 3: the steel, concrete, and chips used to build data centres. Building the AI infrastructure is why the line bends the wrong way.
+
+Scope 1 is direct emissions, Scope 2 is purchased energy, and Scope 3 is the supply chain. Most of AI's footprint sits in Scope 3, which is easiest to leave out.
+
+Chart built from Microsoft's reported figures; can be replaced with the company's own published chart.
+
+[Sources]
+Microsoft, Environmental Sustainability Report, 2024; Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024.
+:::
+
+## Microsoft Also Sells AI to Oil and Gas Companies
+
+:::: {.columns}
+
+::: {.column width="55%"}
+- Sells AI to majors such as ExxonMobil and Chevron
+- The tools help find and extract oil and gas
+- Internal estimate: a large energy-industry market
+:::
+
+::: {.column width="40%"}
+::: {.metric}
+\$35–75B
+:::
+
+::: {.metric-label}
+estimated energy-industry market for its AI
+:::
+:::
+
+::::
+
+::: {.notes}
+Here is the tension. The same company that pledges to be carbon negative sells AI that helps produce more oil and gas. The conflict is not only in the emissions math; it is in the customer list.
+
+[Sources]
+Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024.
+:::
+
+## Is This Greenwashing?
+
+:::: {.columns}
+
+::: {.column width="48%"}
+### Microsoft's case
+
+- AI makes production more efficient
+- Serving all customers funds clean-tech work
+:::
+
+::: {.column width="48%"}
+### The criticism
+
+- "Less harmful" extraction is unproven
+- More efficient extraction can mean more supply
+:::
+
+::::
+
+::: {.notes}
+Keep this even-handed, in the spirit of the course. Present the company's reasoning, then the criticism. The key question is empirical: does AI-enabled efficiency lower net emissions, or does it lower cost and expand output? Ask students which claims are measured and which are asserted.
+
+[Sources]
+Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024.
+:::
+
+# Activity: A Town Hall on a Data Centre {background-color="#041e42"}
+
+## A Data Centre Next to a Neighborhood {.photo-title background-image="../../assets/data_center.png" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+Riverton: a proposed 100 MW data centre, next to homes and a lake.
+:::
+
+::: {.notes}
+This is the scenario in one image: a large data centre going up beside a residential area. The project is economically attractive but arrives faster than new power and grid upgrades. The council must choose to approve, approve with conditions, delay, or reject.
+
+[Sources]
+Day 4 activity, "Town Hall: A 100 MW AI Data Center." Photograph from the course image library (instructor-provided).
+:::
+
+## Today's Activity Is a Public Hearing {.photo-title background-image="../../assets/town_hall.jpg" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+Should Riverton approve the project, and on what conditions?
+:::
+
+::: {.notes}
+Purpose: give students the experience of a real infrastructure decision with competing interests, and a working model of the simulation they must design themselves. This is a public hearing, the same format as the final project, and the proposal is due today.
+
+Do not read the handout aloud. Students have the full factsheet and role cards. Roles include the developer, the utility and grid operator, the city council, residents and ratepayers, an environmental and water coalition, a labor and economic-development coalition, and major local institutions.
+
+Conditions the council can attach include developer-funded grid upgrades, hourly clean-power matching instead of annual, water limits, and public disclosure. These are the same levers from the IEA reading this morning.
+
+Timing: about 10 minutes to prepare, then about 25 minutes for the hearing (one-minute openings, questioning, private coalition-building, then the council decides and explains).
+
+[Sources]
+Day 4 activity, "Town Hall: A 100 MW AI Data Center"; course final-project brief. Photograph from the course image library (instructor-provided).
+:::
+
+## Debrief
+
+1. Who receives the benefits, and who bears the risks?
+2. Which conditions made the project acceptable?
+3. What made this work as a simulation?
+
+::: {.notes}
+Run two debriefs at once. The first two questions draw out the substance: benefits are concentrated (tax base, a few jobs), while costs are shared (rates, water, reliability). The third question is about design, and feeds directly into the final project: a hard decision, distinct interests, and time pressure are what made it work.
+
+[Sources]
+Day 4 activity; course final-project brief.
+:::
+
+## What Makes a Good Simulation
+
+:::: {.columns}
+
+::: {.column width="48%"}
+- A single, hard decision
+- Clear roles with real conflict
+- A short, timed structure
+:::
+
+::: {.column width="48%"}
+- Focus on trade-offs, not ideal outcomes
+- Institutions have limits; stakeholders have power
+:::
+
+::::
+
+::: {.notes}
+Close the loop to the final project. Students just experienced each of these elements. Point them to the proposal due today: what is the decision, and why is it urgent now?
+
+[Sources]
+Course final-project brief.
+:::
+
+## Day 4 Takeaways
+
+1. AI's energy demand is large, fast-growing, and concentrated on local grids.
+2. Each task is getting cheaper, but total use keeps rising.
+3. Corporate accounting can hide the footprint, especially Scope 3.
+4. The hardest choices are local: power, water, cost, and consent.
+
+::: {.notes}
+Return to the ledger and the day's arc: global numbers resolve into concrete local decisions about who pays and who consents.
+
+[Sources]
+IEA, Key Questions on Energy and AI, 2025–26; Karen Hao, The Atlantic, 2024.
+:::
