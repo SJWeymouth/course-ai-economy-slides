@@ -2,7 +2,7 @@
 title: "An Introduction to the History of Technological Shocks"
 subtitle: "Day 1A · The AI Economy"
 author: "Stephen Weymouth"
-institute: "Provost's Distinguished Associate Professor"
+institute: "Dean's Professor"
 date: ""
 format:
   revealjs:

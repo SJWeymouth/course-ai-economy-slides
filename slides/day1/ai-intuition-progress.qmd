@@ -2,6 +2,7 @@
 title: "Foundations of AI and the Digital Economy"
 subtitle: "Day 1: AI Intuition, Progress, and Capabilities"
 author: "Stephen Weymouth"
+institute: "Dean's Professor"
 date: ""
 format:
   revealjs:
@@ -555,9 +556,8 @@ In pairs, discuss Suleyman's central claim about why AI and synthetic biology ca
 
 ## Group Projects
 
-![](../../assets/basel_2025_teams.png){fig-alt="Basel 2025 teams" .r-stretch}
+![](../../assets/teams_2026.png){fig-alt="Basel 2025 teams" .r-stretch}
 
-- As noted in the syllabus, the group project is a focus of the course.
-- Groups will develop a simulation on a policy issue related to AI.
-- Meet with your teams to discuss a topic for your group project.
-- In 20 minutes, we will reconvene to record the selections.
+- As noted in the syllabus, the group project is a focus of the course
+- Groups will develop a simulation on a policy issue related to AI
+
