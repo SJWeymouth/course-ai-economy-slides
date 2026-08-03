@@ -521,36 +521,11 @@ LLMs are powerful because they turn many tasks into language prediction.
 But the same mechanism helps explain why they can be fluent, plausible, and wrong.
 
 
-## Discussion
+## Singularity?
 
-- How does randomness affect the variety of responses you observed across multiple runs of the same prompt?
-- When you modified the input, how did the tone, focus, or phrasing of the responses change?
-- How does the model decide which details to prioritize in its response?
-- What does this tell us about how specific words or instructions guide the model's focus?
-- What are the implications of this behavior for real-world business applications? 
+![](../../assets/chamath.png){fig-alt="Basel 2025 teams" .r-stretch}
 
-## Frontier Technology: AI Agents
 
-![](../../assets/agents.jpeg){fig-alt="AI agents" width="70%"}
-
-- Diverse potential applications, from assisting in academic research and scheduling meetings to facilitating online shopping and vacation planning.
-
-## The Coming Wave
-
-![](../../assets/wave_cover.jpg){fig-alt="Cover of The Coming Wave" width="62%"}
-
-## Turn-and-Talk Activity
-
-In pairs, discuss Suleyman's central claim about why AI and synthetic biology cannot be contained.
-
-::: {.incremental}
-- Is containment truly impossible, or is Suleyman overstating the challenge?
-- Draft a one-sentence response to Suleyman: should we aim to contain the "coming wave," or adapt to it?
-:::
-
-. . .
-
-**In this class, be prepared to engage, debate, and think critically.**
 
 # Group Project Selection {background-color="#041e42"}
 
