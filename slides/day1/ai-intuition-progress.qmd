@@ -433,6 +433,14 @@ Andrew Ng, former chief scientist of Baidu and one of the leaders of the Google 
 
 # How Large Language Models Work {background-color="#041e42"}
 
+## Tokens Become Vectors
+
+At the start of processing, the model converts each token into an **embedding**: a long list of numbers.
+
+![](../../assets/token_embedding_space.svg){fig-alt="The token bank converted into a numerical vector and placed between financial and river-related terms in a conceptual vector space" .r-stretch}
+
+Tokens used in similar ways tend to have nearby vectors. Transformer layers then use the surrounding tokens to refine the representation for context.
+
 ## The Basic Mechanism
 
 During pretraining, a large language model learns to predict tokens from context. When generating text, it repeats that prediction one token at a time.

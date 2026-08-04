@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">A token becomes a vector in a vector space</title>
+  <desc id="desc">The token bank is converted into a numerical vector and placed between a cluster of financial terms and a cluster of river-related terms in a conceptual two-dimensional projection.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+      markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#77869a"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="35" y="170" width="205" height="120" rx="8"
+      fill="#eef4ff" stroke="#77869a" stroke-width="3"/>
+    <text x="138" y="214" text-anchor="middle" font-size="23" fill="#3768a5">Token</text>
+    <text x="138" y="260" text-anchor="middle" font-size="34" font-weight="700" fill="#244f87">bank</text>
+
+    <line x1="240" y1="230" x2="305" y2="230" stroke="#77869a"
+      stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="310" y="125" width="275" height="210" rx="8"
+      fill="#eef4ff" stroke="#77869a" stroke-width="3"/>
+    <text x="448" y="165" text-anchor="middle" font-size="23" fill="#3768a5">Embedding vector</text>
+    <text x="448" y="215" text-anchor="middle" font-size="29" font-weight="700" fill="#244f87">[ 0.12</text>
+    <text x="448" y="252" text-anchor="middle" font-size="29" font-weight="700" fill="#244f87">−0.47</text>
+    <text x="448" y="289" text-anchor="middle" font-size="29" font-weight="700" fill="#244f87">0.88 … ]</text>
+
+    <line x1="585" y1="230" x2="650" y2="230" stroke="#77869a"
+      stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="655" y="40" width="710" height="400" rx="8"
+      fill="#fbfcfe" stroke="#77869a" stroke-width="3"/>
+    <text x="1010" y="79" text-anchor="middle" font-size="24" font-weight="700" fill="#244f87">Conceptual view of a vector space</text>
+
+    <line x1="710" y1="390" x2="1310" y2="390" stroke="#c2cad5" stroke-width="2"/>
+    <line x1="710" y1="390" x2="710" y2="105" stroke="#c2cad5" stroke-width="2"/>
+
+    <ellipse cx="875" cy="205" rx="145" ry="105" fill="#e7f1fb" stroke="#7fa6cf" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="875" y="112" text-anchor="middle" font-size="21" font-weight="700" fill="#3768a5">Financial uses</text>
+
+    <ellipse cx="1170" cy="300" rx="145" ry="100" fill="#eaf5ee" stroke="#83ad91" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="1170" y="218" text-anchor="middle" font-size="21" font-weight="700" fill="#4f8260">River-related uses</text>
+
+    <g font-size="23" fill="#3768a5" text-anchor="middle">
+      <circle cx="820" cy="170" r="7" fill="#3768a5"/>
+      <text x="820" y="154">loan</text>
+      <circle cx="925" cy="155" r="7" fill="#3768a5"/>
+      <text x="925" y="139">mortgage</text>
+      <circle cx="865" cy="245" r="7" fill="#3768a5"/>
+      <text x="865" y="276">account</text>
+      <circle cx="955" cy="230" r="7" fill="#3768a5"/>
+      <text x="955" y="260">credit</text>
+    </g>
+
+    <g font-size="23" fill="#4f8260" text-anchor="middle">
+      <circle cx="1110" cy="265" r="7" fill="#4f8260"/>
+      <text x="1110" y="249">river</text>
+      <circle cx="1225" cy="255" r="7" fill="#4f8260"/>
+      <text x="1225" y="239">flood</text>
+      <circle cx="1160" cy="330" r="7" fill="#4f8260"/>
+      <text x="1160" y="361">shore</text>
+      <circle cx="1260" cy="325" r="7" fill="#4f8260"/>
+      <text x="1260" y="356">stream</text>
+    </g>
+
+    <circle cx="1030" cy="235" r="16" fill="#b08d57" stroke="white" stroke-width="4"/>
+    <text x="1030" y="207" text-anchor="middle" font-size="25" font-weight="700" fill="#8a693b">bank</text>
+
+    <text x="1350" y="470" text-anchor="end" font-size="18" fill="#6f7782">Two-dimensional illustration of a much larger space</text>
+  </g>
+</svg>
