@@ -415,9 +415,10 @@ Day 2A activity, “Redesigning Software with an AI Agent.”
 
 ## Activity Debrief
 
-1. What can the agent do that the current product cannot?
+1. What can the agent do that the current product cannot? 
 2. Where must a person approve, stop, or correct it?
-3. Does the existing company become weaker, remain necessary, or become stronger? Why?
+3. Which advantage becomes more important? Which become less important?
+4. Does the existing company become weaker, remain necessary, or become stronger? Why?
 
 ::: {.notes}
 Allow about 5 minutes. Use the questions to compare the teams’ conclusions.
@@ -510,9 +511,6 @@ Pricing, legal review, approval, and customer follow-up still take ten days.
 
 ::::
 
-::: {.callout-note}
-The company benefits only if the complete process becomes faster, cheaper, or more effective.
-:::
 
 ::: {.notes}
 Distinguish a task from a complete process. AI may help an employee draft a proposal faster, but the proposal still moves through pricing, legal review, approval, and customer follow-up. If those steps do not change, the total time needed to make a sale may remain the same.
@@ -531,9 +529,7 @@ McKinsey & Company, “The State of AI in 2025,” 2025.
 - **AI agents can choose steps and use other software,** which may change how business software is used and priced.
 - **Company results usually improve only when the full work process changes,** including responsibilities and approval rules.
 
-::: {.callout-note}
-Providing AI tools is only the first step.
-:::
+
 
 ::: {.notes}
 Close by reconnecting the three sections. Companies built around data and AI show how technology can change daily work. AI agents may change how business software is used and sold. Companies see measurable results only when they also change complete work processes, responsibilities, data, approval rules, and measurement.
