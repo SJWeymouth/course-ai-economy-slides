@@ -441,6 +441,37 @@ This distinction supports an AI interpretation because it connects the type of u
 Brynjolfsson, Chandar, and Chen, “Canaries in the Coal Mine?” November 2025, Figure 3.
 :::
 
+
+# Activity: AI and Entry-Level Hiring {background-color="#041e42"}
+
+## From Evidence to Decision
+
+In your team:
+
+1. Decide the strongest claim the current evidence supports.
+2. Recommend whether the company should **cut graduate hiring**, **maintain current hiring**, or **run a limited pilot**.
+3. Choose one person to orally summarize your discussion for **90 seconds**.
+
+Open the **AI and Entry-Level Hiring** PDF under **Activities** on the
+[course website](https://sjweymouth.github.io/course-ai-economy-slides/).
+
+**You have 20 minutes.**
+
+## Activity Debrief
+
+- What is the strongest claim supported by the evidence?
+- Which two studies best support your answer?
+- What important evidence is still missing?
+- What should the company do?
+- What assumption matters most to your decision?
+
+::: {.notes}
+Press teams to distinguish between occupational exposure and observed AI use. If a team selects “plausible but unproven,” ask what would move the claim into the “supported” category.
+
+Good answers may propose firm-level adoption dates, task-level usage records, comparisons between early and late adopters, or changes within the same firm before and after adoption.
+:::
+
+
 ## The Pattern Does Not Prove That AI Was the Cause
 
 :::: {.columns}
@@ -538,52 +569,6 @@ Brynjolfsson, Chandar, and Chen, “Canaries, Interest Rates, and Timing,” Sta
 Economic Innovation Group, “Looking for the Ladder,” January 2026.
 :::
 
-## Denmark Shows Work Changing Before Earnings or Hours
-
-:::: {.columns}
-
-::: {.column width="33%"}
-::: {.metric}
-25,000
-:::
-
-::: {.metric-label}
-workers surveyed
-:::
-:::
-
-::: {.column width="33%"}
-::: {.metric .secondary}
-7,000
-:::
-
-::: {.metric-label}
-workplaces represented
-:::
-:::
-
-::: {.column width="33%"}
-::: {.metric .muted}
-<2%
-:::
-
-::: {.metric-label}
-largest effect consistent with the earnings and hours data
-:::
-:::
-
-::::
-
-AI adoption and task reorganization were widespread, but earnings and hours had not changed detectably after two years.
-
-::: {.notes}
-Humlum and Vestergaard combine surveys with administrative records in Denmark. Workers report using chatbots and changing tasks, but the researchers find no detectable effects on earnings or hours larger than 2 percent after two years.
-
-This does not mean AI has no economic effect. It suggests that workplace changes can appear before measurable labor-market outcomes.
-
-[Sources]
-Anders Humlum and Emilie Vestergaard, “Large Language Models, Small Labor Market Effects,” NBER Working Paper 33777, revised 2026.
-:::
 
 ## The Studies Observe Different Parts of the Chain
 
@@ -592,7 +577,6 @@ Anders Humlum and Emilie Vestergaard, “Large Language Models, Small Labor Mark
 | **ILO** | Tasks and occupational exposure | No adoption or employment outcomes |
 | **Canaries** | US payroll employment and exposure | Actual AI use is not observed |
 | **EIG** | US job postings and economic timing | Postings are not employment |
-| **Denmark** | Adoption, tasks, earnings, and hours | Short period and one national setting |
 
 ::: {.notes}
 Ask students which study is best for each question. The ILO is strongest for global exposure. Canaries is strongest for age-specific employment patterns in US payroll data. EIG is useful for timing and alternative explanations. The Danish study directly measures use and links it to administrative outcomes.
@@ -635,45 +619,7 @@ This is the best current conclusion from the assigned readings. It leaves room f
 Synthesis of the assigned Day 3 readings.
 :::
 
-# Activity: Has AI Reduced Entry-Level Employment? {background-color="#041e42"}
 
-## Audit the Evidence
-
-Your team will decide:
-
-1. What is the strongest evidence for an AI effect?
-2. What is the strongest alternative explanation?
-3. Where is the weakest link in the evidence?
-4. Is the claim **supported**, **plausible but unproven**, or **not supported**?
-
-::: {.callout-note}
-Use the activity handout for the full instructions. You have 20 minutes.
-:::
-
-::: {.notes}
-The full activity prompt is available to students separately. Keep this slide visible only as an introduction.
-
-Suggested timing: 5 minutes to compare the studies, 8 minutes to identify the strongest evidence and alternative explanation, 4 minutes to agree on a verdict, and 3 minutes to prepare a short report.
-
-Ask only two or three teams to present. Invite other teams to state one point of disagreement.
-
-[Sources]
-Day 3 activity, “AI and Employment: What the Evidence Can and Cannot Tell Us.”
-:::
-
-## Activity Debrief
-
-- What is the strongest claim supported by the evidence?
-- Which two studies best support your answer?
-- What important evidence is still missing?
-- What should the company do?
-- What assumption matters most to your decision?
-
-::: {.notes}
-Press teams to distinguish between occupational exposure and observed AI use. If a team selects “plausible but unproven,” ask what would move the claim into the “supported” category.
-
-Good answers may propose firm-level adoption dates, task-level usage records, comparisons between early and late adopters, or changes within the same firm before and after adoption.
-:::
 
 ## Guest Discussion
 
