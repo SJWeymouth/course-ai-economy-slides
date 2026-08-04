@@ -18,7 +18,7 @@ format:
     height: 900
     margin: 0.055
     incremental: false
-    footer: "Georgetown University · McDonough School of Business"
+    footer: ""
 execute:
   echo: false
   warning: false
