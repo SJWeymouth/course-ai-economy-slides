@@ -663,9 +663,11 @@ Day 3 activity, “AI and Employment: What the Evidence Can and Cannot Tell Us.�
 
 ## Activity Debrief
 
-1. Which evidence changed your view?
-2. Which alternative explanation remains credible?
-3. What evidence of actual AI use would help most?
+- What is the strongest claim supported by the evidence?
+- Which two studies best support your answer?
+- What important evidence is still missing?
+- What should the company do?
+- What assumption matters most to your decision?
 
 ::: {.notes}
 Press teams to distinguish between occupational exposure and observed AI use. If a team selects “plausible but unproven,” ask what would move the claim into the “supported” category.
