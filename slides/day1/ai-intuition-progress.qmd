@@ -435,7 +435,7 @@ Andrew Ng, former chief scientist of Baidu and one of the leaders of the Google 
 
 ## Tokens Become Vectors
 
-At the start of processing, the model converts each token into an **embedding**: a long list of numbers.
+At the start of processing, the model breaks text into tokens, which may be words, parts of words, punctuation, or symbols. It converts each token into an embedding: a long list of numbers.
 
 ![](../../assets/token_embedding_space.svg){fig-alt="The token bank converted into a numerical vector and placed between financial and river-related terms in a conceptual vector space" .r-stretch}
 
