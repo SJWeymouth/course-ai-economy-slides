@@ -1,6 +1,6 @@
 ---
 title: "How AI Changes Companies, Software, and Work"
-subtitle: "Day 2 · Companies, Software, and Work"
+subtitle: ""
 author: "Stephen Weymouth"
 date: ""
 format:

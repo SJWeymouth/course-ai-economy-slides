@@ -1,7 +1,8 @@
 ---
-title: "AI, Jobs, and the Evidence"
+title: "AI and Jobs"
 subtitle: ""
 author: "Stephen Weymouth"
+institute: "Dean's Professor"
 date: ""
 format:
   revealjs:
@@ -108,24 +109,8 @@ Evidence at one step does not prove what happens at the next step.
 Use this sequence throughout the day. Ask students to identify which step each reading observes directly and which steps it only assumes.
 :::
 
-# Prediction and Exposure {background-color="#041e42"}
+# Aggregate Labor Market Effects of AI {background-color="#041e42"}
 
-## An Occupation Is a Group of Tasks
-
-![](../../assets/day3_management_analyst_tasks.png){fig-alt="Five tasks performed by management analysts" .r-stretch}
-
-::: {.callout-note}
-AI may affect some tasks without replacing the occupation.
-:::
-
-::: {.notes}
-This image lists five tasks for management analysts from O*NET. Some tasks involve writing or analyzing information. Others require interviews, observation, judgment, and organizational knowledge.
-
-An occupation is not one task. The effect on employment depends on which tasks change, how important those tasks are, and whether demand for the occupation changes.
-
-[Sources]
-O*NET Online, “Management Analysts,” task listing.
-:::
 
 ## Technology Changes Where People Work
 
@@ -139,6 +124,11 @@ The figure shows large reallocation across sectors. It does not show that techno
 [Sources]
 IPUMS USA; US Bureau of Labor Statistics; McKinsey Global Institute analysis.
 :::
+
+## Some Professions Will Be Lost
+### Most common job by U.S. state
+![](../../assets/trucking.png){fig-alt="trucking employment" .r-stretch}
+
 
 ## Automation Can Reduce or Increase Labor Demand
 
@@ -157,7 +147,7 @@ Lower costs can increase output and demand.
 :::
 
 ::: {.column width="33%"}
-### New Tasks
+### New Tasks (Reinstatement)
 
 Technology creates work that people perform.
 :::
@@ -176,7 +166,40 @@ Daron Acemoglu and Pascual Restrepo, “Automation and New Tasks,” Journal of 
 David H. Autor, “Why Are There Still So Many Jobs?” Journal of Economic Perspectives 29, no. 3, 2015.
 :::
 
-## Exposure Measures Possibility, Not Job Loss
+
+## Aggregate Employment Effects of AI
+![](../../assets/effects_balance.jpg){fig-alt="Share of United States employment by sector from 1850 to 2015" .r-stretch}
+
+All else equal, if:
+
+- Displacement $>$ (Productivity + Reinstatment) $\rightarrow$ decreased demand for human labor
+
+- Displacement $<$ (Productivity + Reinstatment) $\rightarrow$ increased demand for human labor
+
+
+# Measuring Job Exposure to AI Displacement {background-color="#041e42"}
+
+## An Occupation Is a Group of Tasks
+- consider the tasks of a **management analyst**
+![](../../assets/day3_management_analyst_tasks.png){fig-alt="Five tasks performed by management analysts" .r-stretch}
+
+- **Discussion**: which of these tasks is most easily done by AI? Rank from most to least AI automatable?
+
+::: {.callout-important appearance="simple" title="Key takeaway"}
+AI may affect some tasks without replacing the occupation.
+:::
+
+::: {.notes}
+This image lists five tasks for management analysts from O*NET. Some tasks involve writing or analyzing information. Others require interviews, observation, judgment, and organizational knowledge.
+
+An occupation is not one task. The effect on employment depends on which tasks change, how important those tasks are, and whether demand for the occupation changes.
+
+[Sources]
+O*NET Online, “Management Analysts,” task listing.
+:::
+
+
+## Exposure Measures Possibility, Not Guaranteed Job Loss
 
 :::: {.columns}
 

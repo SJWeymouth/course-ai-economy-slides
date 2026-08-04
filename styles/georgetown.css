@@ -107,26 +107,6 @@
 .reveal .r-stretch,
 .reveal .stretch {
   max-width: 94%;
-  max-height: 780px;
-}
-
-.reveal .slides section.slide.level2:not(:has(> .callout)) > img.r-stretch {
-  width: auto !important;
-  height: 580px !important;
-  max-width: 94% !important;
-  max-height: 580px !important;
-}
-
-.reveal .slides section.slide.level2:has(> .callout) > img.r-stretch {
-  width: auto !important;
-  height: 420px !important;
-  max-width: 94% !important;
-  max-height: 420px !important;
-}
-
-.reveal .slides section.slide.level2 > img.r-stretch.figure-large {
-  height: 610px !important;
-  max-height: 610px !important;
 }
 
 .reveal .slide-number {
