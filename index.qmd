@@ -17,6 +17,8 @@ This site hosts the course syllabus, slides, and in-class activities.
 - [Day 2: How AI Changes Companies, Software, and Work](slides/day2/ai-business-models-and-integration.html)
 - [Day 3: AI and Jobs](slides/day3/ai-jobs-and-evidence.html)
 - [Day 4: The Energy Footprint of AI](slides/day4/ai-energy-and-sustainability.html)
+- [Day 5: Regulation and Competitiveness](slides/day5/regulation-and-competitiveness.html)
+
 
 ## Activities
 
