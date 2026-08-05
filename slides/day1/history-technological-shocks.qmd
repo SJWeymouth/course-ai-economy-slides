@@ -47,6 +47,13 @@ execute:
 
 # A Brief Review of Technology and the Global Economy {background-color="#041e42"}
 
+## How did we get from this...
+![](../../assets/preindustrial.jpg){fig-alt="Preindustrial consumption" .r-stretch}
+
+## ...to this type of trade?
+![](../../assets/trade.jpg){fig-alt="trade" .r-stretch}
+
+
 ## The First Unbundling {.visual-stage}
 
 ![](../../assets/first_unbundle.jpg){fig-alt="The first unbundling of production and consumption" .r-stretch}
