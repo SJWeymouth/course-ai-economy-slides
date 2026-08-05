@@ -326,9 +326,46 @@
 .reveal .calculator-controls input[type="range"] {
   width: 100%;
   height: 9px;
-  margin: 0.25em 0 0.55em;
+  margin: 0.25em 0 0.15em;
   accent-color: var(--gt-blue);
   cursor: pointer;
+}
+
+.reveal .grid-reference-scale {
+  position: relative;
+  height: 1.45em;
+  margin-bottom: 0.35em;
+  color: #65717d;
+  font-size: 0.53em;
+  line-height: 1.1;
+}
+
+.reveal .grid-reference {
+  position: absolute;
+  top: 0.2em;
+  white-space: nowrap;
+}
+
+.reveal .grid-reference::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 0.42em;
+  margin: -0.2em auto 0.15em;
+  background: #9cadc4;
+}
+
+.reveal .grid-reference-switzerland {
+  left: 0;
+}
+
+.reveal .grid-reference-switzerland::before {
+  margin-left: 0.3em;
+}
+
+.reveal .grid-reference-us {
+  left: 41.1%;
+  transform: translateX(-50%);
 }
 
 .reveal .calculator-formula {

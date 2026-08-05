@@ -170,8 +170,12 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
     <div class="calculator-intro">Try a <strong>10-message text session</strong>, then change the assumptions.</div>
     <label for="session-messages">Messages in the session <output id="session-messages-value">10</output></label>
     <input id="session-messages" type="range" min="1" max="50" step="1" value="10">
-    <label for="session-grid">Grid carbon intensity <output id="session-grid-value">394 g CO₂/kWh</output></label>
-    <input id="session-grid" type="range" min="25" max="900" step="1" value="394">
+    <label for="session-grid">Grid carbon intensity <output id="session-grid-value">385 g CO₂/kWh</output></label>
+    <input id="session-grid" type="range" min="25" max="900" step="1" value="385">
+    <div class="grid-reference-scale" aria-label="Annual national reference values">
+      <span class="grid-reference grid-reference-switzerland">Switzerland ≈ 40</span>
+      <span class="grid-reference grid-reference-us">U.S. ≈ 385</span>
+    </div>
     <div class="calculator-formula">
       messages × <strong>0.3 Wh</strong> per text query × grid intensity ÷ 1,000
     </div>
@@ -180,7 +184,8 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
     <div class="calculator-result-label">Estimated session emissions</div>
     <div><span id="session-carbon">1.2</span> <span class="calculator-unit">g CO₂</span></div>
     <div class="calculator-comparison">
-      About <strong id="session-home-equivalent">3.5 million</strong> sessions emit as much CO₂ as one year of electricity for an average U.S. home <strong>(≈ <span id="session-home-carbon">4.1</span> t)</strong>.
+      A fixed U.S. benchmark: one average home's annual electricity emits <strong>≈ 4.0 t CO₂</strong>.<br>
+      That equals about <strong id="session-home-equivalent">3.5 million</strong> sessions at the selected grid intensity.
     </div>
   </div>
 </div>
@@ -197,12 +202,11 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
     const gridIntensity = Number(grid.value);
     const sessionKWh = messageCount * 0.3 / 1000;
     const carbonGrams = sessionKWh * gridIntensity;
-    const equivalentSessions = 10500 / sessionKWh;
-    const homeCarbonTonnes = 10500 * gridIntensity / 1000000;
+    const fixedHomeCarbonGrams = 10500 * 385;
+    const equivalentSessions = fixedHomeCarbonGrams / carbonGrams;
     document.getElementById('session-messages-value').textContent = messageCount.toLocaleString();
     document.getElementById('session-grid-value').textContent = `${gridIntensity.toLocaleString()} g CO₂/kWh`;
     document.getElementById('session-carbon').textContent = carbonGrams < 10 ? carbonGrams.toFixed(1) : Math.round(carbonGrams).toLocaleString();
-    document.getElementById('session-home-carbon').textContent = homeCarbonTonnes.toFixed(1);
     const millions = equivalentSessions / 1000000;
     document.getElementById('session-home-equivalent').textContent = millions >= 1
       ? `${millions.toFixed(1)} million`
@@ -222,16 +226,18 @@ The calculation is:
 
 10 messages × 0.3 Wh per typical text query = 3 Wh = 0.003 kWh.
 
-0.003 kWh × 394 g CO₂/kWh = about 1.2 g CO₂.
+0.003 kWh × 385 g CO₂/kWh = about 1.2 g CO₂.
 
-The household comparison uses 10,500 kWh per year. At 394 g CO₂/kWh, that electricity emits about 4.1 metric tonnes of CO₂. At ten messages per session, 10,500 kWh divided by 0.003 kWh is about 3.5 million sessions. This compares electricity-related emissions only; household heating, transport, food, and other emissions are excluded.
+The household benchmark is now fixed rather than moving with the slider. It uses 10,500 kWh per year and a U.S. annual grid intensity of about 385 g CO₂/kWh, producing roughly 4.0 metric tonnes of CO₂. At the default setting, that equals about 3.5 million ten-message sessions. On a cleaner grid, session emissions fall and more sessions are required to reach the fixed benchmark; on a dirtier grid, fewer are required. This comparison covers electricity-related emissions only; household heating, transport, food, and other emissions are excluded.
+
+The country labels are rounded 2025 annual national averages from Ember's Yearly Electricity Data, processed by Our World in Data: Switzerland 39.2 g CO₂/kWh and the United States 384.4 g CO₂/kWh. They are reference points, not claims about the electricity serving a particular data center. Carbon intensity varies within countries and across hours, and accounting methods can differ.
 
 Stress the uncertainty. The 0.3 Wh figure is a modeled estimate for a typical GPT-4o text query, not a direct OpenAI measurement. Epoch AI estimates that a query with a 10,000-token input could use about 2.5 Wh and a 100,000-token input almost 40 Wh. Reasoning, image, video, voice, tool use, and upstream training or hardware emissions are not included here.
 
 The teaching point is not that individual use is irrelevant. It is that the marginal footprint of a short text exchange is small, while aggregate demand depends on billions of queries, heavier tasks, and the carbon intensity of the electricity supply.
 
 [Sources]
-OpenAI Academy, "Environmental Impact of AI," updated June 2026; Epoch AI, "How Much Energy Does ChatGPT Use?" February 2025; U.S. Energy Information Administration, "Electricity Use in Homes," 2023; U.S. EPA, Greenhouse Gas Equivalencies Calculator: Calculations and References, 2024; IEA, Key Questions on Energy and AI, Executive Summary, 2026.
+OpenAI Academy, "Environmental Impact of AI," updated June 2026; Epoch AI, "How Much Energy Does ChatGPT Use?" February 2025; U.S. Energy Information Administration, "Electricity Use in Homes," 2023; Our World in Data, "Lifecycle Carbon Intensity of Electricity," based on Ember Yearly Electricity Data, 2026; IEA, Key Questions on Energy and AI, Executive Summary, 2026.
 :::
 
 ## The Bottleneck Is Now the Power Grid {.photo-title background-image="../../assets/electrical_substation.jpg" background-size="cover" background-position="center"}
