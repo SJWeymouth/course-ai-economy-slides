@@ -167,30 +167,32 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
 ```{=html}
 <div class="session-calculator" id="session-calculator">
   <div class="calculator-controls">
-    <div class="calculator-intro">Try a <strong>10-message text session</strong>, then change the assumptions.</div>
-    <label for="session-messages">Messages in the session <output id="session-messages-value">10</output></label>
-    <input id="session-messages" type="range" min="1" max="50" step="1" value="10">
+    <div class="calculator-intro">Model a <strong>60-minute enterprise work session</strong>, then vary the message volume.</div>
+    <label for="session-messages">Messages during the hour <output id="session-messages-value">60</output></label>
+    <input id="session-messages" type="range" min="10" max="200" step="5" value="60">
     <label for="session-grid">Grid carbon intensity <output id="session-grid-value">385 g CO₂/kWh</output></label>
-    <input id="session-grid" type="range" min="25" max="900" step="1" value="385">
+    <input id="session-grid" type="range" min="25" max="1000" step="1" value="385">
     <div class="grid-reference-scale" aria-label="Annual national reference values">
       <span class="grid-reference grid-reference-switzerland">Switzerland ≈ 40</span>
       <span class="grid-reference grid-reference-us">U.S. ≈ 385</span>
+      <span class="grid-reference grid-reference-high">Kazakhstan ≈ 805 · Mongolia ≈ 816</span>
+      <span class="grid-reference grid-reference-max">Uzbekistan ≈ 1,000</span>
     </div>
     <div class="calculator-formula">
-      messages × <strong>0.3 Wh</strong> per text query × grid intensity ÷ 1,000
+      messages × <strong>0.3 Wh</strong> per short text query × grid intensity ÷ 1,000
     </div>
   </div>
   <div class="calculator-result" aria-live="polite">
     <div class="calculator-result-label">Estimated session emissions</div>
-    <div><span id="session-carbon">1.2</span> <span class="calculator-unit">g CO₂</span></div>
+    <div><span id="session-carbon">6.9</span> <span class="calculator-unit">g CO₂</span></div>
     <div class="calculator-comparison">
       A fixed U.S. benchmark: one average home's annual electricity emits <strong>≈ 4.0 t CO₂</strong>.<br>
-      That equals about <strong id="session-home-equivalent">3.5 million</strong> sessions at the selected grid intensity.
+      That equals about <strong id="session-home-equivalent">583,333</strong> sessions at the selected grid intensity.
     </div>
   </div>
 </div>
 
-<div class="calculator-takeaway">One text session is small. At global scale—and for long inputs or reasoning—the total can become large.</div>
+<div class="calculator-takeaway">An hour of short-text prompting remains modest. Long documents, reasoning, and tools can raise it sharply.</div>
 
 <script>
 (() => {
@@ -220,19 +222,19 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
 ```
 
 ::: {.notes}
-Ask students how many messages were in their most recent ChatGPT conversation, then move the first slider. The default is an illustrative 10-message session, not a published average: OpenAI does not publish a universal session length.
+Ask students how many messages they might exchange with an AI system during an hour of focused work, then move the first slider. The default is an illustrative 60-message enterprise session, not a published average: OpenAI does not publish a universal session length. Duration itself does not enter the inference estimate; the message count is a transparent proxy for activity within a fixed 60-minute window. The slider spans 10–200 messages, from one message every six minutes to a little over three messages per minute.
 
 The calculation is:
 
-10 messages × 0.3 Wh per typical text query = 3 Wh = 0.003 kWh.
+60 messages × 0.3 Wh per typical short text query = 18 Wh = 0.018 kWh.
 
-0.003 kWh × 385 g CO₂/kWh = about 1.2 g CO₂.
+0.018 kWh × 385 g CO₂/kWh = about 6.9 g CO₂.
 
-The household benchmark is now fixed rather than moving with the slider. It uses 10,500 kWh per year and a U.S. annual grid intensity of about 385 g CO₂/kWh, producing roughly 4.0 metric tonnes of CO₂. At the default setting, that equals about 3.5 million ten-message sessions. On a cleaner grid, session emissions fall and more sessions are required to reach the fixed benchmark; on a dirtier grid, fewer are required. This comparison covers electricity-related emissions only; household heating, transport, food, and other emissions are excluded.
+The household benchmark is fixed rather than moving with the slider. It uses 10,500 kWh per year and a U.S. annual grid intensity of about 385 g CO₂/kWh, producing roughly 4.0 metric tonnes of CO₂. At the default setting, that equals about 583,000 hour-long, 60-message sessions. On a cleaner grid, session emissions fall and more sessions are required to reach the fixed benchmark; on a dirtier grid, fewer are required. This comparison covers electricity-related emissions only; household heating, transport, food, and other emissions are excluded.
 
-The country labels are rounded 2025 annual national averages from Ember's Yearly Electricity Data, processed by Our World in Data: Switzerland 39.2 g CO₂/kWh and the United States 384.4 g CO₂/kWh. They are reference points, not claims about the electricity serving a particular data center. Carbon intensity varies within countries and across hours, and accounting methods can differ.
+The slider now spans 25–1,000 g CO₂/kWh, closely bracketing the country values available for 2025 in Ember's Yearly Electricity Data, processed by Our World in Data. The labels are rounded annual national averages: Switzerland 39.2, the United States 384.4, Kazakhstan 805.3, Mongolia 816.3, and Uzbekistan 1,000 g CO₂/kWh. The far right therefore represents unusually carbon-intensive, fossil-heavy electricity systems rather than a hypothetical value. These are reference points, not claims about the electricity serving a particular data center. Carbon intensity varies within countries and across hours, and accounting methods can differ.
 
-Stress the uncertainty. The 0.3 Wh figure is a modeled estimate for a typical GPT-4o text query, not a direct OpenAI measurement. Epoch AI estimates that a query with a 10,000-token input could use about 2.5 Wh and a 100,000-token input almost 40 Wh. Reasoning, image, video, voice, tool use, and upstream training or hardware emissions are not included here.
+Stress the uncertainty. The 0.3 Wh figure is a modeled estimate for a typical GPT-4o short-text query, not a direct OpenAI measurement. Enterprise work often uses longer context, uploaded documents, reasoning, tool calls, image generation, or coding agents, so message count alone can understate energy use. Epoch AI estimates that a query with a 10,000-token input could use about 2.5 Wh and a 100,000-token input almost 40 Wh. Voice, upstream training, and hardware emissions are not included here.
 
 The teaching point is not that individual use is irrelevant. It is that the marginal footprint of a short text exchange is small, while aggregate demand depends on billions of queries, heavier tasks, and the carbon intensity of the electricity supply.
 

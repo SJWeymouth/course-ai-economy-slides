@@ -333,25 +333,26 @@
 
 .reveal .grid-reference-scale {
   position: relative;
-  height: 1.45em;
-  margin-bottom: 0.35em;
+  height: 2.65em;
+  margin-bottom: 0.2em;
   color: #65717d;
-  font-size: 0.53em;
-  line-height: 1.1;
+  font-size: 0.5em;
+  line-height: 1.05;
 }
 
 .reveal .grid-reference {
   position: absolute;
-  top: 0.2em;
+  top: 0.25em;
   white-space: nowrap;
 }
 
 .reveal .grid-reference::before {
   content: "";
-  display: block;
+  position: absolute;
+  bottom: calc(100% + 0.1em);
+  left: 50%;
   width: 1px;
-  height: 0.42em;
-  margin: -0.2em auto 0.15em;
+  height: 0.38em;
   background: #9cadc4;
 }
 
@@ -360,12 +361,32 @@
 }
 
 .reveal .grid-reference-switzerland::before {
-  margin-left: 0.3em;
+  left: 0.3em;
 }
 
 .reveal .grid-reference-us {
-  left: 41.1%;
+  left: 36.9%;
   transform: translateX(-50%);
+}
+
+.reveal .grid-reference-high {
+  top: 1.35em;
+  left: 80.6%;
+  transform: translateX(-50%);
+}
+
+.reveal .grid-reference-high::before {
+  height: 1.48em;
+}
+
+.reveal .grid-reference-max {
+  right: 0;
+  text-align: right;
+}
+
+.reveal .grid-reference-max::before {
+  right: 0.3em;
+  left: auto;
 }
 
 .reveal .calculator-formula {
