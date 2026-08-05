@@ -67,35 +67,13 @@ Set up the day in one line: we move from the global energy picture, to one compa
 IEA, Key Questions on Energy and AI, 2025–26; Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024.
 :::
 
-## AI's Environmental Effect Has Two Sides
-
-**Net environmental effect = Costs − Benefits**
-
-:::: {.columns}
-
-::: {.column width="48%"}
-### Costs
-
-- **T**raining and **I**nference energy
-- **R**esource extraction: minerals, land, water
-- **W**aste, heat, and pollution
-:::
-
-::: {.column width="48%"}
-### Benefits
-
-- **O**ptimizing energy and industry
-- **M**onitoring emissions and nature
-- **S**upporting clean-tech innovation
-:::
-
-::::
+## AI Consumes Energy. Can It Save More Than It Uses? {.center .question-slide}
 
 ::: {.notes}
-This is the simple frame for the whole day, carried over from last year. AI has an environmental cost and an environmental benefit. The net effect is what matters, and it is uncertain. Ask students to keep filling in both sides as we go.
+Open with the tension that organizes the day. AI infrastructure has a direct environmental footprint. AI applications may also reduce energy use and emissions elsewhere. We cannot answer the question by looking at only one side, and we should not assume that potential benefits will automatically materialize.
 
 [Sources]
-Course materials, Day 3–4 (2025); IEA, Key Questions on Energy and AI, 2025–26.
+IEA, Key Questions on Energy and AI, Executive Summary, 2026; course materials, Day 3–4, 2025.
 :::
 
 # AI's Energy Demand {background-color="#041e42"}
@@ -184,41 +162,76 @@ Concrete image: by 2027 a single rack, about the size of a refrigerator, can dra
 IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
 :::
 
-## Each Task Is Cheaper, but We Run Far More
+## How Much Carbon Does a ChatGPT Session Emit?
 
-:::: {.columns}
+```{=html}
+<div class="session-calculator" id="session-calculator">
+  <div class="calculator-controls">
+    <div class="calculator-intro">Try a <strong>10-message text session</strong>, then change the assumptions.</div>
+    <label for="session-messages">Messages in the session <output id="session-messages-value">10</output></label>
+    <input id="session-messages" type="range" min="1" max="50" step="1" value="10">
+    <label for="session-grid">Grid carbon intensity <output id="session-grid-value">394 g CO₂/kWh</output></label>
+    <input id="session-grid" type="range" min="25" max="900" step="1" value="394">
+    <div class="calculator-formula">
+      messages × <strong>0.3 Wh</strong> per text query × grid intensity ÷ 1,000
+    </div>
+  </div>
+  <div class="calculator-result" aria-live="polite">
+    <div class="calculator-result-label">Estimated session emissions</div>
+    <div><span id="session-carbon">1.2</span> <span class="calculator-unit">g CO₂</span></div>
+    <div class="calculator-comparison">
+      About <strong id="session-home-equivalent">3.5 million</strong> sessions emit as much CO₂ as one year of electricity for an average U.S. home <strong>(≈ <span id="session-home-carbon">4.1</span> t)</strong>.
+    </div>
+  </div>
+</div>
 
-::: {.column width="48%"}
-::: {.metric}
-÷10
-:::
+<div class="calculator-takeaway">One text session is small. At global scale—and for long inputs or reasoning—the total can become large.</div>
 
-::: {.metric-label}
-energy per AI task, roughly, each year
-:::
-:::
-
-::: {.column width="48%"}
-::: {.metric .secondary}
-×100–1000
-:::
-
-::: {.metric-label}
-energy for video and reasoning versus a text query
-:::
-:::
-
-::::
-
-::: {.callout-important}
-Efficiency is improving, but rising use is outpacing it.
-:::
+<script>
+(() => {
+  const messages = document.getElementById('session-messages');
+  const grid = document.getElementById('session-grid');
+  if (!messages || !grid) return;
+  const update = () => {
+    const messageCount = Number(messages.value);
+    const gridIntensity = Number(grid.value);
+    const sessionKWh = messageCount * 0.3 / 1000;
+    const carbonGrams = sessionKWh * gridIntensity;
+    const equivalentSessions = 10500 / sessionKWh;
+    const homeCarbonTonnes = 10500 * gridIntensity / 1000000;
+    document.getElementById('session-messages-value').textContent = messageCount.toLocaleString();
+    document.getElementById('session-grid-value').textContent = `${gridIntensity.toLocaleString()} g CO₂/kWh`;
+    document.getElementById('session-carbon').textContent = carbonGrams < 10 ? carbonGrams.toFixed(1) : Math.round(carbonGrams).toLocaleString();
+    document.getElementById('session-home-carbon').textContent = homeCarbonTonnes.toFixed(1);
+    const millions = equivalentSessions / 1000000;
+    document.getElementById('session-home-equivalent').textContent = millions >= 1
+      ? `${millions.toFixed(1)} million`
+      : Math.round(equivalentSessions).toLocaleString();
+  };
+  messages.addEventListener('input', update);
+  grid.addEventListener('input', update);
+  update();
+})();
+</script>
+```
 
 ::: {.notes}
-This corrects a common shorthand that "AI power use doubles every year." Individual tasks are getting much cheaper. But we are asking AI to do far more, and far heavier, work. Total demand keeps rising. This is a rebound effect: cheaper units, many more units.
+Ask students how many messages were in their most recent ChatGPT conversation, then move the first slider. The default is an illustrative 10-message session, not a published average: OpenAI does not publish a universal session length.
+
+The calculation is:
+
+10 messages × 0.3 Wh per typical text query = 3 Wh = 0.003 kWh.
+
+0.003 kWh × 394 g CO₂/kWh = about 1.2 g CO₂.
+
+The household comparison uses 10,500 kWh per year. At 394 g CO₂/kWh, that electricity emits about 4.1 metric tonnes of CO₂. At ten messages per session, 10,500 kWh divided by 0.003 kWh is about 3.5 million sessions. This compares electricity-related emissions only; household heating, transport, food, and other emissions are excluded.
+
+Stress the uncertainty. The 0.3 Wh figure is a modeled estimate for a typical GPT-4o text query, not a direct OpenAI measurement. Epoch AI estimates that a query with a 10,000-token input could use about 2.5 Wh and a 100,000-token input almost 40 Wh. Reasoning, image, video, voice, tool use, and upstream training or hardware emissions are not included here.
+
+The teaching point is not that individual use is irrelevant. It is that the marginal footprint of a short text exchange is small, while aggregate demand depends on billions of queries, heavier tasks, and the carbon intensity of the electricity supply.
 
 [Sources]
-IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+OpenAI Academy, "Environmental Impact of AI," updated June 2026; Epoch AI, "How Much Energy Does ChatGPT Use?" February 2025; U.S. Energy Information Administration, "Electricity Use in Homes," 2023; U.S. EPA, Greenhouse Gas Equivalencies Calculator: Calculations and References, 2024; IEA, Key Questions on Energy and AI, Executive Summary, 2026.
 :::
 
 ## The Bottleneck Is Now the Power Grid {.photo-title background-image="../../assets/electrical_substation.jpg" background-size="cover" background-position="center"}
@@ -308,6 +321,49 @@ Return to the ledger. Data-center emissions roughly double by 2035. At the same 
 
 [Sources]
 IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
+:::
+
+## AI's Net Environmental Impact Is Not Fixed
+
+:::: {.columns .impact-ledger}
+
+::: {.column width="48%"}
+### Direct footprint {.observed-impact}
+
+- Training and inference electricity
+- Construction, chips, minerals, water, and land
+- Heat, noise, backup generation, pollution, and e-waste
+:::
+
+::: {.column width="48%"}
+### Potential avoided impacts {.conditional-impact}
+
+- More efficient grids and industrial processes
+- Environmental monitoring and mitigation
+- Clean-energy and climate innovation
+:::
+
+::::
+
+::: {.impact-callout}
+Direct costs occur when infrastructure is built and operated. Benefits depend on adoption, additionality, and whether efficiency increases total use.
+:::
+
+::: {.impact-factors}
+**Net outcome depends on:** scale · power mix · location · application · rebound effects · who pays
+:::
+
+::: {.notes}
+This is the synthesis slide. The previous slides established the direct footprint and the possible energy savings. Now distinguish certainty and timing: the infrastructure footprint occurs as systems are built and used, while many downstream environmental benefits remain conditional.
+
+Do not treat this as a literal arithmetic equation. Electricity, carbon, water, land, noise, and ecosystem effects have different units and different locations. A credible net assessment requires a defined outcome, place, time period, and counterfactual.
+
+Connect the final factor—who pays—to the next two parts of the day. Microsoft's corporate claims raise the question of whether company-level accounting captures enabled fossil-fuel emissions. The town hall raises the local distributional question: who receives the benefits, and who bears grid, water, noise, and reliability costs?
+
+The earlier T-I-R-W and O-M-S notation is omitted from both the visible slide and the activity handout. The direct-footprint/potential-benefit distinction preserves the idea without adding a second vocabulary for students to decode.
+
+[Sources]
+IEA, Key Questions on Energy and AI, Executive Summary, 2026; Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024; Day 4 activity, "Town Hall: Siting a 100 MW AI Data Center"; course materials, Day 3–4, 2025.
 :::
 
 # Corporate Promises and Local Costs {background-color="#041e42"}
@@ -436,16 +492,53 @@ Should Riverton approve the project, and on what conditions?
 :::
 
 ::: {.notes}
-Purpose: give students the experience of a real infrastructure decision with competing interests, and a working model of the simulation they must design themselves. This is a public hearing, the same format as the final project, and the proposal is due today.
+Purpose: give students the experience of a real infrastructure decision with competing interests, and a working model of the simulation they must design themselves. A public hearing is one of the formats available for the final project, and the proposal is due today.
 
-Do not read the handout aloud. Students have the full factsheet and role cards. Roles include the developer, the utility and grid operator, the city council, residents and ratepayers, an environmental and water coalition, a labor and economic-development coalition, and major local institutions.
+Do not read the handout aloud. Students have the common factsheet and five role cards: the developer; the utility and grid operator; the city council; a neighborhood, ratepayer, and environmental coalition; and a jobs, business, and local-institutions coalition.
 
-Conditions the council can attach include developer-funded grid upgrades, hourly clean-power matching instead of annual, water limits, and public disclosure. These are the same levers from the IEA reading this morning.
+Conditions the council can attach include developer-funded grid upgrades, hourly clean-power matching instead of annual, water limits, and public disclosure. These are the same levers from the IEA reading this morning. The council may select no more than three major conditions, forcing it to prioritize.
 
-Timing: about 10 minutes to prepare, then about 25 minutes for the hearing (one-minute openings, questioning, private coalition-building, then the council decides and explains).
+Timing: 10 minutes to prepare, then 25 minutes for the hearing: four one-minute stakeholder openings; 10 minutes of council questioning and public negotiation; five minutes of private coalition-building; two minutes of revised offers; and four minutes for the council's decision and explanation. The council listens rather than giving an opening statement.
 
 [Sources]
 Day 4 activity, "Town Hall: A 100 MW AI Data Center"; course final-project brief. Photograph from the course image library (instructor-provided).
+:::
+
+## Riverton Must Make One Decision
+
+:::: {.columns}
+
+::: {.column width="46%"}
+### Four possible outcomes
+
+1. **Approve**
+2. **Approve with conditions**
+3. **Delay**
+4. **Reject**
+:::
+
+::: {.column width="50%"}
+### If approval is conditional
+
+- Choose **no more than three** major conditions
+- State **who pays**
+- Set a **measurable requirement**
+- Name the **monitor and consequence**
+:::
+
+::::
+
+::: {.callout-important}
+The developer may accept the final package—or withdraw the project.
+:::
+
+::: {.notes}
+Leave this slide projected during preparation and the hearing. Scarcity is deliberate: without a limit, the council could demand every attractive safeguard and avoid making trade-offs.
+
+The council has final authority. A conditional approval is not complete unless each condition identifies the payer, the performance standard, the monitor, and the consequence for noncompliance. After the council announces its package, the developer must say whether it accepts or withdraws.
+
+[Sources]
+Day 4 activity, "Town Hall: A 100 MW AI Data Center"; course final-project brief.
 :::
 
 ## Debrief
@@ -488,7 +581,7 @@ Course final-project brief.
 ## Day 4 Takeaways
 
 1. AI's energy demand is large, fast-growing, and concentrated on local grids.
-2. Each task is getting cheaper, but total use keeps rising.
+2. A short text exchange has a small footprint, but scale, task intensity, and the power mix determine the total.
 3. Corporate accounting can hide the footprint, especially Scope 3.
 4. The hardest choices are local: power, water, cost, and consent.
 

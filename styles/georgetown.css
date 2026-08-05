@@ -286,6 +286,158 @@
   background: #9cadc4;
 }
 
+/* Day 4 interactive emissions calculator */
+
+.reveal .session-calculator {
+  display: grid;
+  grid-template-columns: 47% 49%;
+  gap: 4%;
+  align-items: center;
+  min-height: 465px;
+}
+
+.reveal .calculator-controls {
+  padding-right: 1.15em;
+  border-right: 2px solid var(--gt-pale-blue);
+}
+
+.reveal .calculator-intro {
+  margin-bottom: 0.9em;
+  color: #3d4854;
+  font-size: 0.82em;
+}
+
+.reveal .calculator-controls label {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin: 0.7em 0 0.2em;
+  color: var(--gt-navy);
+  font-size: 0.76em;
+  font-weight: 650;
+}
+
+.reveal .calculator-controls output {
+  color: var(--gt-blue);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.reveal .calculator-controls input[type="range"] {
+  width: 100%;
+  height: 9px;
+  margin: 0.25em 0 0.55em;
+  accent-color: var(--gt-blue);
+  cursor: pointer;
+}
+
+.reveal .calculator-formula {
+  margin-top: 0.8em;
+  padding-top: 0.65em;
+  color: #55616d;
+  border-top: 1px solid var(--gt-pale-blue);
+  font-size: 0.68em;
+  line-height: 1.35;
+}
+
+.reveal .calculator-result {
+  color: var(--gt-navy);
+  text-align: center;
+}
+
+.reveal .calculator-result-label {
+  margin-bottom: 0.25em;
+  color: #5d6874;
+  font-size: 0.75em;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reveal #session-carbon {
+  color: var(--gt-blue);
+  font-size: 3.65em;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.reveal .calculator-unit {
+  color: var(--gt-navy);
+  font-size: 1.15em;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.reveal .calculator-comparison {
+  max-width: 90%;
+  margin: 0.9em auto 0;
+  padding-top: 0.7em;
+  color: #303942;
+  border-top: 1px solid var(--gt-pale-blue);
+  font-size: 0.78em;
+  line-height: 1.35;
+}
+
+.reveal .calculator-takeaway {
+  margin-top: 0.35em;
+  padding: 0.45em 0.65em;
+  color: var(--gt-navy);
+  background: var(--gt-paper);
+  border-left: 5px solid var(--gt-taupe);
+  font-size: 0.78em;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Day 4 environmental-impact synthesis */
+
+.reveal .impact-ledger {
+  align-items: flex-start;
+}
+
+.reveal .impact-ledger .column + .column {
+  padding-left: 1.2em;
+  border-left: 2px dashed #9cadc4;
+}
+
+.reveal .impact-ledger h3 {
+  margin-bottom: 0.6em;
+}
+
+.reveal .impact-ledger h3.observed-impact {
+  color: var(--gt-navy);
+}
+
+.reveal .impact-ledger h3.conditional-impact {
+  color: var(--gt-blue);
+}
+
+.reveal .impact-ledger li {
+  margin-bottom: 0.42em;
+}
+
+.reveal .impact-callout {
+  margin-top: 0.75em;
+  padding: 0.55em 0.65em;
+  color: #26323d;
+  background: var(--gt-paper);
+  border-left: 5px solid var(--gt-taupe);
+  font-size: 0.78em;
+  line-height: 1.32;
+}
+
+.reveal .impact-callout p,
+.reveal .impact-factors p {
+  margin: 0;
+}
+
+.reveal .impact-factors {
+  margin-top: 0.55em;
+  color: var(--gt-navy);
+  font-size: 0.72em;
+  text-align: center;
+}
+
 @media print {
   .reveal .footer {
     color: #777f87 !important;
