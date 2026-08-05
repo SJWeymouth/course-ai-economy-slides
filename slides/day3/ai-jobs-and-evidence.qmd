@@ -418,28 +418,28 @@ The study’s preferred models report a sizable relative decline for young worke
 Brynjolfsson, Chandar, and Chen, “Canaries in the Coal Mine?” November 2025, Figure 2.
 :::
 
-## Automation and Assistance Show Different Patterns
+<!-- ## Automation and Assistance Show Different Patterns -->
 
-:::: {.columns}
+<!-- :::: {.columns} -->
 
-::: {.column width="50%"}
-![](../../assets/day3_canaries_automation-28.png){fig-alt="Employment trends in occupations where AI is used for automation" width="100%"}
-:::
+<!-- ::: {.column width="50%"} -->
+<!-- ![](../../assets/day3_canaries_automation-28.png){fig-alt="Employment trends in occupations where AI is used for automation" width="100%"} -->
+<!-- ::: -->
 
-::: {.column width="50%"}
-![](../../assets/day3_canaries_augmentation-28.png){fig-alt="Employment trends in occupations where AI is used to assist workers" width="100%"}
-:::
+<!-- ::: {.column width="50%"} -->
+<!-- ![](../../assets/day3_canaries_augmentation-28.png){fig-alt="Employment trends in occupations where AI is used to assist workers" width="100%"} -->
+<!-- ::: -->
 
-::::
+<!-- :::: -->
 
-::: {.notes}
-The authors separate occupations where generative AI is more likely to automate tasks from occupations where it is more likely to assist workers. Employment declines are concentrated in the automation group.
+<!-- ::: {.notes} -->
+<!-- The authors separate occupations where generative AI is more likely to automate tasks from occupations where it is more likely to assist workers. Employment declines are concentrated in the automation group. -->
 
-This distinction supports an AI interpretation because it connects the type of use to the employment pattern. It still relies on occupation-level classifications rather than direct observation of each firm’s AI use.
+<!-- This distinction supports an AI interpretation because it connects the type of use to the employment pattern. It still relies on occupation-level classifications rather than direct observation of each firm’s AI use. -->
 
-[Sources]
-Brynjolfsson, Chandar, and Chen, “Canaries in the Coal Mine?” November 2025, Figure 3.
-:::
+<!-- [Sources] -->
+<!-- Brynjolfsson, Chandar, and Chen, “Canaries in the Coal Mine?” November 2025, Figure 3. -->
+<!-- ::: -->
 
 
 # Activity: AI and Entry-Level Hiring {background-color="#041e42"}
@@ -533,7 +533,7 @@ The chart also demonstrates why evidence sources matter. Job postings measure em
 Economic Innovation Group, “Looking for the Ladder,” January 2026, Chart 2.
 :::
 
-## The Stanford Reply Narrows the Timing
+## The Stanford Reply
 
 :::: {.columns}
 
@@ -553,10 +553,6 @@ Economic Innovation Group, “Looking for the Ladder,” January 2026, Chart 2.
 - The controlled decline becomes significant in 2024
 :::
 
-::::
-
-::: {.callout-note}
-The debate is about how much of the recent decline can be attributed to AI.
 :::
 
 ::: {.notes}
@@ -597,7 +593,7 @@ Humlum and Vestergaard, “Large Language Models, Small Labor Market Effects,”
 ::: {.column width="48%"}
 ### Supported
 
-- AI exposure is widespread but uneven
+- Job exposure to AI is widespread
 - Some highly exposed US occupations show weaker early-career employment
 - AI is already changing tasks and work practices
 :::
@@ -621,33 +617,33 @@ Synthesis of the assigned Day 3 readings.
 
 
 
-## Guest Discussion
+<!-- ## Guest Discussion -->
 
-:::: {.columns}
+<!-- :::: {.columns} -->
 
-::: {.column width="38%"}
-### Larissa Zutter
+<!-- ::: {.column width="38%"} -->
+<!-- ### Larissa Zutter -->
 
-AI Growth and Success Manager\
-Peak Privacy
+<!-- AI Growth and Success Manager\ -->
+<!-- Peak Privacy -->
 
-Board Member\
-Center for AI and Digital Policy
-:::
+<!-- Board Member\ -->
+<!-- Center for AI and Digital Policy -->
+<!-- ::: -->
 
-::: {.column width="58%"}
-### Some Possible Questions for Discussion
+<!-- ::: {.column width="58%"} -->
+<!-- ### Some Possible Questions for Discussion -->
 
-- How is AI changing early-career work?
-- Which skills are becoming more valuable?
-- Who is responsible when AI-supported work causes harm?
-:::
+<!-- - How is AI changing early-career work? -->
+<!-- - Which skills are becoming more valuable? -->
+<!-- - Who is responsible when AI-supported work causes harm? -->
+<!-- ::: -->
 
-::::
+<!-- :::: -->
 
-::: {.notes}
-Introduce Larissa Zutter and connect the discussion to the day’s evidence. Invite students to ask about the practical difference between AI capability and adoption, how privacy and governance affect workplace use, and what early-career workers can do to build complementary skills.
-:::
+<!-- ::: {.notes} -->
+<!-- Introduce Larissa Zutter and connect the discussion to the day’s evidence. Invite students to ask about the practical difference between AI capability and adoption, how privacy and governance affect workplace use, and what early-career workers can do to build complementary skills. -->
+<!-- ::: -->
 
 ## Day 3 Takeaways
 
