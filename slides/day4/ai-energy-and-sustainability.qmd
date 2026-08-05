@@ -1,6 +1,6 @@
 ---
 title: "The Energy Footprint of AI"
-subtitle: "Day 4 · Sustainability and Energy"
+subtitle: ""
 author: "Stephen Weymouth"
 date: ""
 format:
@@ -54,7 +54,7 @@ Do corporate climate promises hold up?
 :::
 
 ::: {.metric-label}
-Who pays the local costs, and who decides?
+Who pays the environmental costs?
 :::
 :::
 
@@ -100,14 +100,14 @@ Course materials, Day 3–4 (2025); IEA, Key Questions on Energy and AI, 2025–
 
 # AI's Energy Demand {background-color="#041e42"}
 
-## Inside a Data Centre {.photo-title background-image="../../assets/data_hall.jpg" background-size="cover" background-position="center"}
+## Inside a Data center {.photo-title background-image="../../assets/data_hall.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
 Rows of servers run and are cooled around the clock.
 :::
 
 ::: {.notes}
-Use this to make "a data centre" concrete before the numbers. Each rack holds many servers that run continuously and must be cooled continuously. Ask students what they think uses more power: training a model once, or running it for millions of users every day. (Increasingly, it is the running.)
+Use this to make "a data center" concrete before the numbers. Each rack holds many servers that run continuously and must be cooled continuously. Ask students what they think uses more power: training a model once, or running it for millions of users every day. (Increasingly, it is the running.)
 
 [Sources]
 Photograph from the course image library (instructor-provided). Confirm final credit before publishing.
@@ -120,18 +120,18 @@ Photograph from the course image library (instructor-provided). Confirm final cr
 ::: {.notes}
 Each dot is a frontier model. The vertical axis is the power needed to train it, on a log scale. Training power has risen by orders of magnitude, from hundreds of watts to over 100 million watts for the largest recent models.
 
-Clarify: this is training power, not the total electricity a data centre uses. It shows the direction of travel, not the full footprint.
+Clarify: this is training power, not the total electricity a data center uses. It shows the direction of travel, not the full footprint.
 
 [Sources]
 Epoch AI, 2026; chart from the 2026 AI Index Report (Stanford HAI).
 :::
 
-## Data-Centre Electricity Roughly Doubles by 2030 {.visual-stage}
+## Data-center Electricity Roughly Doubles by 2030 {.visual-stage}
 
-![](../../assets/day4_datacenter_electricity.png){fig-alt="Bar chart showing global data-centre electricity rising from about 485 terawatt-hours in 2025 to about 945 terawatt-hours in 2030" .r-stretch}
+![](../../assets/day4_datacenter_electricity.png){fig-alt="Bar chart showing global data-center electricity rising from about 485 terawatt-hours in 2025 to about 945 terawatt-hours in 2030" .r-stretch}
 
 ::: {.notes}
-The IEA projects global data-centre electricity roughly doubling by 2030, to about 3 percent of world electricity. AI is the main driver of the increase.
+The IEA projects global data-center electricity roughly doubling by 2030, to about 3 percent of world electricity. AI is the main driver of the increase.
 
 Qualification: 3 percent of world demand is large but not the whole story. The strain is concentrated in specific places and on specific grids, which is what the activity is about.
 
@@ -224,7 +224,7 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
 ## The Bottleneck Is Now the Power Grid {.photo-title background-image="../../assets/electrical_substation.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-New data centres wait years to connect to substations like this one.
+New data centers wait years to connect to substations like this one.
 :::
 
 ::: {.notes}
@@ -264,7 +264,7 @@ rise in gas-turbine orders in 2025
 :::
 
 ::: {.metric-label}
-on-site gas at data centres by 2030
+on-site gas at data centers by 2030
 :::
 :::
 
@@ -287,7 +287,7 @@ IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
 :::
 
 ::: {.metric-label}
-data-centre emissions by 2035, about 2% of the power sector
+data-center emissions by 2035, about 2% of the power sector
 :::
 :::
 
@@ -304,7 +304,7 @@ energy AI could help save by 2035, about 3% of final energy
 ::::
 
 ::: {.notes}
-Return to the ledger. Data-centre emissions roughly double by 2035. At the same time, AI applied to industry, transport, and grids could save several times the energy data centres use, if those savings are actually realized. The honest conclusion is that the net sign is not settled.
+Return to the ledger. Data-center emissions roughly double by 2035. At the same time, AI applied to industry, transport, and grids could save several times the energy data centers use, if those savings are actually realized. The honest conclusion is that the net sign is not settled.
 
 [Sources]
 IEA, Key Questions on Energy and AI, Executive Summary, 2025–26.
@@ -348,7 +348,7 @@ Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024; Microsoft, Environ
 ![](../../assets/day4_microsoft_emissions.png){fig-alt="Bar chart showing Microsoft total emissions rising about 29 percent from a 2020 baseline of 100 to 129 in the 2024 report, almost entirely Scope 3" .r-stretch}
 
 ::: {.notes}
-Emissions went up, not down. Almost all of the increase is Scope 3: the steel, concrete, and chips used to build data centres. Building the AI infrastructure is why the line bends the wrong way.
+Emissions went up, not down. Almost all of the increase is Scope 3: the steel, concrete, and chips used to build data centers. Building the AI infrastructure is why the line bends the wrong way.
 
 Scope 1 is direct emissions, Scope 2 is purchased energy, and Scope 3 is the supply chain. Most of AI's footprint sits in Scope 3, which is easiest to leave out.
 
@@ -414,16 +414,16 @@ Keep this even-handed, in the spirit of the course. Present the company's reason
 Karen Hao, "Microsoft's Hypocrisy on AI," The Atlantic, 2024.
 :::
 
-# Activity: A Town Hall on a Data Centre {background-color="#041e42"}
+# Activity: A Town Hall on a Data center {background-color="#041e42"}
 
-## A Data Centre Next to a Neighborhood {.photo-title background-image="../../assets/data_center.png" background-size="cover" background-position="center"}
+## A Data center Next to a Neighborhood {.photo-title background-image="../../assets/data_center.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Riverton: a proposed 100 MW data centre, next to homes and a lake.
+Riverton: a proposed 100 MW data center, next to homes and a lake.
 :::
 
 ::: {.notes}
-This is the scenario in one image: a large data centre going up beside a residential area. The project is economically attractive but arrives faster than new power and grid upgrades. The council must choose to approve, approve with conditions, delay, or reject.
+This is the scenario in one image: a large data center going up beside a residential area. The project is economically attractive but arrives faster than new power and grid upgrades. The council must choose to approve, approve with conditions, delay, or reject.
 
 [Sources]
 Day 4 activity, "Town Hall: A 100 MW AI Data Center." Photograph from the course image library (instructor-provided).
