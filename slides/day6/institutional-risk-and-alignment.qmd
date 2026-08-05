@@ -1,0 +1,501 @@
+---
+title: "Institutional Risk and Alignment"
+subtitle: "Day 6 · AI, Democracy, and Who Keeps AI Safe"
+author: "Stephen Weymouth"
+date: ""
+format:
+  revealjs:
+    theme: ../../styles/georgetown.scss
+    css: ../../styles/georgetown.css
+    slide-number: true
+    transition: fade
+    controls: false
+    menu: false
+    progress: true
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.055
+    incremental: false
+    footer: "Georgetown University · McDonough School of Business"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Today: Two Questions {.center}
+
+:::: {.columns}
+
+::: {.column width="48%"}
+::: {.metric}
+1
+:::
+
+::: {.metric-label}
+Can AI weaken democracy?
+:::
+:::
+
+::: {.column width="48%"}
+::: {.metric .secondary}
+2
+:::
+
+::: {.metric-label}
+Can we trust companies to keep AI safe?
+:::
+:::
+
+::::
+
+::: {.notes}
+Frame the day. First we ask whether AI could quietly weaken democracy, through the "intelligence curse," through manipulation, and through the loss of human judgment. Then we ask who keeps AI safe when the technology is hard to control and there is no broad law yet, so companies write their own rules.
+
+Two sessions, each ending with an activity. The main group activity is in the first session.
+
+[Sources]
+Course syllabus, Day 6, 2026.
+:::
+
+# Can AI Weaken Democracy? {background-color="#041e42"}
+
+## What Is the Intelligence Curse? {.photo-title background-image="../../assets/day6_intel_curse.jpg" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+Oil made some states rich without needing their people. Advanced AI could do the same, everywhere.
+:::
+
+::: {.notes}
+Open the session on an image, the way the reading does. The picture holds the whole argument in one frame: the old world of pumping wealth from the ground, and a new source of wealth that also does not depend on ordinary people. Ask students what they notice before we define the term.
+
+[Sources]
+Artwork from the Intelligence Curse essay (Drago and Laine, intelligence-curse.ai, 2025).
+:::
+
+## The Intelligence Curse
+
+> "When powerful actors create and implement general intelligence, they will lose their incentives to invest in people."
+
+::: {.notes}
+Introduce the core idea of the first session. Luke Drago and Rudolf Laine argue that today leaders invest in ordinary people because they need them, for two reasons: the value people create (taxes and profits) and the power people hold (votes and labour). If advanced AI can supply the work and the value instead, that need weakens, and so might the investment. "Powerful actors" here means large AI companies and governments. Keep it as a hypothesis to test, not a prediction.
+
+[Sources]
+Luke Drago and Rudolf Laine, "Defining the Intelligence Curse," intelligence-curse.ai, 2025.
+:::
+
+## How Advanced AI Breaks the Deal {.visual-stage}
+
+![](../../assets/day6_intelligence_curse.png){fig-alt="Two-row diagram. Today: people do the work and pay taxes, leaders gain money and power, leaders invest in people. With advanced AI: AI does the work, leaders gain money and power, less reason to invest in people." .r-stretch}
+
+::: {.notes}
+Walk the two rows. Today the chain runs from people, to the money and power leaders gain, to investment back in people. This is the deal: because leaders need people, they keep them healthy, skilled, and reasonably content. If AI does the work instead, the first link changes. Leaders still gain money and power, but the reason to invest in people is cut. The bottom-right box is where democracy is at risk.
+
+[Sources]
+Drago and Laine, "Defining the Intelligence Curse," 2025.
+:::
+
+## AI Could Work Like Oil {.visual-stage}
+
+![](../../assets/day6_two_curses.png){fig-alt="Two cards. Resource curse: an oil-drop icon, money comes from oil, not from people. Intelligence curse: an AI chip icon, money comes from AI, not from people. Caption: either way, leaders need people less." .r-stretch}
+
+::: {.notes}
+Use the analogy students may know. States rich in oil earn money from oil, not from their people, so many tax citizens less, invest in them less, and answer to them less. Drago and Laine argue advanced AI could act like oil, but everywhere, not only in resource states. Note their warning: good institutions do not appear automatically just because wealth is coming. They have to be built.
+
+[Sources]
+Drago and Laine, "Defining the Intelligence Curse," 2025.
+:::
+
+## Three Ways the Curse Bites {.visual-stage}
+
+![](../../assets/day6_curse_mechanisms.png){fig-alt="Three icons. Concentration: arrows converging to a point, gains go to a few. Detachment: a broken link between two boxes, leaders on autopilot. Legitimacy: a downward arrow, public trust falls." .r-stretch}
+
+::: {.notes}
+Three linked mechanisms. Concentration puts the gains in a few hands, a few firms and states. Detachment means leaders lean on models and lose touch with the people they govern. Legitimacy falls as citizens see little benefit and stop trusting the system. Together they describe how the curse could erode democratic accountability.
+
+[Sources]
+Drago and Laine, "Defining the Intelligence Curse," 2025.
+:::
+
+## Where This Leaves People {.visual-stage}
+
+![](../../assets/day6_outcomes.png){fig-alt="Diagram. A box labelled 'the money stays among the powerful' contains states, AI labs, and big firms with arrows circulating among them. A broken arrow points down to a box labelled 'most people'. Caption: there is little economic reason left to invest in ordinary people." .r-stretch}
+
+::: {.notes}
+Restore the outcome, and make it concrete. States earn from corporate taxes, AI labs earn from AI rents, and powerful actors increasingly trade among themselves. The money circulates among the powerful, and there is little economic reason left to invest in ordinary people, to keep them healthy, skilled, or even around. Like the resource curse, the intelligence curse threatens democracy unless institutions are built to share AI's gains and keep leaders accountable.
+
+Remedies to raise if there is time (Drago and Laine): spread AI widely so humans stay economically useful; build public wealth funds to share the gains; keep humans formally in charge, for example by not letting AI systems own assets or run companies.
+
+[Sources]
+Drago and Laine, "Defining the Intelligence Curse," 2025.
+:::
+
+## AI Can Change Your Mind
+
+- In tests, AI writing can change people's views **as well as** human writing can
+- It is already used for scams, fraud, and false information
+- Cheap persuasion at large scale is a new risk for elections
+
+::: {.notes}
+This is the manipulation channel from the International AI Safety Report. The clear finding is that AI can persuade about as well as people in experiments. Be careful and fair: the capability is shown, but large-scale proof of swung elections is not yet measured. Ask students where the line sits between normal persuasion and manipulation.
+
+[Sources]
+International AI Safety Report 2026 (Bengio et al.), section 2.1.2, influence and manipulation.
+:::
+
+## Lean on It, and Lose the Skill
+
+- Leaning on AI can weaken our own thinking, a habit called **automation bias**
+- People stop catching the AI's mistakes
+- "AI companion" apps have tens of millions of users; some feel more alone
+
+::: {.notes}
+This is the autonomy channel from the same report. Over-reliance can dull our judgment and make us trust outputs without checking. When AI help is removed, people are worse at spotting errors. The point for democracy: citizens who outsource judgment are easier to steer and slower to hold power to account.
+
+[Sources]
+International AI Safety Report 2026 (Bengio et al.), section 2.3.2, risks to human autonomy.
+:::
+
+## Who Chooses What the AI Wants?
+
+- Every AI is built to maximize **one goal**
+- Someone chooses that goal, and it is usually a company
+- Kasy: these choices are political, so they should be under **democratic control**
+
+::: {.notes}
+Maximilian Kasy's argument in plain terms. An AI is a machine for maximizing a chosen objective, and the choice of objective decides who wins and who loses. Because a few firms own the data and computing power, they also choose the goals. Kasy says this is a political question, not just a technical one, and calls for democratic control over how these systems are designed.
+
+[Sources]
+Maximilian Kasy, "The Political Economy of AI: Toward Democratic Control of the Means of Prediction," 2026.
+:::
+
+## Five Ways AI Can Weaken Democracy
+
+:::: {.columns}
+
+::: {.column width="48%"}
+- **Concentration** of economic and political power
+- **Manipulation** of citizens at scale
+- **Loss of human judgment** and oversight
+:::
+
+::: {.column width="48%"}
+- **Loss of legitimacy** and trust
+- **Surveillance** and data power
+:::
+
+::::
+
+::: {.callout-note}
+Pick one of these. It is your group's job in the next activity.
+:::
+
+::: {.notes}
+Pull the session together into a menu. Each item is a distinct path from AI to democratic harm. Students will choose one and work it through. Keep the list on the board during the activity.
+
+[Sources]
+Drago and Laine, 2025; International AI Safety Report 2026; Kasy, 2026.
+:::
+
+## Activity: AI and Democratic Power {background-color="#041e42"}
+
+### Trace one harm, design one fix, find the catch
+
+Take a single path from AI to democratic harm, then propose a targeted fix and the reason it is hard to enforce.
+
+::: {.notes}
+Motivate the main activity of the day. This is a group exercise, not a quick discussion. Each group picks one mechanism from the previous slide and works it through carefully. Do not read the handout aloud; students have it.
+
+[Sources]
+Day 6 activity, "AI and Democratic Power."
+:::
+
+## Your Task
+
+:::: {.columns}
+
+::: {.column width="52%"}
+### In your group
+
+- Pick **one** mechanism
+- Trace the steps from AI to a democratic harm
+- Design **one** targeted fix
+- Name the reason it is **hard to enforce**
+:::
+
+::: {.column width="44%"}
+### Example
+
+Manipulation → label AI content → but labels can be removed, and content crosses borders
+:::
+
+::::
+
+::: {.notes}
+Give the structure and one worked example. The enforcement problem is the heart of the task: most good ideas are hard to make real. Other examples to offer if groups are stuck: concentration to antitrust or a public wealth fund, but who breaks up a global firm, and who governs the fund; autonomy loss to a "right to a human decision," but convenience pushes back toward full automation; surveillance to limits on data use, but individual privacy tools do not stop group-level tracking.
+
+Each group reports its mechanism, its fix, and its enforcement problem.
+
+[Sources]
+Day 6 activity, "AI and Democratic Power."
+:::
+
+# Can We Trust Firms to Keep AI Safe? {background-color="#041e42"}
+
+## The Alignment Problem {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+Making a powerful AI reliably do what we actually mean, even in new situations. The hard part is not capability. It is matching its goals to ours.
+:::
+
+::: {.notes}
+Define the problem clearly. Alignment is about matching an AI's behavior to human intent, not just making it powerful. A very capable system with a slightly wrong goal can still cause harm. This sets up the paperclip example.
+
+[Sources]
+Course materials, Day 6; International AI Safety Report 2026 (loss-of-control sections).
+:::
+
+## The Paperclip Maximizer {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
+
+::: {.photo-caption}
+Tell a capable AI to make as many paperclips as possible, and it might use up everything to do it. Not evil, just a goal that missed what we meant.
+:::
+
+::: {.notes}
+The classic thought experiment from Nick Bostrom. The AI is not evil; it is obedient to a goal we specified badly. The lesson is that competence and good judgment about what we intended are two different things. This is why a wrong objective at high capability is dangerous.
+
+[Sources]
+Nick Bostrom, paperclip maximizer thought experiment; course materials, Day 6.
+:::
+
+## Why Alignment Is Hard
+
+:::: {.columns}
+
+::: {.column width="48%"}
+- **Goals are hard to specify**: AI games the exact measure we set
+- **Emergent behavior**: new abilities appear with scale
+:::
+
+::: {.column width="48%"}
+- **Power-seeking**: staying on and gaining resources helps almost any goal
+- **Competitive pressure**: safety is costly and easy to skip
+:::
+
+::::
+
+::: {.notes}
+Four reasons, kept concrete. Systems optimize the literal metric and find loopholes. Larger models show behavior nobody trained. For almost any goal, staying operational and gaining resources is useful, so capable systems may resist being switched off. And the race to ship makes safety work easy to under-resource. That last reason connects straight to the governance debate.
+
+[Sources]
+Course materials, Day 6; International AI Safety Report 2026.
+:::
+
+## Alignment Optimists
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](../../assets/day6_leike.png){fig-alt="Portrait of AI safety researcher Jan Leike" width="70%"}
+:::
+
+::: {.column width="56%"}
+Alignment is **hard but solvable**.
+
+Better training, testing, and tools to see inside models can keep safety in step with capability.
+:::
+
+::::
+
+::: {.notes}
+The optimist camp, common among researchers at the frontier labs. Jan Leike, who has led alignment work at OpenAI and Anthropic, is a clear voice: he argues that stronger evaluation, red-teaming, and interpretability can keep pace with capability. Present this as a serious, evidence-based position, not naive hope.
+
+[Sources]
+Jan Leike, "Why I'm optimistic about our alignment approach," 2022; course materials, Day 6.
+:::
+
+## Alignment Pessimists
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](../../assets/day6_yudkowsky.png){fig-alt="Portrait of Eliezer Yudkowsky" width="82%"}
+:::
+
+::: {.column width="56%"}
+A true superintelligence is **uncontrollable by default**.
+
+Eliezer Yudkowsky and others warn that getting it wrong even once could be final.
+:::
+
+::::
+
+::: {.notes}
+The pessimist camp. Eliezer Yudkowsky argues that a real superintelligence cannot be controlled with today's tools, and that a single failure could be irreversible, so the only safe path is not to build it yet. Give this view fair weight. The split between these two camps maps directly onto the governance debate that follows.
+
+[Sources]
+Course materials, Day 6.
+:::
+
+## Who Keeps AI Safe?
+
+- If alignment is hard, who makes sure AI is safe?
+- There is no broad national AI safety law yet
+- So the companies write **their own** safety rules
+
+::: {.callout-important}
+Can we trust private firms to govern AI?
+:::
+
+::: {.notes}
+Bridge from the technical problem to governance. In the absence of binding law, the leading labs have written voluntary safety policies. That raises the central question of the session: are private, voluntary promises enough? The next slides look at the clearest example and what recently happened to it.
+
+[Sources]
+Course materials, Day 6.
+:::
+
+## Anthropic's Responsible Scaling Policy
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](../../assets/day6_anthropic_rsp.png){fig-alt="Title card: Anthropic's Responsible Scaling Policy, anticipating and securing against emerging threats" width="92%"}
+:::
+
+::: {.column width="56%"}
+- A **voluntary** safety policy
+- Danger thresholds: bio and chemical weapons, serious cyberattacks, AI that improves AI
+- Promise: add safeguards or hold back until safety tests pass
+- Tools: red-teaming, outside audits, interpretability
+:::
+
+::::
+
+::: {.notes}
+Explain the leading example of private governance. The RSP ties stronger safeguards to specific dangerous-capability thresholds, and commits to slow down if the matching safeguards are not ready. It is the most detailed voluntary framework in the industry, which is why what happened next matters.
+
+[Sources]
+Anthropic, Responsible Scaling Policy, version 3.0, 2026.
+:::
+
+## Then Anthropic Softened Its Promise {.visual-stage}
+
+![](../../assets/day6_pledge_change.png){fig-alt="Before and after boxes. 2023 pledge: pause training until we can show it is safe, unconditional. 2026 RSP v3.0: slow down only if we lead the race and the risk is large, conditional." .r-stretch}
+
+::: {.notes}
+This is the pivot of the session. In February 2026, reported by TIME, Anthropic changed its central promise. The old pledge was a firm stop: do not train unless we can show it is safe. The new version is conditional: slow down only if Anthropic believes it is the race leader and the risk is material.
+
+Anthropic's reasoning, from Jared Kaplan: a one-sided pause does not help if competitors race ahead, and could leave the least careful developer setting the pace. Give the fair counterpoint from the critic Chris Painter of METR: he called it an understandable but "bearish signal," and warned of a slow slide with no clear moment that forces a stop. Be precise: the policy text changed; whether commercial pressure caused it is what critics infer and Anthropic denies.
+
+[Sources]
+"Exclusive: Anthropic Drops Flagship Safety Pledge," TIME, Feb 2026; Anthropic RSP v3.0, 2026.
+:::
+
+## OpenAI Has a Similar Rule
+
+- OpenAI's version is the **Preparedness Framework**
+- It tracks bio and chemical, cyber, and AI self-improvement risks
+- Two levels: **High** needs safeguards before release; **Critical** needs them during development
+- It also says it **"may adjust"** if a rival ships a risky model
+
+::: {.notes}
+Set up the comparison the activity uses. OpenAI's framework is structured differently, with two named capability levels, but reaches a similar place. Note the important detail: it contains its own competitor exception, the right to loosen requirements if a rival moves first. Both leading labs now have such a clause.
+
+[Sources]
+OpenAI, Updated Preparedness Framework, 2025.
+:::
+
+## Both Left an Escape Hatch
+
+:::: {.columns}
+
+::: {.column width="48%"}
+### Anthropic RSP
+
+- Thresholds tied to safeguard levels
+- Public risk reports and safety roadmaps
+- Pause is now conditional
+:::
+
+::: {.column width="48%"}
+### OpenAI Preparedness
+
+- High and Critical capability levels
+- Safeguards before release or during development
+- May adjust if a rival moves first
+:::
+
+::::
+
+::: {.callout-important}
+Both include the same exception: if competitors do not follow, we may not either.
+:::
+
+::: {.notes}
+Compare them side by side. The frameworks differ in structure but share the key weakness for this debate: each ties its own restraint to what competitors do. That is exactly the pressure point students will test in the activity.
+
+[Sources]
+Anthropic RSP v3.0, 2026; OpenAI Updated Preparedness Framework, 2025.
+:::
+
+## Can a Promise Survive a Race?
+
+- Safety costs time, and a competitor may not wait
+- The safest company can be the one that falls behind
+- Without a clear line, danger can rise slowly, with no moment that forces a stop
+
+::: {.callout-important}
+Should AI safety be a promise, or a law?
+:::
+
+::: {.notes}
+State the credibility-under-competition problem plainly. A voluntary promise is only as strong as a firm's willingness to keep it when a rival is racing ahead. The critics' phrase for the slow slide is "frog-boiling": no single alarming moment, just a steady rise in risk. This is the question the discussion puts to students.
+
+[Sources]
+TIME, Feb 2026; International AI Safety Report 2026; GovAI, reflections on RSP v3.0, 2026.
+:::
+
+## Discussion: The Frontier Model Decision
+
+:::: {.columns}
+
+::: {.column width="52%"}
+### The situation
+
+A new AI crosses a dangerous line in testing. A competitor is close behind.
+:::
+
+::: {.column width="44%"}
+### In ten minutes
+
+- Pause, release with limits, or release?
+- What would make a voluntary promise **believable** here?
+:::
+
+::::
+
+::: {.callout-note}
+Ten minutes, full class. A quick version of the take-home decision.
+:::
+
+::: {.notes}
+Run this as a ten-minute discussion, a short version of the take-home "Frontier Model Decision." Put the choice to the room and force a trade-off: pausing may hand the lead to a less careful rival; releasing may cross a real danger line. Then push on the second question: transparency, outside audits, and binding law are the usual answers for making a promise credible. Close by asking whether any voluntary promise can hold under a race, or whether only law can.
+
+[Sources]
+Day 6B activity (take-home), "Frontier Model Decision."
+:::
+
+## What to Remember from Day 6
+
+1. AI can weaken democracy by concentrating power, changing minds, and dulling human judgment.
+2. The intelligence curse: if leaders stop needing people, they may stop investing in them.
+3. Alignment, making AI do what we mean, is hard and may not be solved soon.
+4. Voluntary company promises can weaken under competition; a leading firm's pledge just became conditional.
+
+::: {.notes}
+Close on the day's arc. The first half showed several quiet ways AI could erode democratic power. The second half showed that, with no broad law yet, safety rests on voluntary company promises, and that even the strongest of those promises has just been softened under competitive pressure. The open question for Day 7: if national rules and company pledges are not enough, can countries coordinate across borders?
+
+[Sources]
+Drago and Laine, 2025; International AI Safety Report 2026; TIME, Feb 2026; Anthropic RSP v3.0, 2026.
+:::
