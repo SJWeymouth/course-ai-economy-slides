@@ -1,6 +1,6 @@
 ---
 title: "Regulation and Competitiveness"
-subtitle: "Day 5 · Can Europe Compete, and How Should AI Be Governed?"
+subtitle: ""
 author: "Stephen Weymouth"
 date: ""
 format:
@@ -24,7 +24,7 @@ execute:
   message: false
 ---
 
-## Today: Quiz, Then Two Questions {.center}
+## Today: Two Questions {.center}
 
 :::: {.columns}
 
@@ -50,9 +50,6 @@ How should AI be governed, and who decides?
 
 ::::
 
-::: {.callout-note}
-We begin with a short quiz covering Days 1 to 4.
-:::
 
 ::: {.notes}
 Frame the day in one line. First we ask why Europe trails the United States and China in AI, using the Draghi Report. Then we turn to regulation: the EU has just paused and simplified its own AI Act, while the US is trying to stop its states from regulating AI at all.
@@ -198,7 +195,7 @@ Diagnose before prescribing. The gap with the US is not mainly about working few
 Draghi Report, 2024, Part A and Part B.
 :::
 
-## Draghi Calls This an Existential Challenge
+## Mario Draghi is Concerned
 
 > "This is an existential challenge."
 
@@ -331,9 +328,6 @@ capital · compute · energy · market size · talent · commercialization · re
 
 ::::
 
-::: {.callout-note}
-A quick class version of the take-home worksheet.
-:::
 
 ::: {.notes}
 Run this as a ten-minute full-class discussion, not a team activity. It is a short version of the take-home worksheet, "Can Europe Close the AI Competitiveness Gap?", which students complete on their own.
@@ -619,7 +613,7 @@ Debrief on the central question: did the compact cut needless costs, weaken real
 Day 5B simulation, "EU Digital Omnibus Implementation Compact"; course final-project brief.
 :::
 
-## What to Remember from Day 5
+## Key Takeaways
 
 1. Europe leads in rules but trails in frontier AI, computing power, and scale.
 2. Draghi's answer is more investment and lighter rules; one year later, the gap grew.
