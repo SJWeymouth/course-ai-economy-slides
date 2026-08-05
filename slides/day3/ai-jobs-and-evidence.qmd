@@ -636,7 +636,7 @@ Center for AI and Digital Policy
 :::
 
 ::: {.column width="58%"}
-### Questions for Discussion
+### Some Possible Questions for Discussion
 
 - How is AI changing early-career work?
 - Which skills are becoming more valuable?

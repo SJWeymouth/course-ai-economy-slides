@@ -526,8 +526,8 @@ McKinsey & Company, “The State of AI in 2025,” 2025.
 ## Day 2 Takeaways
 
 - **Some companies build AI into their main work** so that data from everyday use can improve later decisions.
-- **AI agents can choose steps and use other software,** which may change how business software is used and priced.
-- **Company results usually improve only when the full work process changes,** including responsibilities and approval rules.
+- **AI agents can complete multiple steps and use other software,** which may change how business software is used and priced (changing the business and operating models of software firms)
+- **Company results usually improve only when the full work process changes,** and for non-AI native firms, this AI tranition can take a long time
 
 
 
