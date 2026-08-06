@@ -2,4 +2,4 @@
 
 - [Redesigning Software with an AI Agent](activities/02_Day2_SAAS.pdf)
 - [AI and Entry-Level Hiring](activities/03_Day3_Employment.pdf)
-- [From Adoption to Enterprise Value](activities/04_Day2B_Scaling_AI_Value.pdf)
+- [Town Hall: A 100 MW AI Data Center](activities/05_Environment_Simulation.pdf)
