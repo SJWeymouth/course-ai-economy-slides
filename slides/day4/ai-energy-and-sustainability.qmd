@@ -526,24 +526,24 @@ Day 4 activity, "Town Hall: A 100 MW AI Data Center"; course final-project brief
 :::
 
 ::: {.column width="50%"}
-### If approval is conditional
+### If approval has conditions
 
 - Choose **no more than three** major conditions
-- State **who pays**
-- Set a **measurable requirement**
-- Name the **monitor and consequence**
+- State **what is required**
+- Name **who is responsible**
+- Explain **how compliance will be checked**
 :::
 
 ::::
 
 ::: {.callout-important}
-The developer may accept the final package—or withdraw the project.
+If approval has conditions, the Data Center Company must accept them—or withdraw.
 :::
 
 ::: {.notes}
-Leave this slide projected during preparation and the hearing. Scarcity is deliberate: without a limit, the council could demand every attractive safeguard and avoid making trade-offs.
+Leave this slide projected during preparation and the hearing. The limit forces City Government to choose priorities rather than demand every attractive safeguard.
 
-The council has final authority. A conditional approval is not complete unless each condition identifies the payer, the performance standard, the monitor, and the consequence for noncompliance. After the council announces its package, the developer must say whether it accepts or withdraws.
+City Government makes the project-approval decision. Each condition must be clear and enforceable. However, City Government cannot promise a grid connection or impose requirements outside its authority. After a conditional approval, the Data Center Company must accept the conditions or withdraw.
 
 [Sources]
 Day 4 activity, "Town Hall: A 100 MW AI Data Center"; course final-project brief.
@@ -551,9 +551,10 @@ Day 4 activity, "Town Hall: A 100 MW AI Data Center"; course final-project brief
 
 ## Debrief
 
-1. Who receives the benefits, and who bears the risks?
-2. Which conditions made the project acceptable?
-3. What made this work as a simulation?
+1. Who received the main benefits? Who carried the main costs and risks?
+2. Which proposed condition changed a team's position?
+3. Was the final decision clear and enforceable?
+
 
 ::: {.notes}
 Run two debriefs at once. The first two questions draw out the substance: benefits are concentrated (tax base, a few jobs), while costs are shared (rates, water, reliability). The third question is about design, and feeds directly into the final project: a hard decision, distinct interests, and time pressure are what made it work.
