@@ -459,11 +459,10 @@ Open the **AI and Entry-Level Hiring** PDF under **Activities** on the
 
 ## Activity Debrief
 
-- What is the strongest claim supported by the evidence?
-- Which two studies best support your answer?
-- What important evidence is still missing?
-- What should the company do?
-- What assumption matters most to your decision?
+- The strongest claim the evidence currently supports.
+- The combination of evidence that led your team to that conclusion.
+- The main reason not to make a stronger claim.
+- What the company should do and what assumption matters most to that recommendation.
 
 ::: {.notes}
 Press teams to distinguish between occupational exposure and observed AI use. If a team selects “plausible but unproven,” ask what would move the claim into the “supported” category.
