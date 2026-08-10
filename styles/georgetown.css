@@ -520,6 +520,213 @@
   background: #fbebed;
 }
 
+.reveal .resource-curse-chain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25em;
+  align-items: stretch;
+  width: 94%;
+  margin: 1.05em auto 0;
+}
+
+.reveal .resource-step {
+  position: relative;
+  padding: 0.68em 0.52em;
+  color: #26323d;
+  background: #f2f5f9;
+  border-top: 5px solid var(--gt-blue);
+  font-size: 0.62em;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.reveal .resource-step > p {
+  margin: 0.22em 0 0;
+}
+
+.reveal .resource-step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  top: 43%;
+  right: -1.15em;
+  z-index: 2;
+  color: var(--gt-taupe);
+  font-size: 1.65em;
+  font-weight: 700;
+}
+
+.reveal .resource-step.danger {
+  background: #fbf1f2;
+  border-top-color: #a83c48;
+}
+
+.reveal .resource-caveat {
+  margin: 1.05em auto 0;
+  padding: 0.62em 0.82em;
+  width: 88%;
+  color: var(--gt-navy);
+  background: var(--gt-paper);
+  border-left: 6px solid var(--gt-taupe);
+  font-size: 0.66em;
+  line-height: 1.24;
+  text-align: center;
+}
+
+.reveal .resource-caveat p {
+  margin: 0;
+}
+
+.reveal .kasy-slide,
+.reveal .rsp-architecture,
+.reveal .openai-framework {
+  align-items: center;
+}
+
+.reveal .kasy-slide h3,
+.reveal .openai-framework h3 {
+  margin-bottom: 0.42em;
+  color: var(--gt-blue);
+  font-size: 0.84em;
+}
+
+.reveal .kasy-takeaway {
+  margin: 1.1em auto 0;
+  padding: 0.58em 0.8em;
+  width: 88%;
+  color: var(--gt-navy);
+  border-top: 2px solid var(--gt-taupe);
+  border-bottom: 2px solid var(--gt-taupe);
+  font-size: 0.66em;
+  line-height: 1.24;
+  text-align: center;
+}
+
+.reveal .kasy-takeaway p,
+.reveal .evidence-item p,
+.reveal .rsp-version-block p,
+.reveal .rsp-version-number p,
+.reveal .activity-step p,
+.reveal .rotation-line p {
+  margin: 0.16em 0;
+}
+
+.reveal .evidence-spectrum {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.45em;
+  align-items: stretch;
+  width: 94%;
+  margin: 1.15em auto 0;
+}
+
+.reveal .evidence-item {
+  padding: 0.55em 0.35em 0.35em 0.72em;
+  color: #2d3946;
+  border-left: 7px solid var(--gt-blue);
+  font-size: 0.67em;
+  line-height: 1.27;
+}
+
+.reveal .evidence-item > p:first-child {
+  margin-bottom: 0.42em;
+  color: var(--gt-navy);
+  font-size: 1.28em;
+}
+
+.reveal .evidence-item.evidence-strong {
+  border-left-color: #315d89;
+}
+
+.reveal .evidence-item.evidence-emerging {
+  border-left-color: var(--gt-blue);
+}
+
+.reveal .evidence-item.evidence-theory {
+  border-left-color: var(--gt-taupe);
+}
+
+.reveal .rsp-version-block {
+  margin: 0 auto;
+  padding: 0.75em 0.3em;
+  width: 82%;
+  color: var(--gt-navy);
+  border-top: 6px solid var(--gt-navy);
+  border-bottom: 2px solid var(--gt-taupe);
+  font-size: 0.64em;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.reveal .rsp-version-block > p:first-child {
+  margin-bottom: 0.05em;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.reveal .rsp-version-number {
+  margin: 0.08em 0 0.18em;
+  color: var(--gt-blue);
+  font-size: 3.25em;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+.reveal .rsp-architecture > .column:last-child {
+  font-size: 0.78em;
+  line-height: 1.24;
+}
+
+.reveal .rsp-architecture ol {
+  margin-top: 0;
+}
+
+.reveal .openai-framework > .column {
+  align-self: stretch;
+  padding-top: 0.32em;
+  border-top: 5px solid var(--gt-navy);
+  font-size: 0.77em;
+  line-height: 1.22;
+}
+
+.reveal .openai-framework > .column + .column {
+  border-top-color: var(--gt-blue);
+}
+
+.reveal .activity-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.45em;
+  align-items: stretch;
+  width: 94%;
+  margin: 0.75em auto 0;
+}
+
+.reveal .activity-step {
+  padding: 0.38em 0.45em 0.22em 0.72em;
+  color: #2d3946;
+  border-left: 7px solid var(--gt-blue);
+  font-size: 0.68em;
+  line-height: 1.26;
+}
+
+.reveal .activity-step > p:first-child {
+  margin-bottom: 0.42em;
+  color: var(--gt-navy);
+  font-size: 1.2em;
+}
+
+.reveal .rotation-line {
+  margin: 1.15em auto 0;
+  padding: 0.52em 0.75em;
+  width: 91%;
+  color: var(--gt-navy);
+  background: var(--gt-paper);
+  border-left: 6px solid var(--gt-taupe);
+  font-size: 0.64em;
+  line-height: 1.2;
+  text-align: center;
+}
+
 /* Opening slide */
 
 #title-slide {
