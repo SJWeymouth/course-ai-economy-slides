@@ -41,7 +41,7 @@ Bletchley Declaration, UK AI Safety Summit, November 2023.
 ## February 2026 {.photo-title background-image="../../assets/pe_paris_summit.png" background-size="contain" background-color="#041e42" background-position="center"}
 
 ::: {.photo-caption}
-Two summits later, the declarations are thinner, key players decline to sign — and the actors with the most control over AI were never the ones signing.
+Two summits later, the declarations are thinner. Key players decline to sign. And the actors with the most control over AI were never the ones signing.
 :::
 
 ::: {.notes}
@@ -87,7 +87,7 @@ The skeleton of the talk. "Who controls AI" hides two different questions. First
 Talk framework; Weymouth, Digital Globalization (Cambridge University Press, 2023).
 :::
 
-## The Question Moved Down the Stack {.visual-stage}
+## The Fight Moved: From Data to Infrastructure {.visual-stage}
 
 ![](../../assets/pe_ai_stack.png){fig-alt="Layer diagram of the AI stack from bottom to top: semiconductor design and fabrication, data centers and cloud services, AI model training, AI tools and applications." .r-stretch}
 
@@ -100,10 +100,10 @@ Weymouth, "Digital Disintegration," International Organization 79(S1), 2025; AI 
 
 # Why Everyone Wants Control {background-color="#041e42"}
 
-## Reason One: The Technology Can Miss Our Intent {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
+## Reason One: AI May Not Do What We Mean {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-The "alignment problem": making a powerful AI reliably do what we actually mean, even in situations nobody anticipated.
+This is the "alignment problem": make a powerful AI do what we actually mean, even in new situations.
 :::
 
 ::: {.notes}
@@ -116,7 +116,7 @@ International AI Safety Report 2026 (Bengio et al.), loss-of-control sections.
 ## The Paperclip Problem {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Tell a capable AI to make as many paperclips as possible, and it might use up everything to do it. Not evil — just a goal that missed what we meant.
+Tell a capable AI to make as many paperclips as possible. It might use up everything to do it. Not evil — just a goal that missed what we meant.
 :::
 
 ::: {.notes}
@@ -174,7 +174,7 @@ Public reporting on Ukraine drone warfare; Israel's Lavender system (+972 Magazi
 ## America Builds a Chip Wall {.photo-title background-image="../../assets/pe_us_fab.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Export controls keep advanced chips from rivals. The CHIPS Act pulls fabrication home. Arizona, not agreements.
+Export controls keep advanced chips away from rivals. The CHIPS Act brings chip factories back to the United States — this one is in Arizona.
 :::
 
 ::: {.notes}
@@ -184,10 +184,10 @@ The American strategy, part one: mercantilism at home. Export controls deny Chin
 US export controls on advanced semiconductors (2022–25); CHIPS and Science Act, 2022; AI Diffusion Rule, 2025.
 :::
 
-## ...and Picks Its Partners {.photo-title background-image="../../assets/pe_gulf_deals.png" background-size="cover" background-position="center"}
+## America Picks Its Partners {.photo-title background-image="../../assets/pe_gulf_deals.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-The Gulf deals: Emirati and Saudi capital and energy, in exchange for American chips. Alliances of states *and* firms.
+The Gulf deals: Saudi Arabia and the UAE provide money and energy. In exchange, they get American chips. The alliance includes governments *and* companies.
 :::
 
 ::: {.notes}
@@ -202,7 +202,7 @@ US–UAE and US–Saudi AI agreements, 2025; David Sacks (White House adviser on
 ![](../../assets/pe_digital_silk_road.png){fig-alt="Map of China's Digital Silk Road: fibre-optic cables, data centres, network equipment deals, and smart-city projects across Asia, Africa, Europe, and Latin America." .r-stretch}
 
 ::: {.figure-takeaway}
-Tight state control at home; the **Digital Silk Road** abroad — 97 cloud zones in 37 countries.
+Tight state control at home. Abroad, the **Digital Silk Road**: 97 cloud zones in 37 countries.
 :::
 
 ::: {.notes}
@@ -217,7 +217,7 @@ MERICS, Digital Silk Road mapping; China's Cybersecurity Law, Data Security Law,
 ![](../../assets/pe_eu_ai_act_pyramid.png){fig-alt="The EU AI Act risk pyramid: unacceptable risk banned; high risk strictly regulated; limited risk transparency obligations; minimal risk no restrictions." .r-stretch}
 
 ::: {.figure-takeaway}
-The EU's lever is **market access**: sell to 450 million consumers, follow Brussels' rules — wherever you are based.
+The EU's tool is **market access**. To sell to 450 million consumers, you follow Brussels' rules — wherever your company is based.
 :::
 
 ::: {.notes}
@@ -243,7 +243,7 @@ Mario Draghi with Ursula von der Leyen, September 2025
 > "This is an existential challenge."
 
 - Draghi's report warns Europe risks a **"middle-technology trap"** — strong in old industries, missing from AI
-- The EU's own instrument, regulation, is accused of undermining its own goal, competitiveness
+- The EU's own report says its rules now harm its own goal: competitiveness
 :::
 
 ::: {.notes}
@@ -269,7 +269,7 @@ Secretary of War public statements, February 2026; public reporting on the Anthr
 ![](../../assets/pe_cbs_supplychain_headline.png){fig-alt="CBS News headline: Hegseth declares Anthropic a supply chain risk, restricting military contractors from doing business with AI giant. February 28, 2026." .r-stretch}
 
 ::: {.figure-takeaway}
-A firm set conditions on the state. The state's only lever was exclusion. **No law resolved who decides.**
+A company set conditions for the state. The state's only tool was exclusion. **No law says who decides.**
 :::
 
 ::: {.notes}
@@ -304,7 +304,7 @@ The residual answer to "who controls AI": in the absence of law, the firms thems
 Anthropic, Responsible Scaling Policy v3.0, 2026; OpenAI Preparedness Framework.
 :::
 
-## ...and Then Loosened Them {.visual-stage}
+## Then They Made the Rules Weaker {.visual-stage}
 
 ![](../../assets/day6_pledge_change.png){fig-alt="Before and after diagram: the 2023 pledge, pause training until we can show it is safe, unconditional; the 2026 RSP version 3.0, slow down only if we lead the race and the risk is large, conditional." .r-stretch}
 
