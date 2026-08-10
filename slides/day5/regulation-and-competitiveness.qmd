@@ -286,7 +286,7 @@ These three parts are what the take-home matrix asks students to turn into an ac
 Draghi Report, 2024, Part A.
 :::
 
-## Europe Needs About 800 Billion Euros a Year {.visual-stage}
+## Europe Needs More Investment {.visual-stage}
 
 ![](../../assets/day5_investment_need.png){fig-alt="Bar chart: extra annual investment Draghi says Europe needs, about 800 billion euros in the 2024 report rising to about 1,200 billion euros in the 2025 update, roughly 5 percent of EU GDP" .r-stretch}
 
@@ -323,9 +323,6 @@ Draghi Report, 2024; Draghi, "One Year On," 16 Sep 2025.
 
 ::::
 
-::: {.callout-important}
-Plans launched are not results delivered. What evidence would settle the argument?
-:::
 
 ::: {.notes}
 Set up a genuine empirical dispute. The Commission points to the Competitiveness Compass, a Savings and Investments Union, AI gigafactories, and more than a trillion euros committed. Draghi says the underlying indicators worsened. Both can be partly right because money announced is not money spent, and plans launched are not results delivered. Ask what evidence would settle the argument: private investment, start-ups that stay, computing power built, energy prices, or productivity growth.
@@ -334,40 +331,8 @@ Set up a genuine empirical dispute. The Commission points to the Competitiveness
 European Commission, "The Draghi Report: One Year On," 2025; Draghi, 16 Sep 2025.
 :::
 
-## Activity: Choose Europe's Three Priorities
+## Activity: Choose Europe's Priorities
 
-:::: {.columns}
-
-::: {.column width="58%"}
-### Five teams, five diagnoses
-
-1. **Capital:** can firms finance growth in Europe?
-2. **Compute and energy:** can Europe power AI at scale?
-3. **Market scale and commercialization:** can inventions reach customers?
-4. **Talent:** can Europe train, attract, and retain people?
-5. **Regulation and coordination:** can Europe act quickly as one market?
-:::
-
-::: {.column width="38%"}
-### Thirty minutes
-
-- **10 min:** complete your matrix
-- **7 min:** five team reports
-- **8 min:** negotiate
-- **5 min:** vote and debrief
-
-**The class may choose only three interventions.**
-:::
-
-::::
-
-
-::: {.notes}
-Distribute "Can Europe Close the AI Competitiveness Gap?" Each existing team takes one assignment and uses the readings and preceding slides to complete its matrix. Reports should state the diagnosis, assess the EU response, and recommend one intervention. The class then negotiates a package of only three interventions, naming the actor responsible and one measurable result expected by 2028.
-
-[Sources]
-Day 5A activity, "Can Europe Close the AI Competitiveness Gap?"; European Commission, "The Draghi Report: One Year On," 2025.
-:::
 
 # How Should AI Be Governed? {background-color="#041e42"}
 
