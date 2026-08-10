@@ -368,7 +368,7 @@ European Commission, "AI Act: A Risk-based Approach," updated July 2026; Regulat
 
 ![](../../assets/day5_omnibus_timeline.png){fig-alt="Timeline showing the EU AI Act high-risk obligations moved from August 2026 to December 2027 for standalone systems and August 2028 for systems built into products, with content labelling and a new abuse-image ban due December 2026 and sandboxes by August 2027" .r-stretch}
 
-- **Sandboxes:** time-limited, regulator-supervised environments where firms can develop and test AI—including in real-world settings—before launch.
+- **Sandboxes:** regulator-supervised environments where firms can develop and test AI before launch
 
 ::: {.notes}
 The AI Act has real force—its top penalty is €35 million or 7 percent of global sales—but the EU slowed the hardest duties before they took effect. The high-risk rules formerly due in August 2026 now start in December 2027 for standalone systems and August 2028 for AI embedded in regulated products. The Digital Omnibus keeps the risk-based core while delaying the timetable and reducing paperwork, presented as a competitiveness measure inspired by Draghi.
