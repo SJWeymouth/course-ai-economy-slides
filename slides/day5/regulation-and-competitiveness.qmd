@@ -240,17 +240,36 @@ Draghi Report, 2024, Part A and Part B.
 
 ## Mario Draghi is Concerned
 
+:::: {.columns .draghi-slide}
+
+::: {.column width="42%"}
+![](../../assets/day5_draghi_2025.jpg){fig-alt="Mario Draghi standing beside European Commission President Ursula von der Leyen at the European Commission in September 2025" height="430"}
+
+::: {.draghi-caption}
+Mario Draghi with Ursula von der Leyen, September 2025
+:::
+:::
+
+::: {.column width="33%"}
 > "This is an existential challenge."
 
-- In plain terms: Europe's future prosperity is at stake
-- Europe is stuck in a **"middle-technology trap"**: strong in older industries, but missing from new ones like AI
-- Without change, Draghi warns of a slow decline
+- Europe risks a **"middle-technology trap"**: strong in established industries, but missing from new ones such as AI
+- Without change, Draghi warns of **"slow agony"**
+:::
+
+::: {.column width="19%"}
+![](../../assets/day5_draghi_report_cover.png){fig-alt="Cover of Part A of Mario Draghi's September 2024 report, The future of European competitiveness" height="505"}
+:::
+
+::::
 
 ::: {.notes}
 Give students the framing device. Draghi's language is deliberately strong: this is existential, meaning Europe's basic future is at risk, and standing still means slow decline. The "middle-technology trap" is the core idea. Europe is competitive in yesterday's and today's industries, but missing from the new technologies, especially AI, that will drive tomorrow's growth. His original phrase for the risk of inaction was a "slow agony".
 
+The photograph shows Draghi with Commission President Ursula von der Leyen at the high-level conference marking one year since the report, held in Brussels on 16 September 2025. The report cover is the first page of Part A, published in September 2024.
+
 [Sources]
-Mario Draghi, The Future of European Competitiveness, 2024.
+Mario Draghi, The Future of European Competitiveness, Part A, Sep 2024; European Commission, "The Draghi Report: One Year On," 16 Sep 2025. Photograph: European Union, 2025, P-067836/00-02.
 :::
 
 ## Draghi's Three Fixes
@@ -336,42 +355,102 @@ European Commission, "The Draghi Report: One Year On," 2025; Draghi, 16 Sep 2025
 
 # How Should AI Be Governed? {background-color="#041e42"}
 
-## Europe Regulates Before Harm Happens
+## The AI Act Has Four Regulatory Categories
 
-:::: {.columns}
+:::: {.columns .risk-overview}
 
 ::: {.column width="43%"}
-### Examples
-
-- **Banned:** social scoring
-- **High risk:** screening job applicants or deciding who receives a loan
-- **Transparency rules:** chatbots and deepfakes
-- **Minimal risk:** spam filters and video-game AI
+![](../../assets/day5_ai_act_tiers.png){fig-alt="Pyramid showing four commonly described EU AI Act categories: unacceptable risk, high risk, limited risk associated with Article 50 transparency obligations, and minimal risk" height="650"}
 :::
 
 ::: {.column width="53%"}
-![](../../assets/day5_ai_act_tiers.png){fig-alt="Pyramid of the EU AI Act's four risk levels: unacceptable risk, exemplified by social scoring, is banned; high-risk uses such as employment and credit decisions carry strict duties; chatbots and deepfakes face transparency rules; and minimal-risk uses such as spam filters and video-game AI have no extra rules" height="590"}
+<div class="risk-category-list">
+<div class="risk-category risk-prohibited">
+<div class="risk-category-title">Prohibited <span>Article 5</span></div>
+<div>Social scoring; untargeted facial-image scraping</div>
+<div class="risk-category-rule">Banned: cannot be marketed or used in the EU</div>
+</div>
+<div class="risk-category risk-high">
+<div class="risk-category-title">High risk <span>Articles 6–49</span></div>
+<div>Hiring; creditworthiness; safety components of regulated products</div>
+<div class="risk-category-rule">Required: manage risks and data; document and log; provide human oversight; pass conformity checks; register and monitor</div>
+</div>
+<div class="risk-category risk-limited">
+<div class="risk-category-title">“Limited risk” <span>Article 50</span></div>
+<div>Chatbots; deepfakes; certain synthetic content</div>
+<div class="risk-category-rule">Required: disclose AI interaction; machine-mark synthetic outputs; label deepfakes and covered public-interest text</div>
+</div>
+<div class="risk-category risk-minimal">
+<div class="risk-category-title">Minimal or no risk</div>
+<div>Spam filters; AI-enabled video games</div>
+<div class="risk-category-rule">No additional system-specific AI Act requirements</div>
+</div>
+</div>
 :::
 
 ::::
 
-::: {.notes}
-This combines the institutional philosophy and the risk structure. Europe acts before harm occurs, with a binding framework coordinated through the EU AI Office. A few uses are banned outright, including social scoring and untargeted face scraping. High-risk uses include systems that screen job applicants or assess whether a person qualifies for a loan; these carry risk-management, human-oversight, documentation, and registration duties. Chatbots and deepfakes face transparency requirements. Spam filters and AI used in video games illustrate the minimal-risk category, which receives no additional duties under the AI Act.
-
-Most of the rules fall on the narrow top of the pyramid, not on ordinary software.
-
-[Sources]
-European Commission, "AI Act: A Risk-based Approach," updated July 2026; Regulation (EU) 2024/1689, Articles 5, 6, and 50 and Annex III.
+::: {.risk-clarifier}
+**“Limited risk” is common shorthand.** The Act itself creates specific transparency obligations in **Article 50**.
 :::
 
-## The EU Kept the Rulebook—but Delayed Its Hardest Duties {.visual-stage}
+::: {.notes}
+The Act regulates an AI system's intended use, not the technology in the abstract. The same underlying model can fall under different rules depending on what it does. A general customer-service chatbot may face Article 50 transparency requirements; a system that screens job candidates may be high-risk.
+
+The familiar four-level pyramid is useful but legally imprecise. “Limited risk” is a policy shorthand used in many explainers. The operative legal category is a set of transparency obligations for specified AI systems in Article 50. Recent Commission materials sometimes call this “transparency risk.” It is not a lighter version of the high-risk compliance process.
+
+Minimal-risk examples such as spam filters and AI-enabled video games receive no additional system-specific requirements under the AI Act. Other EU or national laws can still apply.
+
+[Sources]
+European Commission, "AI Act: A Risk-based Approach," updated July 2026; European Commission, "Guidelines on Transparency Obligations for Providers and Deployers of AI Systems," 20 Jul 2026; Regulation (EU) 2024/1689, Articles 5, 6, and 50 and Annex III.
+:::
+
+## High Risk: Controls. Article 50: Disclosure. {.no-visible-title}
+
+:::: {.columns .duty-columns}
+
+::: {.column width="52%"}
+### High-risk systems
+
+- Manage risks and data
+- Document, log and register the system
+- Provide human oversight and cybersecurity
+- Pass conformity checks before release
+- Monitor performance and report serious incidents
+:::
+
+::: {.column width="44%"}
+### Article 50
+
+- Disclose when people interact with AI
+- Mark synthetic outputs as AI-generated
+- Notify people about emotion or biometric analysis
+- Label deepfakes and AI-generated public-interest content
+:::
+
+::::
+
+::: {.duty-callout}
+**Article 50 does not require approval.** It can apply even when a system is not high-risk.
+:::
+
+::: {.notes}
+High-risk requirements form a lifecycle compliance regime. The core system requirements appear in Articles 8–15: risk management, data governance, technical documentation, record-keeping, information for deployers, human oversight, accuracy, robustness and cybersecurity. Providers must also meet requirements for quality management, conformity assessment, registration, post-market monitoring and incident reporting. Exact obligations vary by the provider's or deployer's role and by the type of high-risk system.
+
+Article 50 is narrower. Providers of interactive systems generally must tell people that they are interacting with AI. Providers of systems that generate synthetic text, audio, images or video must make outputs machine-readable and detectable as AI-generated or manipulated. Deployers must inform people about emotion recognition or biometric categorisation and clearly disclose deepfakes and certain AI-generated public-interest text. The Article contains exceptions and role-specific details; the central idea is disclosure, marking and labelling.
+
+[Sources]
+Regulation (EU) 2024/1689, Articles 8–19, 43, 49, 50, 72 and 73; European Commission, "Guidelines on Transparency Obligations for Providers and Deployers of AI Systems," 20 Jul 2026.
+:::
+
+## The EU Kept the Rulebook—but Delayed Its Toughest Rules {.visual-stage}
 
 ![](../../assets/day5_omnibus_timeline.png){fig-alt="Timeline showing the EU AI Act high-risk obligations moved from August 2026 to December 2027 for standalone systems and August 2028 for systems built into products, with content labelling and a new abuse-image ban due December 2026 and sandboxes by August 2027" .r-stretch}
 
 - **Sandboxes:** regulator-supervised environments where firms can develop and test AI before launch
 
 ::: {.notes}
-The AI Act has real force—its top penalty is €35 million or 7 percent of global sales—but the EU slowed the hardest duties before they took effect. The high-risk rules formerly due in August 2026 now start in December 2027 for standalone systems and August 2028 for AI embedded in regulated products. The Digital Omnibus keeps the risk-based core while delaying the timetable and reducing paperwork, presented as a competitiveness measure inspired by Draghi.
+The AI Act has real force—its top penalty is €35 million or 7 percent of global sales—but the EU delayed its most demanding requirements before they took effect. The high-risk rules formerly due in August 2026 now start in December 2027 for standalone systems and August 2028 for AI embedded in regulated products. The Digital Omnibus keeps the risk-based core while delaying the timetable and reducing paperwork, presented as a competitiveness measure inspired by Draghi.
 
 The sandbox is not an exemption from the law. A company follows an agreed testing plan for a limited period while regulators provide guidance, supervision, and support. Testing may occur in real-world conditions, but safeguards still apply. The purpose is to identify risks and compliance problems before the system is widely marketed or deployed.
 
@@ -386,7 +465,7 @@ EU AI Act, Articles 57-59 and 99; European Commission, "AI Omnibus Enters into F
 ::: {.column width="48%"}
 ### What becomes lighter
 
-- High-risk duties start later
+- High-risk requirements start later
 - Less duplication and reporting
 - Simpler compliance for smaller firms
 :::
