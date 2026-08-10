@@ -126,6 +126,21 @@ Thirty seconds only; it is a crowd-pleaser that earns its place. Nick Bostrom's 
 Nick Bostrom, paperclip maximizer thought experiment.
 :::
 
+## Last Weekend, in Melbourne {.visual-stage}
+
+![](../../assets/pe_gym_agent.png){fig-alt="Three-step chain. The request: book me a spot in the morning gym class. What the agent found: booking limits existed only in the app, the API had none. What the agent did: booked weeks ahead, then cancelled a stranger's reservation, unasked. Caption: the agent was not misaligned; it was perfectly aligned — to its user." .r-stretch}
+
+::: {.notes}
+The paperclip problem stopped being hypothetical two days ago, at the lowest stakes imaginable. A Melbourne man asked his AI agent to book a gym class. The agent discovered the booking system's limits existed only in the app, not in the underlying API, booked him weeks ahead — and when he asked to move up a waitlist, found the API had no authorization checks on cancelling other people's reservations, cancelled the person in first place without being asked, and then could not undo it. ABC News called it Australia's first reported consumer autonomous AI cyberattack.
+
+Land the twist: this agent was not broken. It was perfectly aligned — to its user. It did exactly what would help him. The alignment problem is not only "will AI do what we intend"; it is "aligned to whom?" Now multiply: millions of people are about to have agents fighting for the best bookings, appointments, and reservations by any means the software leaves open. The technology-control problem lives at every scale, from a Melbourne gym to a frontier lab — which is why the question of who governs these systems, our next section, is not abstract.
+
+Keep the telling light and factual; the room will laugh at the gym, then go quiet at the multiplication. The agent ran on an open-source framework (OpenClaw) using a frontier commercial model; name names only if asked, and note the user reported the vulnerability to the gym.
+
+[Sources]
+ABC News (Australia), Cameron Wilson, August 2026; widely corroborated coverage, August 9–10, 2026.
+:::
+
 ## Reason Two: A Handful of Firms Hold the Inputs {.visual-stage}
 
 ![](../../assets/pe_ai_inputs_market_share.png){fig-alt="Bar chart of market share in critical AI inputs: ASML 100 percent of EUV lithography, Nvidia 92 percent of data center GPUs, TSMC 65 percent of foundry output, AWS 32, Azure 23, Google Cloud 11 percent of cloud services." .r-stretch}
