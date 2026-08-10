@@ -2,4 +2,5 @@
 
 - [Redesigning Software with an AI Agent](activities/02_Day2_SAAS.pdf)
 - [AI and Entry-Level Hiring](activities/03_Day3_Employment.pdf)
-- [Town Hall: A 100 MW AI Data Center](activities/05_Environment_Simulation.pdf)
+- [Town Hall: A 100 MW AI Data Center](activities/04_Environment_Simulation.pdf)
+- [Can Europe Close the AI Competitiveness Gap?](activities/05_EU_Competitiveness.pdf)
