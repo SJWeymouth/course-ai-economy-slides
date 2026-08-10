@@ -1,6 +1,5 @@
 ---
 title: "Institutional Risk and Alignment"
-subtitle: "Day 6 · AI, Democracy, and Who Keeps AI Safe"
 author: "Stephen Weymouth"
 date: ""
 format:
