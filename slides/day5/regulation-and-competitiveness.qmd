@@ -66,15 +66,17 @@ Course syllabus, Day 5, 2026; Draghi, The Future of European Competitiveness, 20
 
 ![](../../assets/day5_foundation_models.png){fig-alt="Bar chart of notable foundation AI models developed in 2024: European Union 3, China 15, United States 40" .r-stretch}
 
+::: {.model-key}
+**The EU's three:** Mistral Large, Mistral Large 2, and Pixtral Large --- all from Mistral AI in France.
+:::
+
 ::: {.notes}
-Start with the single most striking number. In 2024 the United States produced far more notable foundation models than China, and both were far ahead of the European Union, which built only a handful. About 70 percent of the world's foundational models since 2017 have come from the US.
+Start with the single most striking number. In 2024 the United States produced far more notable foundation models than China, and both were far ahead of the European Union. The EU's three were Mistral Large, Mistral Large 2, and Pixtral Large, all produced by the French company Mistral AI. About 70 percent of the world's foundational models since 2017 have come from the US.
 
 Ask: why does the place where models are built matter for the place where AI is used? (Talent, computing power, standards, and profits all gather there.)
 
-Chart built from the figures Draghi cites; it can be swapped for the published version.
-
 [Sources]
-Mario Draghi, "One Year On," Brussels, 16 Sep 2025; Draghi Report, 2024.
+Stanford HAI, AI Index Report 2025, Chapter 1, Figure 1.3.2 (data from Epoch AI); European Parliamentary Research Service, "Making Europe an AI Continent," 2025, p. 2; Mario Draghi, "One Year On," Brussels, 16 Sep 2025.
 :::
 
 ## Three US Firms Control the Cloud
@@ -87,7 +89,11 @@ Mario Draghi, "One Year On," Brussels, 16 Sep 2025; Draghi Report, 2024.
 :::
 
 ::: {.metric-label}
-of the global cloud market held by three US firms
+of Europe's cloud market
+:::
+
+::: {.metric-entities}
+Amazon Web Services · Microsoft Azure · Google Cloud
 :::
 :::
 
@@ -97,7 +103,11 @@ of the global cloud market held by three US firms
 :::
 
 ::: {.metric-label}
-share of Europe's own cloud market held by its largest EU provider
+held by the largest EU operator
+:::
+
+::: {.metric-entities}
+Deutsche Telekom
 :::
 :::
 
@@ -107,19 +117,52 @@ share of Europe's own cloud market held by its largest EU provider
 :::
 
 ::: {.metric-label}
-of the world's top tech firms are European
+largest tech firms by market capitalization are EU companies
+:::
+
+::: {.metric-entities}
+ASML · SAP · Siemens · Schneider Electric
 :::
 :::
 
 ::::
 
 ::: {.notes}
-AI runs on cloud computing, and Europe does not own the cloud. Three large American providers hold most of the global market; Europe's biggest provider has only a small share of its own home market. Without computing power, it is hard to build or grow frontier AI.
+AI runs on cloud computing, and Europe does not own the cloud. Amazon Web Services, Microsoft Azure, and Google Cloud hold more than 65 percent of the European market. The largest EU operator in the Draghi data, Deutsche Telekom, holds only 2 percent. Without computing power, it is hard to build or grow frontier AI.
+
+The four EU companies among the 50 largest technology providers by market capitalization in May 2024 were ASML, SAP, Siemens, and Schneider Electric. This is a market-cap ranking, not a ranking of cloud providers.
 
 Connect back to Day 4: the same data centers that raise energy questions are also the strategic infrastructure Europe lacks.
 
 [Sources]
-Draghi Report, 2024, Part B.
+Draghi Report, 2024, Part B, pp. 73 and 77; S&P Capital IQ and Companiesmarketcap data retrieved 7 May 2024, as cited by Draghi.
+:::
+
+## Market Value Is Concentrated in the United States
+
+:::: {.columns}
+
+::: {.column width="48%"}
+![](../../assets/market_cap.jpg){fig-alt="Bubble chart of the 50 largest public companies by market capitalization in July 2025, grouped by country, with the largest cluster and the largest individual companies in the United States" height="650"}
+:::
+
+::: {.column width="48%"}
+### Look at Europe's cluster
+
+- **ASML and SAP** appear, but far from the center
+- Europe's largest firms remain concentrated in **industrials, pharmaceuticals, and luxury goods**
+- The scale gap extends beyond **AI and cloud infrastructure**
+:::
+
+::::
+
+::: {.notes}
+Use this as a bridge, not as a second version of the prior statistic. The prior slide uses Draghi's May 2024 ranking of technology providers. This graphic covers the 50 largest public companies across all sectors in July 2025. The methodologies differ, but the same concentration is visible: the largest US firms dominate the center of the market-cap map, while Europe's companies form smaller sector-specific clusters.
+
+Do not treat market capitalization as a direct measure of productivity, innovation, or social value. It measures the market value of listed equity and is useful here because it captures the scale investors expect firms to achieve.
+
+[Sources]
+Visual Capitalist, "Ranked: The 50 Most Valuable Companies in the World in 2025," July 2025; data from Companiesmarketcap.com, figures as of 18 July 2025.
 :::
 
 ## Europe Has No New Big Tech Firms
@@ -258,269 +301,168 @@ Chart built from the figures Draghi reports.
 Draghi Report, 2024; Draghi, "One Year On," 16 Sep 2025.
 :::
 
-## One Year Later, Every Challenge Is Worse
-
-> "Sometimes inertia is even presented as respect for the rule of law. That is not governance, it is complacency."
-
-> "To carry on as usual is to resign ourselves to falling behind."
-
-::: {.notes}
-Draghi returned to Brussels in September 2025 with a blunt verdict: little was fixed, and every challenge had grown worse. His sharpest line reframes Europe's slowness. What looks like caution or respect for process, he argues, is really complacency, meaning being too comfortable. The investment need had risen, and time was running out.
-
-Keep this fair: Draghi is one voice, and member states would say caution protects rights and stability. That tension is exactly the next slide.
-
-[Sources]
-Mario Draghi, remarks in Brussels, 16 Sep 2025.
-:::
-
-## The EU Says It Has Acted
+## The EU Spent More. Did the Gap Shrink?
 
 :::: {.columns}
 
 ::: {.column width="48%"}
-### The Commission's case
+### The Commission
 
 - **€1 trillion+** committed to competitiveness
 - **~€200bn** for AI, including **€20bn** for AI gigafactories
-- Says **90%** of its main plan follows Draghi
+- Says **90%** of its plan follows Draghi
 :::
 
 ::: {.column width="48%"}
-### Draghi's reply
+### Draghi, one year later
 
-- The economy is getting weaker, not stronger
-- The money needed rose, it did not fall
-- Change is still measured in years, not months
+- Investment need rose from **€800bn to €1.2tn**
+- The economy weakened despite new plans
+- Delivery is still measured in years, not months
 :::
 
 ::::
 
 ::: {.callout-important}
-Two very different views in the same year. Who is right, and how would you know?
+Plans launched are not results delivered. What evidence would settle the argument?
 :::
 
 ::: {.notes}
-Set up a real debate rather than a settled answer. The Commission points to its Competitiveness Compass, a Savings and Investments Union, AI gigafactories, and over a trillion euros committed. Draghi says the basics still got worse. Both can be partly true: money announced is not money spent, and plans launched are not results delivered.
-
-Discussion prompt: what evidence would tell us whether Europe is actually closing the gap? (Private investment, start-ups that stay, computing power built, productivity growth.) This leads straight into the discussion.
+Set up a genuine empirical dispute. The Commission points to the Competitiveness Compass, a Savings and Investments Union, AI gigafactories, and more than a trillion euros committed. Draghi says the underlying indicators worsened. Both can be partly right because money announced is not money spent, and plans launched are not results delivered. Ask what evidence would settle the argument: private investment, start-ups that stay, computing power built, energy prices, or productivity growth.
 
 [Sources]
 European Commission, "The Draghi Report: One Year On," 2025; Draghi, 16 Sep 2025.
 :::
 
-## Discussion: Does the EU's Response Fit the Problem?
+## Activity: Choose Europe's Three Priorities
 
 :::: {.columns}
 
-::: {.column width="46%"}
-### Seven constraints
+::: {.column width="58%"}
+### Five teams, five diagnoses
 
-capital · compute · energy · market size · talent · commercialization · regulation
+1. **Capital:** can firms finance growth in Europe?
+2. **Compute and energy:** can Europe power AI at scale?
+3. **Market scale and commercialization:** can inventions reach customers?
+4. **Talent:** can Europe train, attract, and retain people?
+5. **Regulation and coordination:** can Europe act quickly as one market?
 :::
 
-::: {.column width="50%"}
-### Ten minutes, together
+::: {.column width="38%"}
+### Thirty minutes
 
-- Which one or two matter **most**?
-- Is the EU's money aimed there, or somewhere else?
-- If you could fund only **three** fixes, which three?
+- **10 min:** complete your matrix
+- **7 min:** five team reports
+- **8 min:** negotiate
+- **5 min:** vote and debrief
+
+**The class may choose only three interventions.**
 :::
 
 ::::
 
 
 ::: {.notes}
-Run this as a ten-minute full-class discussion, not a team activity. It is a short version of the take-home worksheet, "Can Europe Close the AI Competitiveness Gap?", which students complete on their own.
-
-Steps: put the seven constraints on the board. Ask which one or two matter most, the ones that, if left unfixed, make the others not matter (computing power and capital are strong candidates). Then hold the answer against the previous slide: is the €200bn for AI and the gigafactory money actually aimed at the most important problem, or spread too thin? Close with the forcing question: with a fixed budget, name only three fixes. Choosing three is the whole point.
-
-Keep it moving; this sets up the afternoon, where students stop describing the problem and start deciding.
+Distribute "Can Europe Close the AI Competitiveness Gap?" Each existing team takes one assignment and uses the readings and preceding slides to complete its matrix. Reports should state the diagnosis, assess the EU response, and recommend one intervention. The class then negotiates a package of only three interventions, naming the actor responsible and one measurable result expected by 2028.
 
 [Sources]
-Day 5A activity (take-home), "Can Europe Close the AI Competitiveness Gap?"; European Commission, "The Draghi Report: One Year On," 2025.
+Day 5A activity, "Can Europe Close the AI Competitiveness Gap?"; European Commission, "The Draghi Report: One Year On," 2025.
 :::
 
 # How Should AI Be Governed? {background-color="#041e42"}
 
-## Europe's Answer Is a Rulebook
+## Europe Regulates Before Harm Happens
 
-- Broad, **binding** rules: the **AI Act**, **GDPR**, the **Digital Services Act**
-- A **cautious** approach: control risks before harm happens
-- Rules based on **how risky** the AI is
-- Puts **basic rights** first: privacy, fairness, safety
-- One central body enforces it: the new **EU AI Office**
+:::: {.columns}
 
-::: {.notes}
-This is the baseline the rest of the day changes. Europe's instinct is to write one broad, binding rulebook and enforce it from the center, putting rights and safety first, and acting before harm happens. This is the model students met earlier in the course, and it is the model both the Omnibus and the US are now reacting against.
-
-[Sources]
-EU AI Act Explorer, artificialintelligenceact.eu; course materials, Day 5 (2025).
+::: {.column width="38%"}
+- One **binding rulebook**
+- Duties rise with **risk**
+- Rights and safety come **before deployment**
+- The **EU AI Office** coordinates enforcement
 :::
 
-## The AI Act Sorts AI by Risk {.visual-stage}
+::: {.column width="58%"}
+![](../../assets/day5_ai_act_tiers.png){fig-alt="Pyramid of the EU AI Act's four risk levels: unacceptable risk is banned, high risk carries strict duties and registration, limited risk requires transparency under Article 50, and minimal risk has no extra rules" height="610"}
+:::
 
-![](../../assets/day5_ai_act_tiers.png){fig-alt="Pyramid of the EU AI Act's four risk levels: unacceptable risk is banned, high risk carries strict duties and registration, limited risk requires transparency under Article 50, and minimal risk has no extra rules" .r-stretch}
+::::
 
 ::: {.notes}
-The heart of the AI Act is this pyramid. A few uses are banned outright, such as social scoring and untargeted face scraping. High-risk uses, like hiring or credit scoring, carry strict duties: risk checks, human oversight, documentation, and registration. Limited-risk systems such as chatbots must simply tell people they are AI. Everything else is mostly free.
+This combines the institutional philosophy and the risk structure. Europe acts before harm occurs, with a binding framework coordinated through the EU AI Office. A few uses are banned outright, such as social scoring and untargeted face scraping. High-risk uses, such as hiring or credit scoring, carry risk-management, human-oversight, documentation, and registration duties. Limited-risk systems such as chatbots mainly face transparency rules. Most ordinary software receives no additional duties.
 
 Most of the rules fall on the narrow top of the pyramid, not on ordinary software.
 
 [Sources]
-EU AI Act Explorer, high-level summary, artificialintelligenceact.eu.
+EU AI Act Explorer, high-level summary and Articles 5, 6, 50, and 64-70, artificialintelligenceact.eu.
 :::
 
-## Breaking the Rules Is Expensive
-
-:::: {.columns}
-
-::: {.column width="48%"}
-::: {.metric}
-€35M / 7%
-:::
-
-::: {.metric-label}
-top fine for banned uses: €35m, or 7% of a firm's global sales, whichever is higher
-:::
-:::
-
-::: {.column width="48%"}
-::: {.metric .secondary}
-€15M / 3%
-:::
-
-::: {.metric-label}
-fine for most other breaches: €15m, or 3% of global sales
-:::
-:::
-
-::::
-
-::: {.notes}
-The rules have real force. Fines rise with global sales, like GDPR, so they reach the largest firms. This is why the AI Act has a "Brussels effect": global companies often follow the rules everywhere rather than build a separate EU version. For start-ups and small firms, the lower fine applies.
-
-[Sources]
-EU AI Act, Article 99; AI Act Explorer.
-:::
-
-## Then the EU Slowed Its Own Rules
-
-- **29 June 2026:** the Council approves the **Digital Omnibus** on AI
-- Presented as **simplification** and **competitiveness**, citing Draghi
-- **Delays** the hardest high-risk duties by one to two years
-- **Reduces** paperwork and reporting, especially for small firms
-- The risk-based core stays; the timeline and paperwork shrink
-
-::: {.notes}
-Here is the turning point of the day. Having built the world's most complete AI law, the EU chose to slow it down before the toughest parts took effect. The stated reason comes straight from Draghi: cut paperwork and reporting so European firms can compete. The Act is not cancelled; it is delayed and made lighter.
-
-Ask students to hold this next to the morning session: is this the Draghi medicine being applied to Europe's own rulebook?
-
-[Sources]
-Council of the EU, press release, 29 Jun 2026.
-:::
-
-## The Rules Now Start Later {.visual-stage}
+## The EU Kept the Rulebook—but Delayed Its Hardest Duties {.visual-stage}
 
 ![](../../assets/day5_omnibus_timeline.png){fig-alt="Timeline showing the EU AI Act high-risk obligations moved from August 2026 to December 2027 for standalone systems and August 2028 for systems built into products, with content labelling and a new abuse-image ban due December 2026 and sandboxes by August 2027" .r-stretch}
 
 ::: {.notes}
-Make the delay concrete. The high-risk duties that were due in August 2026 now start in December 2027 for standalone systems, and August 2028 for AI built into regulated products like medical devices and machinery. That is about a sixteen-month delay for the core duties. Testing spaces and content-labelling rules also move.
-
-The direction is clear: less to follow, and later.
+The AI Act has real force—its top penalty is €35 million or 7 percent of global sales—but the EU slowed the hardest duties before they took effect. The high-risk rules formerly due in August 2026 now start in December 2027 for standalone systems and August 2028 for AI embedded in regulated products. The Digital Omnibus keeps the risk-based core while delaying the timetable and reducing paperwork, presented as a competitiveness measure inspired by Draghi.
 
 [Sources]
-Council of the EU, 29 Jun 2026; Freshfields and Gibson Dunn analyses, 2026.
+EU AI Act, Article 99; Council of the EU, 29 Jun 2026; Freshfields and Gibson Dunn analyses, 2026.
 :::
 
-## Simpler Rules, or Weaker Rules?
+## The Omnibus Cuts Some Rules—and Adds Another
 
 :::: {.columns}
 
 ::: {.column width="48%"}
-### The Commission's view
+### What becomes lighter
 
-- Cuts duplication and paperwork
-- Gives firms clearer, steadier rules
-- Helps small and growing firms
+- High-risk duties start later
+- Less duplication and reporting
+- Simpler compliance for smaller firms
 :::
 
 ::: {.column width="48%"}
-### The critics' view
+### What becomes stricter
 
-- "Delays safeguards before they can take effect"
-- "Weakens transparency obligations, and creates loopholes"
-- Rushed through without full review
+- New ban on AI-generated child-abuse material
+- New ban on fake nude images of real people without consent
+- Protections required by **December 2026**
 :::
 
 ::::
 
 ::: {.notes}
-Keep this even-handed, in the spirit of the course. The Commission calls it simplification that gives certainty and helps small firms. Critics from civil society, like Diego Naranjo of Liberties, call it deregulation dressed up as simplification, arguing it delays protections before they ever work and thins out transparency duties.
-
-His line: "We deserve digital rules protecting our rights to be enforced, not dismantled." (Diego Naranjo, Liberties)
-
-The honest framing: "simpler" and "weaker" can describe the same change. Which one it is depends on the detail, and on what you value.
+Avoid a one-dimensional deregulation story. The Commission calls the package simplification that gives firms certainty and reduces fixed compliance costs. Critics argue that it delays safeguards and weakens transparency before the rules can be tested. Yet the same law adds strict prohibitions on especially harmful synthetic content. Regulation can become lighter in one place and stricter in another.
 
 [Sources]
 Diego Naranjo, "The AI Omnibus," Liberties, 17 Jun 2026; Council of the EU, 29 Jun 2026.
 :::
 
-## The EU Also Added a New Ban
-
-- The Omnibus is **not** only about cutting rules
-- It **adds** a ban on AI that makes child sexual abuse images, or fake nude images of real people without their consent
-- Protections required by **December 2026**
-
-::: {.notes}
-A useful complication for students who want a simple "the EU is deregulating" story. Even while cutting some burdens, the same law adds a new, strict ban on some of the most harmful AI uses. Cutting some rules and adding others can happen together. Regulation is a dial with many settings, not a single on-off switch.
-
-[Sources]
-Council of the EU, press release, 29 Jun 2026.
-:::
-
-## The United States Goes the Other Way
+## The US Wants One Light National Standard
 
 > "State-by-State regulation … creates a patchwork of 50 different regulatory regimes."
-
-- **Executive Order 14365** (11 Dec 2025): a national plan to override state AI laws
-- The goal: US **"global AI dominance"** with very few rules
-
-::: {.notes}
-Now the contrast. Where Europe keeps a central rulebook but softens it, the US has no single federal AI law, and the current administration wants to stop its own states from filling the gap. It calls the state rules a "patchwork"; its answer is to override them from the federal level, in the name of winning the AI race.
-
-The exact quote: "It is the policy of the United States to sustain and enhance the United States' global AI dominance through a minimally burdensome national policy framework for AI." (Executive Order 14365)
-
-[Sources]
-Executive Order 14365, "Ensuring a National Policy Framework for Artificial Intelligence," 11 Dec 2025.
-:::
-
-## How the US Fights State Laws
 
 :::: {.columns}
 
 ::: {.column width="48%"}
-### The Executive Order's tools
+### Override the states
 
 - A legal task force to **sue states**
-- Threatens to cut **federal internet funding** to states that do not follow
-- Tells federal agencies (FTC, FCC) to **override** state rules
+- Threaten federal internet funding
+- Use the FTC and FCC to preempt state rules
 :::
 
 ::: {.column width="48%"}
-### The proposed law (Mar 2026)
+### Keep federal rules light
 
-- Asks **Congress** to make the override permanent
-- **Light rules:** no new AI agency; use existing ones
-- Says training AI on data is **allowed**; leaves hard cases to courts
+- Ask Congress to make preemption permanent
+- Use existing agencies; create no new AI regulator
+- Preserve state powers over fraud and child safety
 :::
 
 ::::
 
 ::: {.notes}
-Two moves, one direction. The executive order uses tools the president already controls: lawsuits against state laws, the threat of cutting federal internet money, and federal agencies overriding state rules. The March 2026 National AI Legislative Framework then asks Congress to make the override permanent, with deliberately light federal rules and existing agencies rather than a new one.
-
-Note the exceptions on both sides: even this framework keeps state power over child safety and fraud.
+Where Europe keeps a central rulebook but softens it, the United States has no comprehensive federal AI law and wants to stop states from filling the gap. Executive Order 14365 uses lawsuits, funding leverage, and federal agencies to challenge state rules. The March 2026 legislative framework asks Congress to make preemption permanent while relying on existing agencies and preserving limited state powers over fraud and child safety. The stated objective is global AI dominance through a minimally burdensome national framework.
 
 [Sources]
 Executive Order 14365, 11 Dec 2025; White House, National AI Legislative Framework, 20 Mar 2026.

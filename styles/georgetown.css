@@ -93,6 +93,33 @@
   text-align: center;
 }
 
+.reveal .model-key {
+  max-width: 92%;
+  margin: 0.15em auto 0;
+  color: #3d4854;
+  font-size: 0.72em;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.reveal .model-key p {
+  margin: 0;
+}
+
+.reveal .metric-entities {
+  max-width: 94%;
+  margin: 0.55em auto 0;
+  color: var(--gt-navy);
+  font-size: 0.68em;
+  font-weight: 650;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.reveal .metric-entities p {
+  margin: 0;
+}
+
 .reveal .column > :first-child {
   margin-top: 0;
 }
