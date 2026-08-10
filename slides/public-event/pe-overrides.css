@@ -1,0 +1,19 @@
+/* Deck-local overrides for the Basel public lecture.
+   georgetown.css clamps .visual-stage images to max-height:72vh; vh resolves
+   against the browser viewport and then passes through Reveal's scale
+   transform, so tall images render far smaller than .r-stretch intends.
+   Remove the clamp for stretched images (r-stretch sizes them itself,
+   accounting for captions and takeaway bars) and use a slide-coordinate
+   cap for the rest. */
+.reveal .slides section.visual-stage img.r-stretch {
+  max-height: none;
+}
+.reveal .slides section.visual-stage img:not(.r-stretch) {
+  max-height: 700px;
+}
+
+/* Keep takeaway bars clear of the footer; r-stretch shrinks the image
+   to respect this margin. */
+.reveal .slides section.visual-stage .figure-takeaway {
+  margin-bottom: 52px;
+}
