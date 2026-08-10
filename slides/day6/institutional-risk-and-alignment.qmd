@@ -131,30 +131,46 @@ Remedies to raise if there is time (Drago and Laine): spread AI widely so humans
 Drago and Laine, "Defining the Intelligence Curse," 2025.
 :::
 
-## AI Can Change Your Mind
+## AI Can Change Your Mind {.visual-stage}
 
-- In tests, AI writing can change people's views **as well as** human writing can
-- It is already used for scams, fraud, and false information
-- Cheap persuasion at large scale is a new risk for elections
+![](../../assets/day6_ai_persuasion_examples.png){fig-alt="Three examples from the International AI Safety Report: an AI persuading a user to reconsider a conspiracy theory, an AI deceptively defending its goal, and an AI-generated phishing email." .r-stretch}
+
+::: {.figure-takeaway}
+In experiments, AI-generated content can change beliefs **at least as effectively as non-expert humans**. Real-world political effects remain uncertain.
+:::
 
 ::: {.notes}
 This is the manipulation channel from the International AI Safety Report. The clear finding is that AI can persuade about as well as people in experiments. Be careful and fair: the capability is shown, but large-scale proof of swung elections is not yet measured. Ask students where the line sits between normal persuasion and manipulation.
 
 [Sources]
-International AI Safety Report 2026 (Bengio et al.), section 2.1.2, influence and manipulation.
+International AI Safety Report 2026 (Bengio et al.), Figure 2.3 and section 2.1.2, influence and manipulation.
 :::
 
 ## Lean on It, and Lose the Skill
 
-- Leaning on AI can weaken our own thinking, a habit called **automation bias**
-- People stop catching the AI's mistakes
-- "AI companion" apps have tens of millions of users; some feel more alone
+:::: {.columns .autonomy-slide}
+
+::: {.column width="34%"}
+**Automation bias**
+
+We stop checking the system—even when it is wrong.
+
+::: {.autonomy-evidence}
+After months using AI-assisted diagnosis, clinicians detected **6% fewer tumors** without AI.
+:::
+:::
+
+::: {.column width="62%"}
+![](../../assets/day6_human_autonomy.png){fig-alt="International AI Safety Report diagram showing that competence supports authenticity and agency, which together constitute human autonomy." width="100%"}
+:::
+
+::::
 
 ::: {.notes}
 This is the autonomy channel from the same report. Over-reliance can dull our judgment and make us trust outputs without checking. When AI help is removed, people are worse at spotting errors. The point for democracy: citizens who outsource judgment are easier to steer and slower to hold power to account.
 
 [Sources]
-International AI Safety Report 2026 (Bengio et al.), section 2.3.2, risks to human autonomy.
+International AI Safety Report 2026 (Bengio et al.), Figure 2.16 and section 2.3.2, risks to human autonomy.
 :::
 
 ## Who Chooses What the AI Wants?
@@ -213,24 +229,42 @@ Day 6 activity, "AI and Democratic Power."
 
 ## Your Task
 
-:::: {.columns}
+::: {.causal-chain}
+::: {.chain-step}
+**1 · Change**
 
-::: {.column width="52%"}
-### In your group
+What can AI now do?
+:::
+::: {.chain-step}
+**2 · Dependence**
 
-- Pick **one** mechanism
-- Trace the steps from AI to a democratic harm
-- Design **one** targeted fix
-- Name the reason it is **hard to enforce**
+What information, resource, or relationship changes?
+:::
+::: {.chain-step}
+**3 · Actor**
+
+Whose incentives or power shift?
+:::
+::: {.chain-step}
+**4 · Harm**
+
+What democratic consequence follows?
+:::
+::: {.chain-step}
+**5 · Fix**
+
+What targeted intervention could break the chain?
+:::
+::: {.chain-step}
+**6 · Catch**
+
+What could block, distort, or abuse the fix?
+:::
 :::
 
-::: {.column width="44%"}
-### Example
-
-Manipulation → label AI content → but labels can be removed, and content crosses borders
+::: {.chain-example}
+**Example:** Cheap personalized persuasion → campaigns target voters privately → manipulators gain leverage → informed choice weakens → label AI content → labels can be removed and content crosses borders
 :::
-
-::::
 
 ::: {.notes}
 Give the structure and one worked example. The enforcement problem is the heart of the task: most good ideas are hard to make real. Other examples to offer if groups are stuck: concentration to antitrust or a public wealth fund, but who breaks up a global firm, and who governs the fund; autonomy loss to a "right to a human decision," but convenience pushes back toward full automation; surveillance to limits on data use, but individual privacy tools do not stop group-level tracking.
@@ -271,19 +305,32 @@ Nick Bostrom, paperclip maximizer thought experiment; course materials, Day 6.
 
 ## Why Alignment Is Hard
 
-:::: {.columns}
+::: {.alignment-chain}
+::: {.alignment-step}
+**Imperfect goal**
 
-::: {.column width="48%"}
-- **Goals are hard to specify**: AI games the exact measure we set
-- **Emergent behavior**: new abilities appear with scale
+The written objective misses part of what humans mean.
+:::
+::: {.alignment-step}
+**Capable optimization**
+
+The system finds strategies its designers did not anticipate.
+:::
+::: {.alignment-step}
+**Instrumental behavior**
+
+Resources, influence, and staying active help it reach many goals.
+:::
+::: {.alignment-step .danger}
+**Unintended harm**
+
+The system succeeds at the metric while violating the intent.
+:::
 :::
 
-::: {.column width="48%"}
-- **Power-seeking**: staying on and gaining resources helps almost any goal
-- **Competitive pressure**: safety is costly and easy to skip
+::: {.race-pressure}
+**Competitive pressure surrounds the chain:** testing and safeguards cost time, while rivals may keep moving.
 :::
-
-::::
 
 ::: {.notes}
 Four reasons, kept concrete. Systems optimize the literal metric and find loopholes. Larger models show behavior nobody trained. For almost any goal, staying operational and gaining resources is useful, so capable systems may resist being switched off. And the race to ship makes safety work easy to under-resource. That last reason connects straight to the governance debate.
@@ -340,9 +387,32 @@ Course materials, Day 6.
 
 ## Who Keeps AI Safe?
 
-- If alignment is hard, who makes sure AI is safe?
-- There is no broad national AI safety law yet
-- So the companies write **their own** safety rules
+::: {.governance-gap}
+::: {.governance-step}
+**Frontier lab**
+
+Writes its own framework
+:::
+::: {.governance-step}
+**Internal tests**
+
+Measures dangerous capabilities
+:::
+::: {.governance-step}
+**Management**
+
+Decides whether safeguards are enough
+:::
+::: {.governance-step}
+**Deployment**
+
+Releases, limits, or pauses the model
+:::
+:::
+
+::: {.external-gap}
+**The gap:** no general binding external authority independently sets the threshold and decides whether the model may proceed.
+:::
 
 ::: {.callout-important}
 Can we trust private firms to govern AI?
@@ -379,17 +449,39 @@ Explain the leading example of private governance. The RSP ties stronger safegua
 Anthropic, Responsible Scaling Policy, version 3.0, 2026.
 :::
 
-## Then Anthropic Softened Its Promise {.visual-stage}
+## Anthropic Made the Escape Clause Central
 
-![](../../assets/day6_pledge_change.png){fig-alt="Before and after boxes. 2023 pledge: pause training until we can show it is safe, unconditional. 2026 RSP v3.0: slow down only if we lead the race and the risk is large, conditional." .r-stretch}
+:::: {.columns .pledge-comparison}
+
+::: {.column width="47%"}
+### Earlier RSP
+
+The headline commitment was to pause when required safeguards were missing.
+
+::: {.small-qualification}
+A competitor escape clause already existed—but in a footnote.
+:::
+:::
+
+::: {.column width="47%"}
+### 2026 · RSP v3.0
+
+The unilateral baseline is weaker. Stronger safeguards become **industry-wide recommendations**.
+
+::: {.small-qualification .accent}
+Extra restraint depends more explicitly on Anthropic's position in the race and the size of the risk.
+:::
+:::
+
+::::
 
 ::: {.notes}
-This is the pivot of the session. In February 2026, reported by TIME, Anthropic changed its central promise. The old pledge was a firm stop: do not train unless we can show it is safe. The new version is conditional: slow down only if Anthropic believes it is the race leader and the risk is material.
+This is the pivot of the session. Be precise: the earlier RSP was not literally unconditional; it already contained a competitor clause in a footnote. In 2026, Anthropic made the conditionality more prominent, began from a weaker unilateral baseline, and shifted stronger measures into industry-wide recommendations.
 
 Anthropic's reasoning, from Jared Kaplan: a one-sided pause does not help if competitors race ahead, and could leave the least careful developer setting the pace. Give the fair counterpoint from the critic Chris Painter of METR: he called it an understandable but "bearish signal," and warned of a slow slide with no clear moment that forces a stop. Be precise: the policy text changed; whether commercial pressure caused it is what critics infer and Anthropic denies.
 
 [Sources]
-"Exclusive: Anthropic Drops Flagship Safety Pledge," TIME, Feb 2026; Anthropic RSP v3.0, 2026.
+"Exclusive: Anthropic Drops Flagship Safety Pledge," TIME, Feb 2026; Anthropic RSP v3.0, 2026; GovAI, "Anthropic's RSP v3.0: How It Works, What's Changed, and Some Reflections," 2026.
 :::
 
 ## OpenAI Has a Similar Rule
@@ -415,7 +507,7 @@ OpenAI, Updated Preparedness Framework, 2025.
 
 - Thresholds tied to safeguard levels
 - Public risk reports and safety roadmaps
-- Pause is now conditional
+- Stronger restraint depends on competitors and risk
 :::
 
 ::: {.column width="48%"}
@@ -441,9 +533,43 @@ Anthropic RSP v3.0, 2026; OpenAI Updated Preparedness Framework, 2025.
 
 ## Can a Promise Survive a Race?
 
-- Safety costs time, and a competitor may not wait
-- The safest company can be the one that falls behind
-- Without a clear line, danger can rise slowly, with no moment that forces a stop
+::: {.race-matrix}
+::: {.matrix-corner}
+**Firm A ↓ · Firm B →**
+:::
+::: {.matrix-label}
+**Restrain**
+:::
+::: {.matrix-label}
+**Race**
+:::
+::: {.matrix-label .row-label}
+**Restrain**
+:::
+::: {.matrix-cell .safe-cell}
+**Both restrain**
+
+Lower risk; both sacrifice speed
+:::
+::: {.matrix-cell}
+**A falls behind**
+
+B gains the advantage
+:::
+::: {.matrix-label .row-label}
+**Race**
+:::
+::: {.matrix-cell}
+**B falls behind**
+
+A gains the advantage
+:::
+::: {.matrix-cell .race-cell}
+**Both race**
+
+Neither falls behind; risk rises
+:::
+:::
 
 ::: {.callout-important}
 Should AI safety be a promise, or a law?

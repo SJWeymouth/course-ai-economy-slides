@@ -311,6 +311,215 @@
   opacity: 0.5;
 }
 
+/* Day 6 evidence and governance visuals */
+
+.reveal .figure-takeaway {
+  margin: 0.28em auto 0;
+  max-width: 92%;
+  color: var(--gt-navy);
+  font-size: 0.64em;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.reveal .figure-takeaway p,
+.reveal .autonomy-evidence p,
+.reveal .chain-example p,
+.reveal .race-pressure p,
+.reveal .external-gap p,
+.reveal .small-qualification p {
+  margin: 0;
+}
+
+.reveal .autonomy-slide {
+  align-items: center;
+}
+
+.reveal .autonomy-slide > .column:first-child {
+  color: #2d3946;
+  font-size: 0.86em;
+  line-height: 1.28;
+}
+
+.reveal .autonomy-slide > .column:first-child > p:first-child {
+  margin-bottom: 0.18em;
+  color: var(--gt-navy);
+  font-size: 1.18em;
+}
+
+.reveal .autonomy-evidence {
+  margin-top: 0.82em;
+  padding: 0.55em 0 0.1em 0.72em;
+  border-left: 6px solid var(--gt-taupe);
+  font-size: 0.72em;
+}
+
+.reveal .causal-chain,
+.reveal .alignment-chain,
+.reveal .governance-gap {
+  display: grid;
+  gap: 1.25em;
+  align-items: stretch;
+  margin: 0.55em auto 0;
+}
+
+.reveal .causal-chain {
+  grid-template-columns: repeat(6, 1fr);
+  width: 97%;
+}
+
+.reveal .chain-step,
+.reveal .alignment-step,
+.reveal .governance-step {
+  position: relative;
+  padding: 0.66em 0.5em;
+  color: #26323d;
+  background: #f2f5f9;
+  border-top: 5px solid var(--gt-blue);
+  font-size: 0.53em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.reveal .chain-step > p,
+.reveal .alignment-step > p,
+.reveal .governance-step > p {
+  margin: 0.22em 0 0;
+}
+
+.reveal .chain-step:not(:last-child)::after,
+.reveal .alignment-step:not(:last-child)::after,
+.reveal .governance-step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  top: 43%;
+  right: -1.15em;
+  z-index: 2;
+  color: var(--gt-taupe);
+  font-size: 1.65em;
+  font-weight: 700;
+}
+
+.reveal .chain-example {
+  margin: 1.05em auto 0;
+  padding: 0.54em 0.7em;
+  width: 93%;
+  color: #394653;
+  background: var(--gt-paper);
+  border-left: 5px solid var(--gt-taupe);
+  font-size: 0.57em;
+  line-height: 1.25;
+}
+
+.reveal .alignment-chain,
+.reveal .governance-gap {
+  grid-template-columns: repeat(4, 1fr);
+  width: 94%;
+}
+
+.reveal .alignment-step,
+.reveal .governance-step {
+  font-size: 0.62em;
+}
+
+.reveal .alignment-step.danger {
+  background: #fbf1f2;
+  border-top-color: #a83c48;
+}
+
+.reveal .race-pressure,
+.reveal .external-gap {
+  margin: 1.05em auto 0;
+  padding: 0.62em 0.82em;
+  width: 88%;
+  color: var(--gt-navy);
+  background: var(--gt-paper);
+  border-left: 6px solid var(--gt-taupe);
+  font-size: 0.68em;
+  line-height: 1.24;
+  text-align: center;
+}
+
+.reveal .pledge-comparison {
+  align-items: stretch;
+}
+
+.reveal .pledge-comparison > .column {
+  padding: 0.72em 0.85em;
+  background: #f2f5f9;
+  border-top: 6px solid var(--gt-navy);
+  font-size: 0.78em;
+  line-height: 1.25;
+}
+
+.reveal .pledge-comparison > .column + .column {
+  border-top-color: var(--gt-blue);
+}
+
+.reveal .small-qualification {
+  margin-top: 0.75em;
+  padding-top: 0.5em;
+  color: #5b6671;
+  border-top: 1px solid #bfc9d5;
+  font-size: 0.76em;
+}
+
+.reveal .small-qualification.accent {
+  color: var(--gt-navy);
+  font-weight: 600;
+}
+
+.reveal .race-matrix {
+  display: grid;
+  grid-template-columns: 0.65fr 1fr 1fr;
+  gap: 0.18em;
+  width: 83%;
+  margin: 0.15em auto 0.55em;
+}
+
+.reveal .matrix-corner,
+.reveal .matrix-label,
+.reveal .matrix-cell {
+  display: flex;
+  min-height: 2.7em;
+  align-items: center;
+  justify-content: center;
+  padding: 0.42em 0.55em;
+  text-align: center;
+}
+
+.reveal .matrix-corner,
+.reveal .matrix-label {
+  color: #ffffff;
+  background: var(--gt-navy);
+  font-size: 0.57em;
+}
+
+.reveal .matrix-label.row-label {
+  background: var(--gt-blue);
+}
+
+.reveal .matrix-cell {
+  flex-direction: column;
+  color: #2d3946;
+  background: #f2f5f9;
+  font-size: 0.58em;
+  line-height: 1.18;
+}
+
+.reveal .matrix-cell p {
+  margin: 0.1em 0;
+}
+
+.reveal .matrix-cell.safe-cell {
+  background: #e7eef5;
+}
+
+.reveal .matrix-cell.race-cell {
+  color: #7e2630;
+  background: #fbebed;
+}
+
 /* Opening slide */
 
 #title-slide {
