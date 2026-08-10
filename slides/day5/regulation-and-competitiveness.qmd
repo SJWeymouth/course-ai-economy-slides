@@ -340,37 +340,43 @@ European Commission, "The Draghi Report: One Year On," 2025; Draghi, 16 Sep 2025
 
 :::: {.columns}
 
-::: {.column width="38%"}
-- One **binding rulebook**
-- Duties rise with **risk**
-- Rights and safety come **before deployment**
-- The **EU AI Office** coordinates enforcement
+::: {.column width="43%"}
+### Examples
+
+- **Banned:** social scoring
+- **High risk:** screening job applicants or deciding who receives a loan
+- **Transparency rules:** chatbots and deepfakes
+- **Minimal risk:** spam filters and video-game AI
 :::
 
-::: {.column width="58%"}
-![](../../assets/day5_ai_act_tiers.png){fig-alt="Pyramid of the EU AI Act's four risk levels: unacceptable risk is banned, high risk carries strict duties and registration, limited risk requires transparency under Article 50, and minimal risk has no extra rules" height="610"}
+::: {.column width="53%"}
+![](../../assets/day5_ai_act_tiers.png){fig-alt="Pyramid of the EU AI Act's four risk levels: unacceptable risk, exemplified by social scoring, is banned; high-risk uses such as employment and credit decisions carry strict duties; chatbots and deepfakes face transparency rules; and minimal-risk uses such as spam filters and video-game AI have no extra rules" height="590"}
 :::
 
 ::::
 
 ::: {.notes}
-This combines the institutional philosophy and the risk structure. Europe acts before harm occurs, with a binding framework coordinated through the EU AI Office. A few uses are banned outright, such as social scoring and untargeted face scraping. High-risk uses, such as hiring or credit scoring, carry risk-management, human-oversight, documentation, and registration duties. Limited-risk systems such as chatbots mainly face transparency rules. Most ordinary software receives no additional duties.
+This combines the institutional philosophy and the risk structure. Europe acts before harm occurs, with a binding framework coordinated through the EU AI Office. A few uses are banned outright, including social scoring and untargeted face scraping. High-risk uses include systems that screen job applicants or assess whether a person qualifies for a loan; these carry risk-management, human-oversight, documentation, and registration duties. Chatbots and deepfakes face transparency requirements. Spam filters and AI used in video games illustrate the minimal-risk category, which receives no additional duties under the AI Act.
 
 Most of the rules fall on the narrow top of the pyramid, not on ordinary software.
 
 [Sources]
-EU AI Act Explorer, high-level summary and Articles 5, 6, 50, and 64-70, artificialintelligenceact.eu.
+European Commission, "AI Act: A Risk-based Approach," updated July 2026; Regulation (EU) 2024/1689, Articles 5, 6, and 50 and Annex III.
 :::
 
 ## The EU Kept the Rulebook—but Delayed Its Hardest Duties {.visual-stage}
 
 ![](../../assets/day5_omnibus_timeline.png){fig-alt="Timeline showing the EU AI Act high-risk obligations moved from August 2026 to December 2027 for standalone systems and August 2028 for systems built into products, with content labelling and a new abuse-image ban due December 2026 and sandboxes by August 2027" .r-stretch}
 
+- **Sandboxes:** time-limited, regulator-supervised environments where firms can develop and test AI—including in real-world settings—before launch.
+
 ::: {.notes}
 The AI Act has real force—its top penalty is €35 million or 7 percent of global sales—but the EU slowed the hardest duties before they took effect. The high-risk rules formerly due in August 2026 now start in December 2027 for standalone systems and August 2028 for AI embedded in regulated products. The Digital Omnibus keeps the risk-based core while delaying the timetable and reducing paperwork, presented as a competitiveness measure inspired by Draghi.
 
+The sandbox is not an exemption from the law. A company follows an agreed testing plan for a limited period while regulators provide guidance, supervision, and support. Testing may occur in real-world conditions, but safeguards still apply. The purpose is to identify risks and compliance problems before the system is widely marketed or deployed.
+
 [Sources]
-EU AI Act, Article 99; Council of the EU, 29 Jun 2026; Freshfields and Gibson Dunn analyses, 2026.
+EU AI Act, Articles 57-59 and 99; European Commission, "AI Omnibus Enters into Force," July 2026; Council of the EU, 29 Jun 2026; Freshfields and Gibson Dunn analyses, 2026.
 :::
 
 ## The Omnibus Cuts Some Rules—and Adds Another
