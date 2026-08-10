@@ -559,59 +559,6 @@ Pull the two halves of the day together. A year ago the contrast was "the EU reg
 Course synthesis; Draghi Report, 2024; Council of the EU, 2026; Executive Order 14365, 2025.
 :::
 
-## Simulation: Implementing the Omnibus {background-color="#041e42"}
-
-### The law is adopted. The dates are fixed.
-
-Now the Competitiveness Council must agree how it is enforced.
-
-**A necessary fix, or a step backward?**
-
-::: {.notes}
-Motivate the main event of the day. The Omnibus has passed and its deadlines are set. The fight now moves from what the law says to how it is actually applied. A special EU Competitiveness Council, chaired by the Commission, must agree an implementation compact before the new high-risk dates take effect. Students shape that compact.
-
-This is the same public-negotiation format as the final group project, and the proposal is due soon, so treat it as a working model, not just an exercise: one hard decision, different interests, real time pressure.
-
-[Sources]
-Day 5B simulation, "EU Digital Omnibus Implementation Compact"; course final-project brief.
-:::
-
-## Your Role and the Decision
-
-:::: {.columns}
-
-::: {.column width="52%"}
-### Five groups at the table
-
-- European Commission (chair)
-- Pro-innovation member states
-- Tech industry (AI firms and business users)
-- Civil society (workers and digital-rights groups)
-- National regulators (the enforcers)
-:::
-
-::: {.column width="44%"}
-### The compact must decide
-
-- What paperwork is **cut**
-- What protections stay **in force**
-- Who **pays** for support
-- How enforcement stays **consistent**
-- One measurable **test for 2028**
-:::
-
-::::
-
-::: {.notes}
-The mechanics in brief; the handout has the full detail. Five groups take part, each with a different motive. The tech-industry group speaks for large AI providers, business users, start-ups, and US firms operating in the EU. Civil society covers labour unions and digital-rights groups, who speak for the people affected. National regulators are the authorities that must actually enforce the rules, so their concern is whether enforcement is workable and consistent, not rights as such. Each group prepares two priorities it will not give up, two points it can trade, and one fact from the readings. Flow: the Commission opens with a draft compact, each group gives a one-minute statement, then open negotiation, then the Commission puts a revised four-to-six-point package to the room, which adopts, amends, or rejects it.
-
-Point students to the split: the pro-innovation states and the tech industry push for lighter, faster rules; civil society pushes to keep protections in force; the regulators judge what can actually be enforced. The Commission has to build a majority.
-
-Debrief on the central question: did the compact cut needless costs, weaken real protections, or both, and who turned a competitiveness claim into an advantage?
-
-[Sources]
-Day 5B simulation, "EU Digital Omnibus Implementation Compact"; course final-project brief.
-:::
 
 ## Key Takeaways
 
