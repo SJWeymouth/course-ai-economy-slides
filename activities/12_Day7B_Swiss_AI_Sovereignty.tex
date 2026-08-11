@@ -1,0 +1,129 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+\definecolor{Accent}{HTML}{1D84B5}
+\definecolor{Light}{HTML}{EEF7FB}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\headheight}{14pt}
+\renewcommand{\arraystretch}{1.18}
+\setlist[itemize]{noitemsep,topsep=0.25em,leftmargin=*}
+\tcbset{colback=Light,colframe=Accent,boxrule=0.5pt,arc=3pt}
+\titleformat{\section}{\large\bfseries\color{Accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{0.65em}{0.25em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{The AI Economy -- Summer 2026}
+\rhead{Activity Handout}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Swiss AI Sovereignty Strategy}\\[0.35em]
+{\large Day 7B: Capabilities, Partners, and Foreign Technology Dependence}
+\end{center}
+\vspace{-0.5em}
+
+\begin{tcolorbox}
+\textbf{Scenario.} Switzerland has strong universities, specialized companies, investment capital, and trusted public institutions. However, no Swiss company develops the most advanced AI models, and Switzerland has little very large-scale cloud capacity. The country relies on foreign suppliers for advanced AI chips, cloud services, and leading models. It also faces limits on energy, land, and the use of sensitive data.
+\end{tcolorbox}
+
+\section*{Step 1: Rank the Dependencies}
+Choose the three dependencies that would cause the most harm if foreign access were reduced or interrupted. Rank them from 1 to 3 and explain what would happen.
+
+\begin{tcolorbox}[title=\textbf{Dependency menu},colback=white]
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}
+  \item \textbf{Advanced AI chips}: access to the chips needed to train and run leading models.
+  \item \textbf{Cloud and compute}: the ability to rent enough computing power when it is needed.
+  \item \textbf{Advanced AI models}: access to models developed by foreign companies and laboratories.
+  \item \textbf{Energy and grid capacity}: enough reliable electricity, land, and data-center infrastructure.
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}
+  \item \textbf{Data access}: lawful access to useful data from health, finance, industry, and government.
+  \item \textbf{Research and talent}: attracting and retaining specialists and turning research into products.
+  \item \textbf{Evaluation and security}: the ability to test models for safety, security, and performance.
+\end{itemize}
+\end{minipage}
+\end{tcolorbox}
+
+\section*{Step 2: Choose a Primary Strategy}
+Choose one primary strategy. If you choose a hybrid, identify which elements are most important.
+\begin{itemize}
+  \item \textbf{AI mercantilism}: use government support to build and protect capabilities in Switzerland.
+  \item \textbf{International alignment}: gain secure access through trusted foreign partners or groups of partner countries.
+  \item \textbf{Regulatory sovereignty}: use standards, government purchasing, and laws to control how foreign AI is used in Switzerland.
+  \item \textbf{Hybrid}: combine targeted domestic investment with partnerships and regulation.
+\end{itemize}
+
+\newpage
+\thispagestyle{fancy}
+\section*{Step 3: Allocate the Policy Budget}
+Spend \textbf{no more than 10 points}. Select \textbf{at most four instruments}. You may leave points unspent.
+
+\begingroup
+\footnotesize
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{p{0.47\textwidth} p{0.12\textwidth} X}
+\toprule
+\textbf{Instrument} & \textbf{Cost} & \textbf{Purpose} \\
+\midrule
+Swiss compute facility & 5 & Reserve computing power for research and public services. \\
+Secure public-sector cloud service & 3 & Protect sensitive government services under Swiss security rules. \\
+Open-weight models and Swiss applications & 2 & Support models whose trained parameters are available for use and adaptation. \\
+National AI evaluation and security authority & 2 & Test and certify models; improve Switzerland's negotiating position. \\
+Strategic government purchasing & 2 & Use public contracts to require compatible and secure systems. \\
+Compute and chip partnership & 3 & Negotiate priority access and emergency supply guarantees. \\
+Sensitive-data and local-storage rules & 2 & Keep sensitive sector data under Swiss control. \\
+Talent, research, and product-development package & 2 & Turn Swiss research into companies and products. \\
+Energy and grid expansion & 3 & Increase reliable low-carbon power for computing. \\
+\bottomrule
+\end{tabularx}
+\endgroup
+
+\section*{Step 4: Identify the Main Result}
+Choose the statement that best describes the main result of your strategy. More than one may be partly true, but select one primary result.
+\begin{itemize}
+  \item It \textbf{reduces dependence} by building more capacity in Switzerland.
+  \item It \textbf{diversifies dependence} across several foreign partners.
+  \item It \textbf{transfers dependence} to one trusted partner or group of partner countries.
+  \item It does not create independence, but it gives Switzerland more \textbf{negotiating power}.
+\end{itemize}
+
+\section*{Step 5: Choose What Switzerland Can Offer}
+Choose one or two strengths that Switzerland could offer firms or partner countries in return for secure access. Options include investment capital, research expertise, secure infrastructure, trusted regulation, specialized companies, diplomatic relationships, and leadership in international standards.
+
+\section*{Required Output}
+Prepare a \textbf{three-minute spoken recommendation} to the Swiss Federal Council (cabinet). Include all six points:
+
+\begin{tcolorbox}[colback=white]
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{1.} Top three AI dependencies\\[0.25em]
+\textbf{2.} Primary strategy\\[0.25em]
+\textbf{3.} Selected instruments and total cost
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{4.} Preferred international partners, if any\\[0.25em]
+\textbf{5.} Switzerland's main offer to those partners\\[0.25em]
+\textbf{6.} One scenario in which the strategy fails
+\end{minipage}
+\end{tcolorbox}
+
+\end{document}
