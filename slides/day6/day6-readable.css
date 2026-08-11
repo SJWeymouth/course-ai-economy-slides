@@ -1,0 +1,67 @@
+/* Day 6 readability overrides.
+   Keep these local to this deck so earlier course decks do not change. */
+
+.reveal .figure-takeaway {
+  font-size: 0.78em;
+  line-height: 1.24;
+}
+
+.reveal .autonomy-evidence {
+  font-size: 0.84em;
+  line-height: 1.28;
+}
+
+.reveal .alignment-step,
+.reveal .governance-step,
+.reveal .resource-step {
+  font-size: 0.75em;
+  line-height: 1.24;
+}
+
+.reveal .race-pressure,
+.reveal .external-gap,
+.reveal .resource-caveat,
+.reveal .kasy-takeaway {
+  font-size: 0.78em;
+  line-height: 1.26;
+}
+
+.reveal .evidence-item {
+  font-size: 0.78em;
+  line-height: 1.28;
+}
+
+.reveal .rsp-version-block {
+  font-size: 0.76em;
+}
+
+.reveal .rsp-architecture > .column:last-child,
+.reveal .pledge-comparison > .column,
+.reveal .openai-framework > .column {
+  font-size: 0.86em;
+  line-height: 1.25;
+}
+
+.reveal .small-qualification {
+  font-size: 0.88em;
+}
+
+.reveal .matrix-corner,
+.reveal .matrix-label {
+  font-size: 0.68em;
+}
+
+.reveal .matrix-cell {
+  font-size: 0.70em;
+  line-height: 1.2;
+}
+
+.reveal .activity-step {
+  font-size: 0.80em;
+  line-height: 1.28;
+}
+
+.reveal .rotation-line {
+  font-size: 0.76em;
+  line-height: 1.24;
+}
