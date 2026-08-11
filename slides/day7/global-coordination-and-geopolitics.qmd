@@ -406,25 +406,17 @@ Private firms control critical AI inputs beyond effective sovereign or multilate
 Stephen Weymouth, “Digital Disintegration,” 2025. Image from the instructor’s public-event deck.
 :::
 
-## Strategic Digital Sovereignty Has Three Modes {.sovereignty-modes}
+## Sovereignty Is a Portfolio, Not Autarky {.sovereignty-modes}
 
-<div class="mode-card">
-<strong>Mercantilism</strong>
-<span>Build domestic capacity</span>
-<small>Subsidies · procurement · localization</small>
-</div>
-<div class="mode-card">
-<strong>Alignment</strong>
-<span>Join a trusted technology bloc</span>
-<small>Chip access · cloud partnerships · security ties</small>
-</div>
-<div class="mode-card">
-<strong>Regulatory power</strong>
-<span>Shape access through rules</span>
-<small>Safety · competition · data governance</small>
+<div class="mode-equation">
+<div class="mode-part build-mode"><span>Mercantilism</span><strong>BUILD</strong><b>domestic capacity</b><small>subsidies · procurement · localization</small></div>
+<div class="mode-plus">+</div>
+<div class="mode-part align-mode"><span>Alignment</span><strong>ALIGN</strong><b>with trusted partners</b><small>chips · cloud · security ties</small></div>
+<div class="mode-plus">+</div>
+<div class="mode-part regulate-mode"><span>Regulatory power</span><strong>REGULATE</strong><b>access and conduct</b><small>safety · competition · data governance</small></div>
 </div>
 
-<div class="mode-bottom">Most states combine the three. Few can achieve full autonomy.</div>
+<div class="mode-bottom">Strategic sovereignty means managing dependencies—not eliminating them.</div>
 
 ::: {.notes}
 Strategic sovereignty is not autarky. States pursue it through combinations of domestic industrial policy, alignment with a technology bloc, and regulation of market access. The mix depends on domestic assets, external dependencies, and bargaining power.
@@ -503,15 +495,17 @@ Distribute the standalone activity handout. Students work in groups to rank Swit
 Course activity handout, “Swiss AI Sovereignty Strategy,” Day 7B, 2026.
 :::
 
-## Three Takeaways {.takeaways-slide}
+## What to Take from This Course
 
-<div class="takeaway-card"><span>1</span><strong>AI summits failed to produce global rules</strong><small>They generated declarations and voluntary initiatives, but no verification or enforcement.</small></div>
-<div class="takeaway-card"><span>2</span><strong>Regulation can sustain openness</strong><small>Privacy, competition, and tax rules contain the conflicts that otherwise produce fragmentation.</small></div>
-<div class="takeaway-card"><span>3</span><strong>AI sovereignty is relational</strong><small>States manage dependencies on firms, infrastructure, and technology blocs; few can exit them.</small></div>
+1. AI can make many tasks faster and cheaper, but better results require changes in how work and organizations are designed.
+2. AI will affect workers, companies, and places unevenly, so claims about jobs and productivity must be tested with evidence.
+3. AI brings real costs—for energy systems, communities, privacy, competition, and democracy.
+4. No country controls AI alone, but cooperation is difficult because governments and firms want different things.
+5. The central question is: **Who decides how AI is used, who gains, who pays, and what rules keep it serving society?**
 
 ::: {.notes}
-End by reconnecting the three arguments. The summit process shows that recognizing a cross-border problem is easier than agreeing on rules that constrain states or firms. Coordinated regulation can make cross-border digital integration politically sustainable. But AI infrastructure is controlled through concentrated private and geopolitical networks, so sovereignty means managing dependencies rather than achieving isolation.
+End by returning to the questions that ran through all seven days. AI can lower the cost of tasks, but company results depend on organizational change. Effects on jobs and productivity must be distinguished from forecasts. Energy, privacy, competition, and democratic control show that the gains and costs are unevenly distributed. Day 7 adds that neither states nor firms can govern a cross-border technology alone. The final question is therefore about choice, distribution, and responsibility: who sets the goals, who receives the benefits, who bears the costs, and what rules can keep AI serving society?
 
 [Sources]
-Bletchley Declaration, 2023; New Delhi Declaration, 2026; Future of AI Summit Series, 2026; Stephen Weymouth, *Digital Globalization*, chapters 1 and 5; Stephen Weymouth, “Digital Disintegration,” 2025.
+Course synthesis, Days 1–7; assigned course readings.
 :::
