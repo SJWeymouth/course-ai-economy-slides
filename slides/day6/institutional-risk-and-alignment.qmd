@@ -138,7 +138,7 @@ Drago and Laine, “Defining the Intelligence Curse” and “Breaking the Intel
 ## The Alignment Problem {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Making a powerful AI reliably do what we actually mean, even in new situations. The hard part is not capability. It is matching its goals to ours.
+Making a powerful AI reliably do what we actually mean, even in new situations. The hard part is matching its goals to our human goals.
 :::
 
 ::: {.notes}
@@ -148,7 +148,7 @@ Define the problem clearly. Alignment is about matching an AI's behavior to huma
 Course materials, Day 6; International AI Safety Report 2026, loss-of-control sections.
 :::
 
-## A Capable System Can Optimize the Wrong Objective {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
+## Paperclip Maximizer {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
 **Alignment:** making a powerful AI reliably pursue what humans actually intend. A paperclip maximizer is not evil; it is competent at the wrong goal.
@@ -270,7 +270,7 @@ Kasy reframes alignment through political economy. AI systems optimize measurabl
 Maximilian Kasy, “The Political Economy of AI: Toward Democratic Control of the Means of Prediction,” in The Oxford Handbook of Algorithmic Governance and the Law, 2025/2026.
 :::
 
-## The Evidence Is Uneven Across Democratic-Risk Pathways
+## Democratic Risk Pathways
 
 :::: {.evidence-spectrum}
 
@@ -495,59 +495,19 @@ Anthropic RSP v3.0; TIME, February 2026; OpenAI Preparedness Framework, §4.3.
 :::
 
 ## Activity: Frontier Model Decision {background-color="#041e42"}
+- Team 1 --- Severe harm
+- Team 2 --- Benefits
+- Team 3 --- Competition
+- Team 4 --- Public control
+- Team 5 --- International security
 
-### Deploy, restrict, or pause?
+Decision: Continue, but do not release it; Release the model only to approved users with limits; Release the model to many users; Stop and pursue stronger safeguards
 
-A frontier model crosses high-capability thresholds in cybersecurity and biological assistance. Safeguards reduce measured misuse but have not been validated at full scale. A competitor may release a comparable model within four months.
+## Key Takeaways
 
-::: {.notes}
-Launch the five-team activity. Students should use the handout and assigned readings. Emphasize that the probability of severe harm and transfer to the real world remain disputed; uncertainty is part of the decision, not a missing fact to be resolved by the instructor.
-
-[Sources]
-Day 6 activity handout, “Frontier Model Decision: Deploy, Restrict, or Pause?”
-:::
-
-## Five Teams, One Board-Level Decision
-
-:::: {.activity-steps}
-
-::: {.activity-step}
-**1 · Compare**
-
-Use five questions: trigger, safeguard standard, decision authority, disclosure/review, and competitor effects.
-:::
-
-::: {.activity-step}
-**2 · Recommend**
-
-Choose: continue without deployment, screened access, broad deployment, or pause capability development.
-:::
-
-::: {.activity-step}
-**3 · Defend**
-
-Present for two minutes; another team challenges; then respond.
-:::
-
-::::
-
-::: {.rotation-line}
-**Review rotation:** 1 challenges 2 · 2 challenges 3 · 3 challenges 4 · 4 challenges 5 · 5 challenges 1
-:::
-
-::: {.notes}
-The handout contains the full table and assigned adversarial perspectives. All five teams make their own recommendation. Each then challenges one other team: catastrophic-risk prevention, scientific progress, commercial competition, democratic accountability, or international security. Keep this slide visible during team work.
-
-[Sources]
-Day 6 activity handout, “Frontier Model Decision: Deploy, Restrict, or Pause?”
-:::
-
-## What to Remember from Day 6
-
-1. AI may weaken democracy by changing **who depends on whom**, who controls objectives, and how people form judgments.
-2. The evidence ranges from demonstrated persuasive capability to forward-looking institutional theory.
-3. Alignment is both a technical problem and a question of **who chooses the objective**.
-4. Voluntary frameworks can improve testing and transparency, but their credibility is most vulnerable when restraint becomes competitively costly.
+1. AI may weaken democracy by altering accountability, who controls economic and social objectives, and how people form judgments
+2. Alignment is both a technical problem (is it possible?) and a question of **who chooses the objective** and what the objective is
+3. Voluntary frameworks can improve testing and transparency, but their credibility is most vulnerable when restraint becomes competitively costly (ie, NOW)
 
 ::: {.notes}
 Close by returning to the two opening questions. Session A showed that democratic risk can run through political economy, information, and autonomy. Session B showed that frontier governance is not merely a checklist of safety tools; it is an institutional commitment problem. Preview Day 7: if unilateral firm promises and national rules are insufficient, can states coordinate across borders?
