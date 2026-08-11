@@ -495,6 +495,20 @@ Distribute the standalone activity handout. Students work in groups to rank Swit
 Course activity handout, “Swiss AI Sovereignty Strategy,” Day 7B, 2026.
 :::
 
+## Day 7 Key Takeaways
+
+1. AI summits produced broad principles, but not enforceable global rules.
+2. Digital trade creates conflicts over privacy, market power, and where profits are taxed.
+3. Shared rules can keep digital markets open by reducing the harms that lead governments to close them.
+4. No country is fully independent in AI; strategy means deciding what to build, whom to rely on, and what to regulate.
+
+::: {.notes}
+Use this slide to close Day 7 before stepping back to the course as a whole. The summit process shows the limits of international cooperation. The deeper problem is that cross-border digital activity creates political conflicts over privacy, competition, and taxation. Regulation can help sustain openness when it addresses those conflicts. At the same time, AI infrastructure is concentrated across firms and countries, so sovereignty means managing dependencies rather than eliminating them.
+
+[Sources]
+Bletchley Declaration, 2023; New Delhi Declaration, 2026; Stephen Weymouth, *Digital Globalization*, chapters 1 and 5; Stephen Weymouth, “Digital Disintegration,” 2025.
+:::
+
 ## What to Take from This Course
 
 1. AI can make many tasks faster and cheaper, but better results require changes in how work and organizations are designed.
