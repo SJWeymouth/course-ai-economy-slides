@@ -1,0 +1,95 @@
+---
+title: "Global Coordination & Geopolitics"
+subtitle: "AI Summits, Digital Globalization, and Strategic Sovereignty"
+author: "Stephen Weymouth"
+date: ""
+format:
+  revealjs:
+    embed-resources: true
+    theme: ../../styles/georgetown.scss
+    css:
+      - ../../styles/georgetown.css
+      - day7-readable.css
+    slide-number: true
+    transition: fade
+    controls: false
+    menu: false
+    progress: true
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.035
+    incremental: false
+    footer: "Georgetown University · McDonough School of Business"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+## Today: Two Questions {.two-questions}
+<div class="question-number">1</div>
+### What can international AI summits realistically accomplish?
+<div class="question-number second">2</div>
+### What does AI sovereignty mean for Switzerland?
+::: {.notes}
+Day 7 asks two related but distinct questions. Session A examines what recurring AI summits can and cannot coordinate. Session B turns to the politics of dependence in the AI economy and culminates in a strategy exercise for Switzerland.
+[Sources]
+Course syllabus, Day 7, 2026.
+:::
+# What Can AI Summits Accomplish? {background-color="#041e42"}
+## Bletchley Park, November 2023 {.photo-title background-image="../../assets/pe_bletchley_summit.png" background-size="cover" background-position="center"}
+::: {.photo-caption}
+Twenty-eight countries—including the United States and China—recognized frontier-AI risk as an international problem.
+:::
+::: {.notes}
+Open with the high-water mark of international cooperation on AI. What was unusual was not merely the number of participants: governments with sharply different interests accepted that some frontier-AI risks could not be governed domestically.
+[Sources]
+UK Government, “The Bletchley Declaration,” 1–2 November 2023; summit image from the instructor's 2026 public-lecture deck.
+:::
+## Bletchley Created a Process—not a Regulator {.declaration-slide}
+:::: {.columns}
+::: {.column width="57%"}
+![](../../assets/pe_bletchley_venue.png){fig-alt="UK Government page for the Bletchley Declaration"}
+:::
+::: {.column width="39%"}
+### Shared science
+### Common testing methods
+### Voluntary firm commitments
+<div class="bottom-line">No common thresholds, verification, or enforcement.</div>
+:::
+::::
+::: {.notes}
+The declaration established diagnostic consensus and launched a recurring process. It did not create a world AI regulator. The practical model combines summit diplomacy, national AI safety institutes, technical research, and voluntary commitments from frontier developers.
+[Sources]
+UK Government, “The Bletchley Declaration,” 2023; Meltzer and Triolo, Brookings, 2023.
+:::
+## The Agenda Broadened With Each Summit {.image-triptych}
+<figure>
+  <img src="../../assets/pe_bletchley_summit.png" alt="Bletchley AI Safety Summit">
+  <figcaption><strong>Bletchley · 2023</strong><br>Frontier safety</figcaption>
+</figure>
+<figure>
+  <img src="../../assets/pe_paris_summit.png" alt="News coverage of the Paris AI Action Summit">
+  <figcaption><strong>Paris · 2025</strong><br>Innovation and inclusion</figcaption>
+</figure>
+<figure>
+  <img src="../../assets/day7_new_delhi_summit.png" alt="Official India AI Impact Summit identity">
+  <figcaption><strong>New Delhi · 2026</strong><br>Access and development</figcaption>
+</figure>
+::: {.notes}
+The changing names tell the story: Safety Summit, Action Summit, Impact Summit. Broadening the agenda increased relevance to more countries, especially the Global South. It also made sustained attention to frontier governance harder.
+[Sources]
+UK AI Safety Summit, 2023; Paris AI Action Summit, 2025; Government of India, AI Impact Summit, 2026. Images from the instructor's 2025 and 2026 lecture materials and the official India summit graphic.
+:::
+## New Delhi Made the Series Broader {.new-delhi-slide}
+:::: {.columns}
+::: {.column width="43%"}
+![](../../assets/day7_new_delhi_summit.png){fig-alt="Official India AI Impact Summit 2026 logo"}
+:::
+::: {.column width="53%"}
+<div class="mega-number">92</div>
+<div class="mega-label">countries and international organizations endorsed the declaration</div>
+<div class="keyword-line">ACCESS · DEVELOPMENT · HUMAN CAPACITY</div>
+:::
+::::
+::: {.notes}
