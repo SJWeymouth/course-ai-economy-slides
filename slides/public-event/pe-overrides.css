@@ -17,3 +17,46 @@
 .reveal .slides section.visual-stage .figure-takeaway {
   margin-bottom: 52px;
 }
+
+/* Title slide: Georgetown and University of Basel logos side by side.
+   The shared stylesheet draws one logo via #title-slide::after; widen the
+   element and give it two backgrounds. */
+#title-slide::after {
+  width: 580px;
+  height: 64px;
+  background:
+    url("../../assets/georgetown-university-wordmark.png") left center / auto 100% no-repeat,
+    url("../../assets/pe_unibas_logo.png") right center / auto 88% no-repeat;
+}
+
+/* Punchline emphasis on text slides */
+.reveal .punchline {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #041e42;
+  margin-top: 0.9em;
+}
+
+/* Melbourne slide overlay gags */
+.reveal .gym-stamp {
+  position: absolute;
+  border: 6px solid #b23a48;
+  color: #b23a48;
+  background: rgba(255,255,255,0.75);
+  font-weight: 800;
+  font-size: 44px;
+  letter-spacing: 2px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  transform: rotate(-12deg);
+}
+.reveal .gym-tag {
+  position: absolute;
+  background: #041e42;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
