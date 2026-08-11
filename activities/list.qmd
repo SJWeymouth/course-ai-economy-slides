@@ -4,3 +4,4 @@
 - [AI and Entry-Level Hiring](activities/03_Day3_Employment.pdf)
 - [Town Hall: A 100 MW AI Data Center](activities/04_Environment_Simulation.pdf)
 - [Can Europe Close the AI Competitiveness Gap?](activities/05_EU_Competitiveness.pdf)
+- [Frontier Model Decision: Deploy, Restrict, or Pause?](activities/06_Alignment.pdf)
