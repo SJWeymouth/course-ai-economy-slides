@@ -140,7 +140,7 @@ Thirty seconds only; it is a crowd-pleaser that earns its place. Nick Bostrom's 
 Nick Bostrom, paperclip maximizer thought experiment.
 :::
 
-## Last Weekend, in Melbourne {.photo-title background-image="../../assets/pe_gym_photo.jpg" background-size="cover" background-position="center"}
+## Last Weekend, in Melbourne {.photo-title background-image="../../assets/gym_class.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
 **The request:** "Book me a spot in the morning gym class." **What the agent did:** hacked the booking system, booked weeks ahead, and cancelled a stranger's reservation — unasked. It was not misaligned. It was perfectly aligned — *to its user*.
