@@ -104,7 +104,7 @@ Weymouth, "Digital Disintegration," International Organization 79(S1), 2025; AI 
 [Who controls AI decides which world we get — and how it is shared.]{.punchline}
 
 ::: {.notes}
-Before the three specific reasons, state the underlying stake with the two pictures — the one that touches everyone in this room, not just governments and firms. Left: the prize — and pause for the room to recognize it. "I did not need science fiction for this picture. It is Zürich, forty minutes from here." Abundance is not hypothetical in this country; serious economists treat advanced AI as an engine that could multiply it — new medicines, automated science, cheaper goods and services — and that expectation, more than any fear, powers everything in this talk: nobody fights this hard over chips for a technology they think is minor. The Google campus is already part of that skyline, so the AI economy is in the picture whether Zürich chose it or not. Right: the threat. The same systems can replace human labor — the work that gives ordinary people economic power. For two centuries, people mattered to politics because economies needed them; if AI weakens that need, the question is not just "who loses a job" but whether the bargain between people, firms, and states still holds.
+Before the specific reasons, state the underlying stake with the two pictures — the one that touches everyone in this room, not just governments and firms. Left: the prize — and pause for the room to recognize it. "I did not need science fiction for this picture. It is Zürich, forty minutes from here." Abundance is not hypothetical in this country; serious economists treat advanced AI as an engine that could multiply it — new medicines, automated science, cheaper goods and services — and that expectation, more than any fear, powers everything in this talk: nobody fights this hard over chips for a technology they think is minor. The Google campus is already part of that skyline, so the AI economy is in the picture whether Zürich chose it or not. Right: the threat. The same systems can replace human labor — the work that gives ordinary people economic power. For two centuries, people mattered to politics because economies needed them; if AI weakens that need, the question is not just "who loses a job" but whether the bargain between people, firms, and states still holds.
 
 Then the punchline, which converts this slide into the talk's question: who controls AI decides which world we get, who captures the bounty, who absorbs the shock — and whether that is decided by markets, governments, or a handful of firms. Plant it now; it returns in the closing.
 
@@ -114,7 +114,7 @@ A line to hold for the discussion rather than the slide: if people no longer mat
 Intelligence-curse framing (Luria/Douglas, 2025); resource-curse analogy; growth expectations per mainstream economic commentary on transformative AI, 2024–26. Images: Zürich skyline (stock); post-apocalyptic landscape illustration (stock) — [confirm licence].
 :::
 
-## Reason One: AI May Not Do What We Mean {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
+## AI May Not Do What We Mean {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
 This is the "alignment problem": make a powerful AI do what we actually mean, even in new situations.
@@ -152,8 +152,8 @@ Nick Bostrom, paperclip maximizer thought experiment.
          background:rgba(255,255,255,0.78); font-weight:800; font-size:46px; letter-spacing:2px;
          padding:6px 24px; border-radius:10px; transform:rotate(-12deg); z-index:10;">CANCELLED</div>
 <div class="fragment" data-fragment-index="2"
-  style="position:absolute; left:63%; top:26%; background:#041e42; color:#ffffff;
-         font-weight:700; font-size:26px; padding:8px 18px; border-radius:8px; z-index:10;">our user — moved up the waitlist</div>
+  style="position:absolute; left:73%; top:46%; background:#041e42; color:#ffffff;
+         font-weight:700; font-size:23px; padding:8px 18px; border-radius:8px; z-index:10;">our user — moved up the waitlist</div>
 ```
 
 ::: {.notes}
@@ -167,7 +167,7 @@ Two clicks are staged on this slide: the first stamps CANCELLED over the woman o
 ABC News (Australia), Cameron Wilson, August 2026; widely corroborated coverage, August 9–10, 2026. Photo: stock gym-class image — [confirm licence].
 :::
 
-## Reason Two: A Handful of Firms Hold the Inputs {.visual-stage}
+## A Handful of Firms Hold the Inputs {.visual-stage}
 
 ![](../../assets/pe_ai_inputs_market_share.png){fig-alt="Bar chart of market share in critical AI inputs: ASML 100 percent of EUV lithography, Nvidia 92 percent of data center GPUs, TSMC 65 percent of foundry output, AWS 32, Azure 23, Google Cloud 11 percent of cloud services." .r-stretch}
 
@@ -182,7 +182,7 @@ The economic and security reason, in one chart. ASML is a single Dutch company w
 IoT Analytics; Trendforce; Synergy Research Group; author's public lecture materials, 2026.
 :::
 
-## Reason Three: AI Is Now a Weapon {.photo-title background-image="../../assets/pe_battlefield_drone.png" background-size="cover" background-position="center"}
+## AI Is Now a Weapon {.photo-title background-image="../../assets/pe_battlefield_drone.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
 Drones in Ukraine. Targeting systems in Gaza. Frontier models inside military intelligence platforms. Security concerns now drive AI policy.
@@ -253,35 +253,7 @@ The European strategy: regulatory power. Europe has little of the stack — no f
 EU AI Act, 2024; Anu Bradford, The Brussels Effect (2020); EU Digital Services Act and Digital Markets Act.
 :::
 
-# When Control Fails {background-color="#041e42"}
-
-## Brussels Has Doubts {.columns .draghi-slide}
-
-::: {.column width="42%"}
-![](../../assets/day5_draghi_2025.jpg){fig-alt="Mario Draghi beside European Commission President Ursula von der Leyen at the European Commission" height="430"}
-
-::: {.draghi-caption}
-Mario Draghi with Commission President Ursula von der Leyen
-:::
-:::
-
-::: {.column width="33%"}
-- In 2024, the EU asked **Mario Draghi** — the former European Central Bank chief — to explain why Europe's economy is falling behind
-- His diagnosis: Europe's **competitiveness is in decline** — strong in last century's industries, weakest at the digital frontier — and Europe's **own rules** are part of the reason
-
-> "This is an existential challenge." — Draghi, on Europe's competitiveness
-:::
-
-::: {.notes}
-Make the logic explicit, because it is the whole point: this is not an outside critic — the EU commissioned its own verdict. Ursula von der Leyen asked Mario Draghi, the man who saved the euro, to diagnose European competitiveness. This audience knows exactly who Draghi is, which is why the moment lands: the most credible economic voice Europe has, reporting to the Commission itself, in September 2024. Be precise about the quote's scope: "This is an existential challenge" is Draghi's verdict on Europe's competitiveness overall — slowing growth and productivity threatening the European social model — not on AI specifically. Within that diagnosis, the report's sharpest warning is the "middle-technology trap": world-class in cars, chemicals, machines; weakest at the digital and AI frontier, where the growth now is. And it names Europe's regulatory burden as one of the causes.
-
-So the failure mode, stated cleanly: the EU's chosen instrument of control is regulation — and the EU's own commissioned diagnosis says that instrument is undermining the goal, competitiveness. Brussels heard him: the Commission is now working on a "Digital Omnibus" to simplify its own digital rulebook — the EU diluting the very rules that were its claim to power. Regulatory sovereignty is real, but you can regulate a market you are vanishing from. Before anyone concludes Europe is simply losing, though — next slide.
-
-[Sources]
-Draghi report, The Future of European Competitiveness, September 2024 (commissioned by the European Commission); Draghi's remarks presenting the report; European Commission Digital Omnibus debate, 2025–26.
-:::
-
-## Yet EU Rules Still Go Global
+## And Europe’s Rules Travel
 
 ::: {.callout-quote}
 > This week, one leading AI firm began invisibly watermarking **everything** its model writes — for every user, **worldwide** — to comply with the EU AI Act.
@@ -295,12 +267,41 @@ Europe's power is real — for rules that **do not slow deployment**. Transparen
 :::
 
 ::: {.notes}
-Balance the Draghi beat immediately, with news from this week: Anthropic announced it will embed invisible watermarks in all of Claude's text and file output to satisfy Article 50 of the AI Act — transparency obligations effective 2 August 2026, with fines up to €15 million or 3% of global turnover. And the marking applies worldwide, wherever Claude is offered. This is the Brussels effect working exactly as designed: comply once, globally, because splitting products by jurisdiction costs more than uniform compliance.
+Fresh proof that the strategy works, from this week: Anthropic announced it will embed invisible watermarks in all of Claude's text and file output to satisfy Article 50 of the AI Act — transparency obligations effective 2 August 2026, with fines up to €15 million or 3% of global turnover. And the marking applies worldwide, wherever Claude is offered. This is the Brussels effect working exactly as designed: comply once, globally, because splitting products by jurisdiction costs more than uniform compliance.
 
-Then the sharper point, which sets up the next section: notice *which kind* of rule succeeded. Watermarking is a transparency measure — it does not slow adoption, restrict capability, or raise the cost of deploying AI. The parts of the AI Act that would burden deployment are the parts the Digital Omnibus is now diluting. Europe's regulatory power is selective, and the selection follows a pattern: rules that spare deployment travel the world; rules that burden it get softened at home. Hold that pattern — the next slides show the same thing happening in Washington, and then name it.
+Then plant a question to carry into the next section: notice *which kind* of rule just conquered the world. Watermarking is a transparency measure — it does not slow adoption, restrict capability, or raise the cost of using AI. Hold that observation; the next section asks what happens to the *other* kind of rule — and the pattern it reveals is the heart of the talk.
 
 [Sources]
 Euronews, "EU compliance, delivered globally," 11 August 2026; EU AI Act Article 50; European Commission Digital Omnibus debate, 2025–26.
+:::
+
+# When Control Fails {background-color="#041e42"}
+
+## Brussels Has Doubts {.columns .draghi-slide}
+
+::: {.column width="42%"}
+![](../../assets/day5_draghi_2025.jpg){fig-alt="Mario Draghi beside European Commission President Ursula von der Leyen at the European Commission" height="430"}
+
+::: {.draghi-caption}
+Mario Draghi with Commission President Ursula von der Leyen
+:::
+:::
+
+::: {.column width="52%"}
+- In 2024, the EU asked **Mario Draghi** — former European Central Bank chief — why Europe is falling behind
+- His diagnosis: **competitiveness in decline**, weakest at the digital frontier — partly because of Europe's **own rules**
+- **Brussels blinked:** the EU is now rewriting its own digital rulebook to win the industry back
+
+> "This is an existential challenge." — Draghi, on Europe's competitiveness
+:::
+
+::: {.notes}
+Make the logic explicit, because it is the whole point: this is not an outside critic — the EU commissioned its own verdict. Ursula von der Leyen asked Mario Draghi, the man who saved the euro, to diagnose European competitiveness. This audience knows exactly who Draghi is, which is why the moment lands: the most credible economic voice Europe has, reporting to the Commission itself, in September 2024. Be precise about the quote's scope: "This is an existential challenge" is Draghi's verdict on Europe's competitiveness overall — slowing growth and productivity threatening the European social model — not on AI specifically. Within that diagnosis, the report's sharpest warning is the "middle-technology trap": world-class in cars, chemicals, machines; weakest at the digital and AI frontier, where the growth now is. And it names Europe's regulatory burden as one of the causes.
+
+So the failure mode, stated cleanly — and this is the slide's point, say it in one sentence: Europe's instrument of control is regulation, and under competitive pressure Europe is now weakening its own instrument. The Commission's "Digital Omnibus" simplifies the very digital rulebook that was Brussels' claim to power. The rules that traveled the world — last slide's watermark — were the ones that cost the industry nothing; the rules with teeth are the ones being filed down. That is what failed control looks like: not defiance by firms, but retreat by the regulator. Now the American version.
+
+[Sources]
+Draghi report, The Future of European Competitiveness, September 2024 (commissioned by the European Commission); Draghi's remarks presenting the report; European Commission Digital Omnibus debate, 2025–26.
 :::
 
 ## The American Bet Meets Its Test {.visual-stage}
@@ -329,25 +330,29 @@ The episode's ending shows the institutional void. The government designated Ant
 CBS News, February 28, 2026; public reporting on supply-chain-risk designation and DPA threat; US sanctions threat over EU digital regulation, reporting from August 2025.
 :::
 
-## Six Months Later: Who Won? {.center}
+## Washington Changes Its Tune {.visual-stage}
 
-**March.** A court blocks the government's ban on the company's models.
+![](../../assets/pe_whiplash.png){fig-alt="A line from January 2025 to mid-2026 on a scale from let it rip to rein it in. January 2025: Biden's AI order rescinded on day one. July 2025: the Winning the Race Action Plan. December 2025: states barred from regulating AI. The line runs flat and low across all of 2025. June 12, 2026: foreign access to top models banned — the line spikes. June 13: worldwide shutoff — the peak. June 26: trusted-partner carve-back — the line falls. June 30: restrictions lifted but vetting stays — the line settles on a plateau visibly above the old floor. Inset: the tech chief executives seated at the January 2025 inauguration." .r-stretch}
 
-**April.** The biggest tech firms and banks team up — privately — to use the most powerful model to fix security holes in the world's software.
+```{=html}
+<div style="position:absolute; left:7%; top:13%; width:17%; z-index:10;">
+  <img src="../../assets/pe_letitrip_2025.jpg" style="width:100%; border:3px solid #041e42; border-radius:6px; display:block;">
+</div>
+```
 
-**June.** Washington orders the company to cut off its two best models for the whole world. **Fourteen days later, it quietly makes exceptions.**
-
-[Hard restrictions get blocked or walked back within weeks. Voluntary partnerships stick.]{.punchline}
+::: {.figure-takeaway}
+Three reversals in eighteen days — and a new normal: **frontier access is now negotiated with Washington.**
+:::
 
 ::: {.notes}
-Bring the audience up to date — the episode did not end in February, and the six months since are the most revealing part. March: Anthropic sued in two federal courts; a judge in San Francisco blocked the government's use ban, while a D.C. court let the supply-chain designation stand. April: Project Glasswing — Anthropic with Amazon, Apple, Google, Microsoft, Nvidia, JPMorgan and the Linux Foundation put an unreleased frontier model to work finding flaws in the world's critical software: thousands of previously unknown vulnerabilities, including one 27 years old. Note who organized the response to a dangerous new capability: a private consortium, not a government. June 2: the White House created a *voluntary* collaboration framework with the AI industry. June 12: the Commerce Department went further than any government has — an export order that, in practice, forced a worldwide shutoff of the two most capable models, reportedly after researchers found a way around the safety guardrails on their cyber abilities. And June 26: fourteen days later, the government carved exceptions into its own order for "trusted partners" — because a world locked out of frontier models hurts everyone who depends on them, including the government's own allies and companies.
+One slide, the whole American story. Start with the photograph, floating over the era it belongs to: January 2025, the industry's chief executives seated at the inauguration itself — partners, not subjects. That is the "let it rip" floor, and trace it with your hand: Biden's AI executive order rescinded on inauguration day; the "Winning the Race" Action Plan in July — three executive orders, "Build, Baby, Build," America as AI export powerhouse; in December, an executive order barring the *states* from regulating AI. Eighteen months, and the line does not move.
 
-The chips story runs parallel and points the same way: the sweeping export rules of early 2025 were withdrawn before they were ever enforced, chip sales to China moved from "no by default" to case-by-case approval in January, and the promised replacement keeps slipping.
+Then June 2026: the spike. What turned it: the models got dangerous — the trigger was reportedly researchers bypassing the safety guardrails on a model that finds unknown software vulnerabilities better than almost any human, the same capability a private consortium of tech firms and banks had organized in April to use for defense. Foreign access banned on the 12th; the worldwide shutoff on the 13th — the most restrictive AI action any government has taken. And then the descent, almost as fast: the trusted-partner carve-back — all American companies — on the 26th; restrictions lifted on the 30th, after the company strengthened its safeguards and, tellingly, because the government's own partners and allies needed the models back. Not one company's saga, either: OpenAI's newest models were also held to a government-vetted group. And for this room: the EU was offered access in early June, lost it days later under the directive, and has presumably regained it since.
 
-The pattern to voice before advancing: look at which moves survived. Courts narrowed the bans. The shutoff lasted two weeks. The voluntary framework stands untouched. Restriction bends; access endures. Why? Next slide.
+Two things to read off the shape. First, formal restriction never held — every hard measure was blocked, narrowed, or reversed within days or weeks, and a March court injunction had already blocked the outright use ban. Second — the ratchet — the line does not return to the old floor. It settles on a plateau: since July, the White House vets which companies get frontier access — OpenAI's latest was limited to approved partners for twelve days, and OpenAI agreed to let the administration screen its access lists — a joint cyber clearinghouse launched mid-July, and the June order's classified benchmarking of "covered frontier models" came due August 1. Notice the form durable control takes: not law, not bans — negotiated, voluntary, informal access-vetting at the frontier release point, which costs everyday deployment nothing. Hard restriction bends; soft gatekeeping sticks. Why does it keep sorting that way, in Washington and, as we saw, in Brussels? Next slide names the mechanism.
 
 [Sources]
-Public reporting and legal analyses, March–July 2026: Anthropic litigation and preliminary injunction; Project Glasswing (April 2026, expanded June 2026); Executive Order of June 2, 2026; BIS export directive of June 12, 2026 and trusted-partner letter of June 26, 2026; AI Diffusion Rule rescission (May 2025) and GAO finding (May 2026); BIS case-by-case China chip licensing (January 2026).
+Rescission of EO 14110, January 20, 2025; "Winning the Race: America's AI Action Plan," July 23, 2025; Executive Order of December 11, 2025 (state preemption); BIS export directive of June 12, 2026; Anthropic global suspension of June 13; trusted-partner letter of June 26; Commerce lift of June 30 (Lutnick letter); Executive Order of June 2, 2026 and August 1 benchmarking deliverable; national security directive of June 5, 2026; Chatham House (Wilkinson), 2 July 2026; CRS IF13217 (2026); The Conversation on the IIL's legal basis (July 2026); CNBC, "The White House is dictating access to frontier AI models," July 17, 2026; Project Glasswing (April 2026). Photo: AP/Getty pool coverage of the January 20, 2025 inauguration — [confirm licence]. Note: within-2025 spacing is approximate; the June cluster is widened for legibility.
 :::
 
 ## The Dependence Trap {.visual-stage}
@@ -357,7 +362,7 @@ Public reporting and legal analyses, March–July 2026: Anthropic litigation and
 ::: {.notes}
 Name the pattern — this is the argument I am developing in current research. Governments have not merely failed to control AI firms; they have built their own operations, and bet their own economies, on a capability those firms control and no one else can supply. Ministries run on it. Companies have rebuilt their workflows around it. Walking away would mean rebuilding everything AI reorganized — so walking away is no longer a real option. Economists call this lock-in through specific investment; the twist with AI is that the locked-in party is the *user* — including the state itself.
 
-That dependence works like a filter on every proposed rule, and it explains both halves of tonight's evidence. Rules that spare deployment pass easily: retraining programs, transparency and watermarking, voluntary frameworks — that is why the EU's watermark went global while the Omnibus dilutes the Act's restrictive core, and why the June 2 Executive Order stands while the June 12 shutoff lasted two weeks. Rules that would burden deployment stall, shrink, or get carved back — not usually because firms lobbied, but because governments flinch at raising the cost of something they now run on. The exception proves the rule: the one domain where hard restriction stuck longest was catastrophic cyber risk — where no softer instrument answers the demand.
+That dependence works like a filter on every proposed rule, and it explains both halves of tonight's evidence. Rules that spare deployment pass easily: retraining programs, transparency and watermarking, voluntary frameworks — that is why the EU's watermark went global while the Omnibus dilutes the Act's restrictive core, and why the June 2 Executive Order stands while the June 12 shutoff lasted two weeks. Rules that would burden deployment stall, shrink, or get carved back — often without the firms lifting a finger, because governments flinch at raising the cost of something they now run on. Be ready for the obvious challenge: firms *do* also lobby — the June testing order was reportedly watered down from ninety days to thirty after industry pressure. The honest answer strengthens the argument: lobbying and structural power are two different channels, and the point of the trap is that the second operates even when the first is idle — the June shutoff was reversed in eighteen days with no lobbying campaign at all — after the company strengthened its safeguards, and because the government's own partners and allies needed the model back. The exception proves the rule: the one domain where hard restriction stuck longest was catastrophic cyber risk — where no softer instrument answers the demand.
 
 The uncomfortable conclusion, stated plainly for the debate: AI governance is not failing to grow. It is growing fast — and growing *around* deployment. The rules multiply; the restraints do not. That is what structural power looks like when the powerful actor never has to act.
 
