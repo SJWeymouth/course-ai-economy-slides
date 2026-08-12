@@ -121,6 +121,118 @@
   text-align: center;
 }
 
+/* Dependence trade: a two-way exchange between private capability and
+   public authority. Keep the mechanism legible without a dense flowchart. */
+.reveal .dependence-trade .dep-diagram {
+  display: grid;
+  grid-template-columns: 31% 38% 31%;
+  align-items: center;
+  margin: 82px auto 0;
+  width: 94%;
+}
+.reveal .dependence-trade .dep-side {
+  min-height: 250px;
+  padding: 36px 24px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.reveal .dependence-trade .dep-firms {
+  background: #041e42;
+  color: #fff;
+}
+.reveal .dependence-trade .dep-governments {
+  border: 5px solid #041e42;
+  color: #041e42;
+  background: #fff;
+}
+.reveal .dependence-trade .dep-kicker {
+  color: #b23a48;
+  font-size: 20px;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+  margin-bottom: 16px;
+}
+.reveal .dependence-trade .dep-title {
+  font-size: 38px;
+  font-weight: 850;
+  line-height: 1.05;
+}
+.reveal .dependence-trade .dep-examples {
+  font-size: 20px;
+  line-height: 1.25;
+  margin-top: 22px;
+  opacity: 0.82;
+}
+.reveal .dependence-trade .dep-flows {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  padding: 0 12px;
+}
+.reveal .dependence-trade .dep-flow {
+  text-align: center;
+}
+.reveal .dependence-trade .dep-arrow {
+  color: #b23a48;
+  font-size: 82px;
+  font-weight: 800;
+  line-height: 0.72;
+}
+.reveal .dependence-trade .dep-flow-label {
+  color: #303030;
+  font-size: 20px;
+  line-height: 1.22;
+}
+.reveal .dependence-trade .dep-flow-heading {
+  color: #041e42;
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.reveal .dependence-trade .dep-flow-right .dep-flow-label {
+  margin-bottom: 7px;
+}
+.reveal .dependence-trade .dep-flow-left .dep-flow-label {
+  margin-top: 8px;
+}
+.reveal .dependence-trade .dep-takeaway {
+  background: #f1eee8;
+  color: #041e42;
+  font-size: 30px;
+  margin: 52px auto 0;
+  padding: 18px 30px 20px;
+  text-align: center;
+  width: 86%;
+}
+
+/* Control Tested: lead with Anthropic's account of the dispute; keep the
+   Secretary's post as the smaller reaction and escalation. */
+.reveal .control-tested .control-tested-headline {
+  margin: 54px auto 0;
+  text-align: center;
+  width: 91%;
+}
+.reveal .control-tested .control-tested-headline img {
+  display: block;
+  margin: 0 auto;
+  max-height: none;
+  width: 100%;
+}
+.reveal .control-tested .control-tested-post {
+  margin: 38px auto 0;
+  text-align: center;
+  width: 48%;
+}
+.reveal .control-tested .control-tested-post img {
+  display: block;
+  margin: 0 auto;
+  max-height: 235px;
+  width: 100%;
+}
+
 /* Melbourne slide overlay gags */
 .reveal .gym-stamp {
   position: absolute;

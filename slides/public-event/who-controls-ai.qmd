@@ -337,11 +337,15 @@ So the failure mode, stated cleanly — and this is the slide's point, say it in
 Draghi report, The Future of European Competitiveness, September 2024 (commissioned by the European Commission); Draghi's remarks presenting the report; European Commission Digital Omnibus debate, 2025–26.
 :::
 
-## Control Tested {.visual-stage}
+## Control Tested {.control-tested}
 
-![](../../assets/anthropic_war.png){fig-alt="Post by the Secretary of War: Anthropic delivered a master class in arrogance and betrayal... the Department of War must have full, unrestricted access to Anthropic's models for every lawful purpose." .r-stretch}
+::: {.control-tested-headline}
+![](../../assets/anthropic_war.png){fig-alt="Anthropic headline describing its dispute with the Department of War over safeguards for mass domestic surveillance and fully autonomous weapons."}
+:::
 
-![](../../assets/pe_hegseth_post.png){fig-alt="Post by the Secretary of War: Anthropic delivered a master class in arrogance and betrayal... the Department of War must have full, unrestricted access to Anthropic's models for every lawful purpose." .r-stretch}
+::: {.control-tested-post}
+![](../../assets/pe_hegseth_post.png){fig-alt="Post by the Secretary of War calling Anthropic arrogant and demanding unrestricted access to its models for every lawful purpose."}
+:::
 
 ::: {.notes}
 The American failure mode, in one screenshot. Recall the American bet: partner with your frontier firms, treat them as allies. In early 2026 the arrangement cracked. Anthropic — whose model Claude runs inside Palantir's Maven military platform — maintained usage conditions on its models: no mass surveillance of Americans, human oversight of autonomous weapons. The Department of War demanded unrestricted access. This is the Secretary's public response. Keep the framing structural, not partisan: a private company's terms of service colliding with a state's claimed security needs — and neither side with a rulebook to appeal to.
@@ -377,16 +381,48 @@ Two things to read off the shape. First, formal restriction never held — every
 Rescission of EO 14110, January 20, 2025; "Winning the Race: America's AI Action Plan," July 23, 2025; Executive Order of December 11, 2025 (state preemption); BIS export directive of June 12, 2026; Anthropic global suspension of June 13; trusted-partner letter of June 26; Commerce lift of June 30 (Lutnick letter); Executive Order of June 2, 2026 and August 1 benchmarking deliverable; national security directive of June 5, 2026; Chatham House (Wilkinson), 2 July 2026; CRS IF13217 (2026); The Conversation on the IIL's legal basis (July 2026); CNBC, "The White House is dictating access to frontier AI models," July 17, 2026; Project Glasswing (April 2026). Photo: AP/Getty pool coverage of the January 20, 2025 inauguration — [confirm licence]. Note: within-2025 spacing is approximate; the June cluster is widened for legibility.
 :::
 
-## The Dependence Trap {.visual-stage}
+## The Dependence Hypothesis {.dependence-trade}
 
-![](../../assets/pe_dependence_trap.png){fig-alt="Flow diagram. Demands for AI rules — jobs, safety, bias, catastrophic risk — pass through a filter: government agencies and the economy now run on frontier AI they cannot replace. Rules that spare deployment — retraining, transparency, voluntary frameworks — become law. Rules that burden deployment — liability, restrictions, pauses — stall, shrink, or get carved back. Bottom line: firms do not need to lobby; governments restrain themselves." .r-stretch}
+::::: {.dep-diagram}
+
+::: {.dep-side .dep-firms}
+<div class="dep-kicker">PRIVATE POWER</div>
+<div class="dep-title">FRONTIER AI FIRMS</div>
+:::
+
+::: {.dep-flows}
+:::: {.dep-flow .dep-flow-right}
+::: {.dep-flow-label}
+<span class="dep-flow-heading">AI CAPABILITY</span>
+:::
+<div class="dep-arrow">⟶</div>
+::::
+
+:::: {.dep-flow .dep-flow-left}
+<div class="dep-arrow">⟵</div>
+::: {.dep-flow-label}
+<span class="dep-flow-heading">PERMISSION TO SCALE</span>
+:::
+::::
+:::
+
+::: {.dep-side .dep-governments}
+<div class="dep-kicker">PUBLIC POWER</div>
+<div class="dep-title">NATIONAL GOVERNMENTS</div>
+:::
+
+:::::
+
+::: {.dep-takeaway}
+Each side controls something the other needs. **But frontier capabilities are harder to replace.**
+:::
 
 ::: {.notes}
-Name the pattern — this is the argument I am developing in current research. Governments have not merely failed to control AI firms; they have built their own operations, and bet their own economies, on a capability those firms control and no one else can supply. Ministries run on it. Companies have rebuilt their workflows around it. Walking away would mean rebuilding everything AI reorganized — so walking away is no longer a real option. Economists call this lock-in through specific investment; the twist with AI is that the locked-in party is the *user* — including the state itself.
+Name the relationship more carefully: this is a two-way dependence trade, not a story of powerless states. Frontier firms need governments for chips, electricity, public contracts, market access, and legal permission to scale. Governments need frontier firms for models, productivity, cyber capability, and increasingly military and administrative tools. Each side therefore controls something the other values.
 
-That dependence works like a filter on every proposed rule, and it explains both halves of tonight's evidence. Rules that spare deployment pass easily: retraining programs, transparency and watermarking, voluntary frameworks — that is why the EU's watermark went global while the Omnibus dilutes the Act's restrictive core, and why the June 2 Executive Order stands while the June 12 shutoff lasted two weeks. Rules that would burden deployment stall, shrink, or get carved back — often without the firms lifting a finger, because governments flinch at raising the cost of something they now run on. Be ready for the obvious challenge: firms *do* also lobby — the June testing order was reportedly watered down from ninety days to thirty after industry pressure. The honest answer strengthens the argument: lobbying and structural power are two different channels, and the point of the trap is that the second operates even when the first is idle — the June shutoff was reversed in eighteen days with no lobbying campaign at all — after the company strengthened its safeguards, and because the government's own partners and allies needed the model back. The exception proves the rule: the one domain where hard restriction stuck longest was catastrophic cyber risk — where no softer instrument answers the demand.
+The leverage depends on substitution. A frontier firm may be able to replace one national market with customers elsewhere; a government cannot quickly replace a unique frontier capability once its agencies, allies, and domestic firms depend on it. That asymmetry helps explain why hard restrictions are often narrowed or reversed while rules that preserve deployment — transparency, procurement conditions, voluntary frameworks — prove more durable. This is the dependence hypothesis developed in my current research, not a claim that firms always defeat governments.
 
-The uncomfortable conclusion, stated plainly for the debate: AI governance is not failing to grow. It is growing fast — and growing *around* deployment. The rules multiply; the restraints do not. That is what structural power looks like when the powerful actor never has to act.
+The line to land is the bottom one: mutual dependence does not mean equal power. Power goes to the side whose contribution is harder to replace. The next section asks whether firms can use that position to regulate themselves credibly.
 
 [Sources]
 Weymouth, "Structural Power Without Exit: AI Firms and the Politics of Dependence," working paper, 2026; Lindblom (1977) on structural business power; Williamson (1985) on asset specificity.
