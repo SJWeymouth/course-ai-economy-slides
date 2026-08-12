@@ -215,13 +215,12 @@ Part two: selective alliances abroad. The Gulf deals trade access to American ch
 US–UAE and US–Saudi AI agreements, 2025; David Sacks (White House adviser on AI), public remarks, 2025.
 :::
 
-## China Builds Its Own Stack {.visual-stage}
+## China Exports its Capabilities {.visual-stage}
 
 ![](../../assets/pe_digital_silk_road.png){fig-alt="Map of China's Digital Silk Road: fibre-optic cables, data centres, network equipment deals, and smart-city projects across Asia, Africa, Europe, and Latin America." .r-stretch}
 
-::: {.figure-takeaway}
-Tight state control at home. Abroad, the **Digital Silk Road**: 97 cloud zones in 37 countries.
-:::
+- China exports the stack; maintains rare earth chokehold
+- Huawei Cloud runs China's leading AI
 
 ::: {.notes}
 The Chinese strategy: state direction at home, expansion abroad. Domestically, the Cybersecurity Law, Data Security Law, and PIPL put the state at the center of the digital economy, with licensing and security reviews for AI models. Abroad, the Digital Silk Road exports Chinese infrastructure — cables, data centers, smart-city systems — creating dependence that runs toward Beijing rather than Washington. A fair note on the trade-off: control this tight has costs; the openness that drives frontier innovation sits uneasily with licensing regimes, and Chinese labs still face chip bottlenecks from US export controls.
@@ -275,9 +274,8 @@ Mario Draghi with Commission President Ursula von der Leyen
 :::
 
 ::: {.column width="52%"}
-- In 2024, the EU asked **Mario Draghi** — former European Central Bank chief — why Europe is falling behind
+- In 2024, the EU asked **Mario Draghi** why Europe is falling behind
 - His diagnosis: **competitiveness in decline**, weakest at the digital frontier — partly because of Europe's **own rules**
-- **Brussels blinked:** the EU is now rewriting its own digital rulebook to win the industry back
 
 > "This is an existential challenge." — Draghi, on Europe's competitiveness
 :::
@@ -291,7 +289,9 @@ So the failure mode, stated cleanly — and this is the slide's point, say it in
 Draghi report, The Future of European Competitiveness, September 2024 (commissioned by the European Commission); Draghi's remarks presenting the report; European Commission Digital Omnibus debate, 2025–26.
 :::
 
-## The American Bet Meets Its Test {.visual-stage}
+## Control Tested {.visual-stage}
+
+![](../../assets/anthropic_war.png){fig-alt="Post by the Secretary of War: Anthropic delivered a master class in arrogance and betrayal... the Department of War must have full, unrestricted access to Anthropic's models for every lawful purpose." .r-stretch}
 
 ![](../../assets/pe_hegseth_post.png){fig-alt="Post by the Secretary of War: Anthropic delivered a master class in arrogance and betrayal... the Department of War must have full, unrestricted access to Anthropic's models for every lawful purpose." .r-stretch}
 
@@ -302,20 +302,7 @@ The American failure mode, in one screenshot. Recall the American bet: partner w
 Secretary of War public statements, February 2026; public reporting on the Anthropic–DoW dispute, 2026.
 :::
 
-## When the State Can Only Retaliate {.visual-stage}
 
-![](../../assets/pe_cbs_supplychain_headline.png){fig-alt="CBS News headline: Hegseth declares Anthropic a supply chain risk, restricting military contractors from doing business with AI giant. February 28, 2026." .r-stretch}
-
-::: {.figure-takeaway}
-A company set conditions for the state. The state's only tool was exclusion. **No law says who decides.**
-:::
-
-::: {.notes}
-The episode's ending shows the institutional void. The government designated Anthropic a supply-chain risk, threatened the Defense Production Act, began phasing it out of federal agencies. Notice what is missing: any legal framework that says who decides. The firm exercised control through its terms of service; the state exercised control through market exclusion; nothing resolved the question — it was a power contest, not a governed process. Be fair to both sides in the telling: a company holding to published safety conditions is arguably responsible behavior, and a state refusing private vetoes over defense is arguably democratic behavior. That both can be right is exactly the governance gap. And a coda for a European audience: the American and European strategies also collide with *each other* — Washington has threatened sanctions over the EU's Digital Services Act. The failures compound.
-
-[Sources]
-CBS News, February 28, 2026; public reporting on supply-chain-risk designation and DPA threat; US sanctions threat over EU digital regulation, reporting from August 2025.
-:::
 
 ## Washington Changes Its Tune {.visual-stage}
 
@@ -328,7 +315,7 @@ CBS News, February 28, 2026; public reporting on supply-chain-risk designation a
 ```
 
 ::: {.figure-takeaway}
-Three reversals in eighteen days — and a new normal: **frontier access is now negotiated with Washington.**
+Hard restrictions lasted 18 days
 :::
 
 ::: {.notes}
@@ -393,17 +380,13 @@ The empirical answer to "can firms control themselves," from the strongest test 
 "Exclusive: Anthropic Drops Flagship Safety Pledge," TIME, February 2026; Anthropic RSP v3.0; GovAI reflections on RSP v3.0, 2026.
 :::
 
-## So Who Controls AI? {.center}
+## So Who Controls AI?{.visual-stage}
 
-**States** need AI technologies they do not control.
+- States control borders, inputs, chip access (bottom of the stack)
+- Firms control frontier models and the pace of deployment (top of the stack)
+- Dependence on frontier capabilities for economic growth and national security currently shifts the balance toward firms
 
-**Firms** control technologies they did not write the rules for.
 
-And states now limit their own rules — because their economies and their own agencies run on frontier AI they cannot replace.
-
-::: {.figure-takeaway}
-For now, **frontier firms control AI** — not because they captured the state, but because the state locked itself in. Governance will keep growing. It will grow **around** deployment.
-:::
 
 ::: {.notes}
 The talk's answer, and it is a thesis, not a shrug. Deliver the three lines slowly — they are the architecture of everything shown tonight. States need what they do not control: that was sections three and four. Firms control what they did not write the rules for: that was the Anthropic episode and the pledge revision. And the third line is the new one, the dependence trap: the deepest constraint on AI governance today is not lobbying, not ignorance, not even the race with China — it is that governments have wired frontier AI into their own economies and administrations, so restraining it now means restraining themselves.
@@ -416,13 +399,12 @@ This also completes the prize-and-threat slide from the opening: who controls AI
 Weymouth, "Structural Power Without Exit," working paper, 2026; Weymouth, Digital Globalization (2023); "Digital Disintegration," International Organization (2025).
 :::
 
-## Join the Debate {.center}
+## Thank you. {.center}
 
-**Who *should* control AI — and can a small, open country stay neutral between the blocs?**
 
 stephen.weymouth@georgetown.edu
 
-*Digital Globalization* (Cambridge University Press, 2023) · "Digital Disintegration" (*International Organization*, 2025)
+*Digital Globalization: Politics, Policy, and a Governance Paradox* (Cambridge University Press, 2023) · "Digital Disintegration: Techno Blocs and Strategic Sovereignty in the AI Era" (*International Organization*, 2025)
 
 ::: {.notes}
 Hand the room to Rolf and the audience with a live question rather than a summary — and give it a Swiss edge. Switzerland aligned its data law with the GDPR, hosts major AI infrastructure investment, and sits deliberately between the blocs. Can that position hold as the blocs harden, or does everyone eventually have to choose? Then the broader version: if not firms, and not the current government strategies, then what — and who writes those rules? Take a breath; the discussion runs to about 19:30, then the apéro.
