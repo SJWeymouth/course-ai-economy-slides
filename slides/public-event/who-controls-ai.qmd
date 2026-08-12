@@ -277,7 +277,7 @@ Euronews, "EU compliance, delivered globally," 11 August 2026; EU AI Act Article
 
 # When Control Fails {background-color="#041e42"}
 
-## Brussels Has Doubts {.columns .draghi-slide}
+## Europe Discovers Control Has Costs {.columns .draghi-slide}
 
 ::: {.column width="42%"}
 ![](../../assets/day5_draghi_2025.jpg){fig-alt="Mario Draghi beside European Commission President Ursula von der Leyen at the European Commission" height="430"}
@@ -296,7 +296,7 @@ Mario Draghi with Commission President Ursula von der Leyen
 :::
 
 ::: {.notes}
-Make the logic explicit, because it is the whole point: this is not an outside critic — the EU commissioned its own verdict. Ursula von der Leyen asked Mario Draghi, the man who saved the euro, to diagnose European competitiveness. This audience knows exactly who Draghi is, which is why the moment lands: the most credible economic voice Europe has, reporting to the Commission itself, in September 2024. Be precise about the quote's scope: "This is an existential challenge" is Draghi's verdict on Europe's competitiveness overall — slowing growth and productivity threatening the European social model — not on AI specifically. Within that diagnosis, the report's sharpest warning is the "middle-technology trap": world-class in cars, chemicals, machines; weakest at the digital and AI frontier, where the growth now is. And it names Europe's regulatory burden as one of the causes.
+The title completes the arc of the last three slides — say it as the turn: Europe claimed control through rules, the rules conquered the world — and then the bill arrived. Then the evidence, and make the logic explicit: this is not an outside critic — the EU commissioned its own verdict. Ursula von der Leyen asked Mario Draghi, the man who saved the euro, to diagnose European competitiveness. This audience knows exactly who Draghi is, which is why the moment lands: the most credible economic voice Europe has, reporting to the Commission itself, in September 2024. Be precise about the quote's scope: "This is an existential challenge" is Draghi's verdict on Europe's competitiveness overall — slowing growth and productivity threatening the European social model — not on AI specifically. Within that diagnosis, the report's sharpest warning is the "middle-technology trap": world-class in cars, chemicals, machines; weakest at the digital and AI frontier, where the growth now is. And it names Europe's regulatory burden as one of the causes.
 
 So the failure mode, stated cleanly — and this is the slide's point, say it in one sentence: Europe's instrument of control is regulation, and under competitive pressure Europe is now weakening its own instrument. The Commission's "Digital Omnibus" simplifies the very digital rulebook that was Brussels' claim to power. The rules that traveled the world — last slide's watermark — were the ones that cost the industry nothing; the rules with teeth are the ones being filed down. That is what failed control looks like: not defiance by firms, but retreat by the regulator. Now the American version.
 
