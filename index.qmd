@@ -8,7 +8,7 @@ This site hosts the course syllabus, slides, and in-class activities.
 
 ## Syllabus
 
-- [Course syllabus (updated regularly)](syllabus/AI_Economy_2026_Syllabus.pdf)
+- [Course syllabus](syllabus/AI_Economy_2026_Syllabus.pdf)
 
 ## Slides
 
