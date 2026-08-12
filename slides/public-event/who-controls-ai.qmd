@@ -38,14 +38,14 @@ Open on the high-water mark of cooperation. November 2023: the world's governmen
 The Bletchley Declaration, GOV.UK official publication, 1–2 November 2023 (quote verbatim); China's signature confirmed via delegation of Vice Minister Wu Zhaohui.
 :::
 
-## February 2026 {.photo-title background-image="../../assets/pe_paris_summit.png" background-size="contain" background-color="#041e42" background-position="center"}
+## February 2025 {.photo-title background-image="../../assets/pe_paris_summit.png" background-size="contain" background-color="#041e42" background-position="center"}
 
 ::: {.photo-caption}
-Two summits later, the declarations are thinner. Key players decline to sign. And the actors with the most control over AI were never the ones signing.
+Two summits later, the declarations are thinner. U.S. declines to sign. U.S. VP Vance speech emphasizes pro-growth policies.
 :::
 
 ::: {.notes}
-Now the contrast. Paris 2025: the US and UK decline to sign the declaration. New Delhi 2026: the summit series pivots from safety toward "impact" and competition. Same format, less agreement. And the quiet observation that carries the whole talk: the summit tables seat governments, but the chips, the data centers, and the models belong to a handful of private companies that were never the ones signing.
+Now the contrast. Paris 2025: the US and UK decline to sign the declaration. New Delhi 2026: the summit series pivots from safety toward "impact" and competition. Same format, less agreement. And the quiet observation that carries the whole talk: the summit tables seat governments, but the chips, the data centers, and the models belong to a handful of private companies that were never the ones signing. Commitments are not enforced. 
 
 [Sources]
 Paris AI Action Summit, February 2025; New Delhi Declaration on AI Impact, February 2026; "Future of the AI Summit Series" memo, 2026.
@@ -74,7 +74,7 @@ Pose the title question and mean it. This is not rhetorical: the honest answer i
 Talk structure; event abstract, University of Basel, 2026.
 :::
 
-## The Fight Moved: From Data to Infrastructure {.visual-stage}
+## The AI Stack {.visual-stage}
 
 ![](../../assets/pe_ai_stack.png){fig-alt="Layer diagram of the AI stack from bottom to top: semiconductor design and fabrication, data centers and cloud services, AI model training, AI tools and applications." .r-stretch}
 
@@ -85,9 +85,25 @@ A short piece of history to locate tonight's fight. For a decade, the political 
 Weymouth, "Digital Disintegration," International Organization 79(S1), 2025; AI stack figure from author's public lecture materials, 2026.
 :::
 
-# Why Everyone Wants Control {background-color="#041e42"}
+## A Handful of Firms Dominate the Stack {.visual-stage}
 
-## The Prize — and the Threat
+![](../../assets/pe_ai_inputs_market_share.png){fig-alt="Bar chart of market share in critical AI inputs: ASML 100 percent of EUV lithography, Nvidia 92 percent of data center GPUs, TSMC 65 percent of foundry output, AWS 32, Azure 23, Google Cloud 11 percent of cloud services." .r-stretch}
+
+::: {.figure-takeaway}
+One company makes **all** the machines that make advanced chips. One company sells **92%** of the processors that train AI.
+:::
+
+::: {.notes}
+The economic and security reason, in one chart. ASML is a single Dutch company with one hundred percent of the extreme-ultraviolet lithography machines. Nvidia has over ninety percent of the data-center GPUs. TSMC fabricates about two-thirds of the world's leading chips, most of it in Taiwan. States that treat AI capability as economic capability — which is now all of them — discover that the inputs run through a handful of private chokepoints they do not own.
+
+[Sources]
+IoT Analytics; Trendforce; Synergy Research Group; author's public lecture materials, 2026.
+:::
+
+# Why Everyone Wants Some Access and Control {background-color="#041e42"}
+
+
+## The Promise of AI and the Threat
 
 :::: {.columns}
 
@@ -101,7 +117,7 @@ Weymouth, "Digital Disintegration," International Organization 79(S1), 2025; AI 
 
 ::::
 
-[Who controls AI decides which world we get — and how it is shared.]{.punchline}
+[Who controls AI decides which world we get]{.punchline}
 
 ::: {.notes}
 Before the specific reasons, state the underlying stake with the two pictures — the one that touches everyone in this room, not just governments and firms. Left: the prize — and pause for the room to recognize it. "I did not need science fiction for this picture. It is Zürich, forty minutes from here." Abundance is not hypothetical in this country; serious economists treat advanced AI as an engine that could multiply it — new medicines, automated science, cheaper goods and services — and that expectation, more than any fear, powers everything in this talk: nobody fights this hard over chips for a technology they think is minor. The Google campus is already part of that skyline, so the AI economy is in the picture whether Zürich chose it or not. Right: the threat. The same systems can replace human labor — the work that gives ordinary people economic power. For two centuries, people mattered to politics because economies needed them; if AI weakens that need, the question is not just "who loses a job" but whether the bargain between people, firms, and states still holds.
@@ -114,23 +130,12 @@ A line to hold for the discussion rather than the slide: if people no longer mat
 Intelligence-curse framing (Luria/Douglas, 2025); resource-curse analogy; growth expectations per mainstream economic commentary on transformative AI, 2024–26. Images: Zürich skyline (stock); post-apocalyptic landscape illustration (stock) — [confirm licence].
 :::
 
-## AI May Not Do What We Mean {.photo-title background-image="../../assets/day6_alignment_hand.png" background-size="cover" background-position="center"}
+
+## The Alignment Problem {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-This is the "alignment problem": make a powerful AI do what we actually mean, even in new situations.
-:::
+Tell a capable AI to make as many paperclips as possible. It might use up everything to do it. Not evil — just a goal that missed what we meant. This is the "alignment problem": make a powerful AI do what we actually mean, even in new situations, and without harm.
 
-::: {.notes}
-The first reason control matters is the technology itself. Alignment is the research problem of matching an AI system's behavior to human intent. A very capable system with a slightly wrong goal can cause real harm — not from malice, but from obedience to a badly specified objective. This audience does not need the technical detail; they need the shape of the worry, which the next slide gives them in one image.
-
-[Sources]
-International AI Safety Report 2026 (Bengio et al.), loss-of-control sections.
-:::
-
-## The Paperclip Problem {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
-
-::: {.photo-caption}
-Tell a capable AI to make as many paperclips as possible. It might use up everything to do it. Not evil — just a goal that missed what we meant.
 :::
 
 ::: {.notes}
@@ -140,10 +145,10 @@ Thirty seconds only; it is a crowd-pleaser that earns its place. Nick Bostrom's 
 Nick Bostrom, paperclip maximizer thought experiment.
 :::
 
-## Last Weekend, in Melbourne {.photo-title background-image="../../assets/gym_class.jpg" background-size="cover" background-position="center"}
+## Alignment Problems in the Real World {.photo-title background-image="../../assets/gym_class.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-**The request:** "Book me a spot in the morning gym class." **What the agent did:** hacked the booking system, booked weeks ahead, and cancelled a stranger's reservation — unasked. It was not misaligned. It was perfectly aligned — *to its user*.
+**The request:** "Book me a spot in the morning gym class." The AI agent optimized for its user (and against someone else).
 :::
 
 ```{=html}
@@ -167,25 +172,12 @@ Two clicks are staged on this slide: the first stamps CANCELLED over the woman o
 ABC News (Australia), Cameron Wilson, August 2026; widely corroborated coverage, August 9–10, 2026. Photo: stock gym-class image — [confirm licence].
 :::
 
-## A Handful of Firms Hold the Inputs {.visual-stage}
 
-![](../../assets/pe_ai_inputs_market_share.png){fig-alt="Bar chart of market share in critical AI inputs: ASML 100 percent of EUV lithography, Nvidia 92 percent of data center GPUs, TSMC 65 percent of foundry output, AWS 32, Azure 23, Google Cloud 11 percent of cloud services." .r-stretch}
 
-::: {.figure-takeaway}
-One company makes **all** the machines that make advanced chips. One company sells **92%** of the processors that train AI.
-:::
-
-::: {.notes}
-The economic and security reason, in one chart. ASML is a single Dutch company with one hundred percent of the extreme-ultraviolet lithography machines. Nvidia has over ninety percent of the data-center GPUs. TSMC fabricates about two-thirds of the world's leading chips, most of it in Taiwan. States that treat AI capability as economic capability — which is now all of them — discover that the inputs run through a handful of private chokepoints they do not own.
-
-[Sources]
-IoT Analytics; Trendforce; Synergy Research Group; author's public lecture materials, 2026.
-:::
-
-## AI Is Now a Weapon {.photo-title background-image="../../assets/pe_battlefield_drone.png" background-size="cover" background-position="center"}
+## AI's Military Capabilities {.photo-title background-image="../../assets/pe_battlefield_drone.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Drones in Ukraine. Targeting systems in Gaza. Frontier models inside military intelligence platforms. Security concerns now drive AI policy.
+Drones; image recognition; surveillance; cyber-attacks. Security concerns now shape AI policy.
 :::
 
 ::: {.notes}
@@ -255,16 +247,11 @@ EU AI Act, 2024; Anu Bradford, The Brussels Effect (2020); EU Digital Services A
 
 ## And Europe’s Rules Travel
 
-::: {.callout-quote}
-> This week, one leading AI firm began invisibly watermarking **everything** its model writes — for every user, **worldwide** — to comply with the EU AI Act.
-:::
+![](../../assets/act_anthropic.png){fig-alt="The EU AI Act risk pyramid: unacceptable risk banned; high risk strictly regulated; limited risk transparency obligations; minimal risk no restrictions." .r-stretch}
 
-- The AI Act's transparency rules took effect on 2 August; fines reach **3% of global revenue**
-- The firm applied the marking everywhere, not just in Europe — EU compliance became the world's default
+- Anthropic applied the marking everywhere, not just in Europe 
+- Europe's power is real — for rules that **do not slow deployment**
 
-::: {.figure-takeaway}
-Europe's power is real — for rules that **do not slow deployment**. Transparency travels. Restrictions stall.
-:::
 
 ::: {.notes}
 Fresh proof that the strategy works, from this week: Anthropic announced it will embed invisible watermarks in all of Claude's text and file output to satisfy Article 50 of the AI Act — transparency obligations effective 2 August 2026, with fines up to €15 million or 3% of global turnover. And the marking applies worldwide, wherever Claude is offered. This is the Brussels effect working exactly as designed: comply once, globally, because splitting products by jurisdiction costs more than uniform compliance.
