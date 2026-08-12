@@ -405,7 +405,7 @@ Private firms control critical AI inputs beyond effective sovereign or multilate
 Stephen Weymouth, “Digital Disintegration,” 2025. Image from the instructor’s public-event deck.
 :::
 
-## Sovereignty Is a Portfolio, Not Autarky {.sovereignty-modes}
+## Digital Sovereignty Can Take Several Forms {.sovereignty-modes}
 
 <div class="mode-equation">
 <div class="mode-part build-mode"><span>Mercantilism</span><strong>BUILD</strong><b>domestic capacity</b><small>subsidies · procurement · localization</small></div>
@@ -424,7 +424,7 @@ Strategic sovereignty is not autarky. States pursue it through combinations of d
 Stephen Weymouth, “Digital Disintegration,” 2025, sections on strategic digital sovereignty and technoblocs.
 :::
 
-## Three Strategies, One Fragmenting Order {.bloc-slide}
+## Three Strategies Leading to Fragmenting Order {.bloc-slide}
 
 <div class="bloc-card us">
 <img src="../../assets/pe_us_fab.png" alt="A semiconductor fabrication facility in the United States">
@@ -449,7 +449,7 @@ The United States leverages corporate and technological chokepoints through cont
 Stephen Weymouth, “Digital Disintegration,” 2025. Images and figures from the instructor’s public-event deck.
 :::
 
-## Switzerland: Sovereignty Without Autarky {.switzerland-slide}
+## Swiss Digital Sovereignty {.switzerland-slide}
 
 :::: {.columns}
 ::: {.column width="38%"}
@@ -477,6 +477,7 @@ Switzerland has excellent research, specialized industries, capital, and credibl
 Course activity, “Swiss AI Sovereignty Strategy,” Day 7 Session B, 2026; Stephen Weymouth, “Digital Disintegration,” 2025. Swiss flag image from the instructor’s 2025 Day 7 deck.
 :::
 
+<!--
 ## Activity: Swiss AI Sovereignty Strategy {.activity-intro-slide background-color="#041e42"}
 
 <div class="activity-kicker">CABINET SIMULATION</div>
@@ -493,13 +494,14 @@ Distribute the standalone activity handout. Students work in groups to rank Swit
 [Sources]
 Course activity handout, “Swiss AI Sovereignty Strategy,” Day 7B, 2026.
 :::
+-->
 
 ## Day 7 Key Takeaways
 
-1. AI summits produced broad principles, but not enforceable global rules.
-2. Digital trade creates conflicts over privacy, market power, and where profits are taxed.
-3. Shared rules can keep digital markets open by reducing the harms that lead governments to close them.
-4. No country is fully independent in AI; strategic digital sovereignty means deciding what to build, whom to rely on, and what to regulate.
+1. AI summits produced broad principles, but not enforceable global rules
+2. Digital trade creates conflicts over privacy, market power, and where profits are taxed
+3. Shared rules ("coordinated regulation") can keep digital markets open by reducing the harms that lead governments to close them-but cooperation is difficult to achieve
+4. No country is fully independent in AI; strategic digital sovereignty means deciding what to build, whom to rely on, and what to regulate
 
 ::: {.notes}
 Use this slide to close Day 7 before stepping back to the course as a whole. The summit process shows the limits of international cooperation. The deeper problem is that cross-border digital activity creates political conflicts over privacy, competition, and taxation. Regulation can help sustain openness when it addresses those conflicts. At the same time, AI infrastructure is concentrated across firms and countries, so sovereignty means managing dependencies rather than eliminating them.
@@ -510,10 +512,10 @@ Bletchley Declaration, 2023; New Delhi Declaration, 2026; Stephen Weymouth, *Dig
 
 ## Course Takeaways
 
-1. AI can make many tasks faster and cheaper, but better results require changes in how work and organizations are designed.
-2. AI will affect workers, companies, and places unevenly, so claims about jobs and productivity must be tested with evidence.
-3. AI brings real costs—for energy systems, communities, privacy, competition, and democracy.
-4. No country controls AI alone, but cooperation is difficult because governments and firms want different things.
+1. AI can make many tasks faster and cheaper, but better results require changes in how work and organizations are designed
+2. AI will affect workers, companies, and places unevenly-We must monitor and address the harmful effects before the backlash
+3. AI brings real costs—for energy systems, communities, privacy, competition, and democracy
+4. No country controls AI alone, but cooperation is difficult because governments and firms want different things and capabilities are unevenly distributed
 5. The central question is: **Who decides how AI is used, who gains, who pays, and what rules keep it serving society?**
 
 ::: {.notes}
