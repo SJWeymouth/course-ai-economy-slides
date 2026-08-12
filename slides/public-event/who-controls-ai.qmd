@@ -43,9 +43,12 @@ execute:
 ::::
 
 
-## November 2023 {.photo-title background-image="../../assets/pe_bletchley_summit.png" background-size="contain" background-color="#041e42" background-position="center"}
+## {#november-2023 .photo-title .opening-headline .no-visible-title background-image="../../assets/pe_bletchley_summit.png" background-size="auto 80%" background-color="#041e42" background-position="center"}
 
-::: {.photo-caption}
+::: {.photo-caption .opening-caption}
+<div class="opening-caption-date">NOVEMBER 2023</div>
+
+
 Twenty-eight countries — including the US *and* China — signed one declaration: *"There is potential for serious, even catastrophic, harm, either deliberate or unintentional …"*
 :::
 
@@ -56,9 +59,11 @@ Open on the high-water mark of cooperation. November 2023: the world's governmen
 The Bletchley Declaration, GOV.UK official publication, 1–2 November 2023 (quote verbatim); China's signature confirmed via delegation of Vice Minister Wu Zhaohui.
 :::
 
-## February 2025 {.photo-title background-image="../../assets/pe_paris_summit.png" background-size="contain" background-color="#041e42" background-position="center"}
+## {#february-2025 .photo-title .opening-headline .no-visible-title background-image="../../assets/pe_paris_summit.png" background-size="auto 80%" background-color="#041e42" background-position="center"}
 
-::: {.photo-caption}
+::: {.photo-caption .opening-caption}
+<div class="opening-caption-date">FEBRUARY 2025</div>
+
 Two summits later, the declarations are thinner. U.S. declines to sign. U.S. VP Vance speech emphasizes pro-growth policies.
 :::
 
@@ -233,18 +238,43 @@ Part two: selective alliances abroad. The Gulf deals trade access to American ch
 US–UAE and US–Saudi AI agreements, 2025; David Sacks (White House adviser on AI), public remarks, 2025.
 :::
 
-## China Exports its Capabilities {.visual-stage}
+## The Digital Silk Road Now Carries Models {.china-models}
 
-![](../../assets/pe_digital_silk_road.png){fig-alt="Map of China's Digital Silk Road: fibre-optic cables, data centres, network equipment deals, and smart-city projects across Asia, Africa, Europe, and Latin America." .r-stretch}
+:::: {.columns}
 
-- China exports the stack; maintains rare earth chokehold
-- Huawei Cloud runs China's leading AI
+::: {.column width="42%"}
+<div class="dsr-era">THEN</div>
+
+<div class="dsr-stack">CABLES<br>5G<br>CLOUD</div>
+
+<div class="dsr-explainer">China exported the <strong>infrastructure</strong>.</div>
+:::
+
+::: {.column width="13%"}
+<div class="dsr-arrow">→</div>
+:::
+
+::: {.column width="45%"}
+<div class="dsr-era">NOW</div>
+
+<div class="dsr-number">41%</div>
+
+<div class="dsr-explainer"><strong>of open-model downloads</strong> came from Chinese developers in the past year.</div>
+
+<div class="dsr-models">DEEPSEEK · QWEN · GLM</div>
+:::
+
+::::
+
+<div class="dsr-takeaway">China first exported the pipes. Now it exports the intelligence.</div>
+
+<div class="dsr-source">Source: Hugging Face, <em>State of Open Source</em>, Spring 2026. Downloads are not unique users.</div>
 
 ::: {.notes}
-The Chinese strategy: state direction at home, expansion abroad. Domestically, the Cybersecurity Law, Data Security Law, and PIPL put the state at the center of the digital economy, with licensing and security reviews for AI models. Abroad, the Digital Silk Road exports Chinese infrastructure — cables, data centers, smart-city systems — creating dependence that runs toward Beijing rather than Washington. A fair note on the trade-off: control this tight has costs; the openness that drives frontier innovation sits uneasily with licensing regimes, and Chinese labs still face chip bottlenecks from US export controls.
+The Digital Silk Road originally meant physical and institutional infrastructure: cables, 5G networks, cloud services, smart-city systems, and technical standards. Now it has a second layer. Chinese open-weight models can be downloaded, adapted, and run almost anywhere — often without using a Chinese cloud. Hugging Face reports that models from Chinese developers accounted for 41 percent of open-model downloads over the preceding year, and that China surpassed the United States in both monthly and overall downloads. DeepSeek created the breakthrough moment, but this is an ecosystem story: Qwen alone has produced more than 113,000 derivative models. The qualification matters: downloads are not unique users, and a locally hosted model is not under Beijing's direct operational control. The strategic influence comes from becoming the model family, tooling, and technical default that others build upon.
 
 [Sources]
-MERICS, Digital Silk Road mapping; China's Cybersecurity Law, Data Security Law, PIPL; Huawei Safe City materials.
+Hugging Face, "State of Open Source on Hugging Face: Spring 2026," especially "The Geography of Open Source" and "Derivative Models"; Council on Foreign Relations, "China's Digital Silk Road Initiative"; China's Cybersecurity Law, Data Security Law, and Personal Information Protection Law.
 :::
 
 ## Europe Regulates {.visual-stage}

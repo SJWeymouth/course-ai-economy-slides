@@ -29,6 +29,21 @@
     url("../../assets/pe_unibas_logo.png") right center / auto 88% no-repeat;
 }
 
+/* Opening news screenshots: anchor the date inside the caption rather than
+   Reveal's floating title layer, which can shift across viewport sizes. */
+.reveal .slides section.opening-headline .opening-caption {
+  max-width: 62%;
+  padding: 0.48em 0.72em 0.56em;
+}
+.reveal .opening-caption-date {
+  color: #041e42;
+  font-size: 30px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
 /* Punchline emphasis on text slides */
 .reveal .punchline {
   display: block;
@@ -36,6 +51,74 @@
   font-weight: 700;
   color: #041e42;
   margin-top: 0.9em;
+}
+
+/* Digital Silk Road: replace the unreadable world map with a single
+   before/after argument and one evidence point legible from the room. */
+.reveal .china-models .columns {
+  align-items: center;
+  margin-top: 38px;
+}
+.reveal .china-models .column {
+  text-align: center;
+}
+.reveal .dsr-era {
+  color: #7a7a7a;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  margin-bottom: 12px;
+}
+.reveal .dsr-stack {
+  color: #041e42;
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: 0.035em;
+}
+.reveal .dsr-number {
+  color: #b23a48;
+  font-size: 150px;
+  font-weight: 850;
+  line-height: 0.92;
+  margin: 2px 0 15px;
+}
+.reveal .dsr-arrow {
+  color: #b23a48;
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 1;
+  padding-top: 62px;
+}
+.reveal .dsr-explainer {
+  color: #303030;
+  font-size: 28px;
+  line-height: 1.22;
+  margin: 20px auto 0;
+  max-width: 500px;
+}
+.reveal .dsr-models {
+  color: #041e42;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-top: 18px;
+}
+.reveal .dsr-takeaway {
+  background: #041e42;
+  color: #fff;
+  font-size: 33px;
+  font-weight: 750;
+  margin: 38px auto 0;
+  padding: 17px 32px 19px;
+  text-align: center;
+  width: 88%;
+}
+.reveal .dsr-source {
+  color: #666;
+  font-size: 15px;
+  margin-top: 12px;
+  text-align: center;
 }
 
 /* Melbourne slide overlay gags */
