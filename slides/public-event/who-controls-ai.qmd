@@ -25,6 +25,24 @@ execute:
 ---
 
 
+## I Teach and Write about Globalization
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](../../assets/cover.png){fig-alt="Cover of Digital Globalization" width="82%"}
+:::
+
+::: {.column width="60%"}
+- Georgetown University faculty
+- PhD, University of California, San Diego
+- Focus on how globalization impacts firms, governments, and individuals
+- Special Sworn Employee, US Bureau of Economic Analysis (2012–2022)
+:::
+
+::::
+
+
 ## November 2023 {.photo-title background-image="../../assets/pe_bletchley_summit.png" background-size="contain" background-color="#041e42" background-position="center"}
 
 ::: {.photo-caption}
