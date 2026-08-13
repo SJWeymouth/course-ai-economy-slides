@@ -1,7 +1,7 @@
 ---
 title: "Who Controls AI?"
 subtitle: "Private Power and the Politics of AI Governance"
-author: "Stephen Weymouth · Georgetown University"
+author: "Stephen Weymouth"
 date: ""
 format:
   revealjs:
@@ -24,23 +24,6 @@ execute:
   message: false
 ---
 
-
-## I Teach and Write about Globalization
-
-:::: {.columns}
-
-::: {.column width="40%"}
-![](../../assets/cover.png){fig-alt="Cover of Digital Globalization" width="82%"}
-:::
-
-::: {.column width="60%"}
-- Georgetown University faculty
-- PhD, University of California, San Diego
-- Focus on how globalization impacts firms, governments, and individuals
-- Special Sworn Employee, US Bureau of Economic Analysis (2012–2022)
-:::
-
-::::
 
 
 ## {#november-2023 .photo-title .opening-headline .no-visible-title background-image="../../assets/pe_bletchley_summit.png" background-size="auto 80%" background-color="#041e42" background-position="center"}
@@ -97,7 +80,7 @@ Pose the title question and mean it. This is not rhetorical: the honest answer i
 Talk structure; event abstract, University of Basel, 2026.
 :::
 
-## The AI Stack {.visual-stage}
+## Control Means Authority over the AI Stack {.visual-stage}
 
 ![](../../assets/pe_ai_stack.png){fig-alt="Layer diagram of the AI stack from bottom to top: semiconductor design and fabrication, data centers and cloud services, AI model training, AI tools and applications." .r-stretch}
 
@@ -157,7 +140,7 @@ Intelligence-curse framing (Luria/Douglas, 2025); resource-curse analogy; growth
 ## The Alignment Problem {.photo-title background-image="../../assets/day6_paperclip.jpg" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Tell a capable AI to make as many paperclips as possible. It might use up everything to do it. Not evil — just a goal that missed what we meant. This is the "alignment problem": make a powerful AI do what we actually mean, even in new situations, and without harm.
+Tell a capable AI to maximize paperclips and it might consume everything, resisting shutdown along the way. How do we avoid unintended consequences, and is there any objective safe to maximize?
 
 :::
 
@@ -212,10 +195,10 @@ Public reporting on Ukraine drone warfare; Israel's Lavender system (+972 Magazi
 
 # How Governments Try to Take Control {background-color="#041e42"}
 
-## America Builds a Chip Wall {.photo-title background-image="../../assets/pe_us_fab.png" background-size="cover" background-position="center"}
+## America Tries to Control Chips {.photo-title background-image="../../assets/pe_us_fab.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
-Export controls keep advanced chips away from rivals. The CHIPS Act brings chip factories back to the United States — this one is in Arizona.
+Export controls keep advanced microchips away from rivals. The CHIPS Act brings chip factories back to the United States.
 :::
 
 ::: {.notes}
@@ -225,7 +208,7 @@ The American strategy, part one: mercantilism at home. Export controls deny Chin
 US export controls on advanced semiconductors (2022–25); CHIPS and Science Act, 2022; AI Diffusion Rule, 2025.
 :::
 
-## America Picks Its Partners {.photo-title background-image="../../assets/pe_gulf_deals.png" background-size="cover" background-position="center"}
+## America's Transactional Alliances {.photo-title background-image="../../assets/pe_gulf_deals.png" background-size="cover" background-position="center"}
 
 ::: {.photo-caption}
 The Gulf deals: Saudi Arabia and the UAE provide money and energy. In exchange, they get American chips. The alliance includes governments *and* companies.
@@ -238,7 +221,7 @@ Part two: selective alliances abroad. The Gulf deals trade access to American ch
 US–UAE and US–Saudi AI agreements, 2025; David Sacks (White House adviser on AI), public remarks, 2025.
 :::
 
-## The Digital Silk Road Now Carries Models {.china-models}
+## China's Digital Silk Road Now Exports AI {.china-models}
 
 :::: {.columns}
 
@@ -261,14 +244,13 @@ US–UAE and US–Saudi AI agreements, 2025; David Sacks (White House adviser on
 
 <div class="dsr-explainer"><strong>of open-model downloads</strong> came from Chinese developers in the past year.</div>
 
-<div class="dsr-models">DEEPSEEK · QWEN · GLM</div>
+<div class="dsr-models">DEEPSEEK · QWEN · Kimi</div>
 :::
 
 ::::
 
-<div class="dsr-takeaway">China first exported the pipes. Now it exports the intelligence.</div>
+<div class="dsr-takeaway">China's AI is closing the gap and undercutting on price.</div>
 
-<div class="dsr-source">Source: Hugging Face, <em>State of Open Source</em>, Spring 2026. Downloads are not unique users.</div>
 
 ::: {.notes}
 The Digital Silk Road originally meant physical and institutional infrastructure: cables, 5G networks, cloud services, smart-city systems, and technical standards. Now it has a second layer. Chinese open-weight models can be downloaded, adapted, and run almost anywhere — often without using a Chinese cloud. Hugging Face reports that models from Chinese developers accounted for 41 percent of open-model downloads over the preceding year, and that China surpassed the United States in both monthly and overall downloads. DeepSeek created the breakthrough moment, but this is an ecosystem story: Qwen alone has produced more than 113,000 derivative models. The qualification matters: downloads are not unique users, and a locally hosted model is not under Beijing's direct operational control. The strategic influence comes from becoming the model family, tooling, and technical default that others build upon.
@@ -292,7 +274,7 @@ The European strategy: regulatory power. Europe has little of the stack — no f
 EU AI Act, 2024; Anu Bradford, The Brussels Effect (2020); EU Digital Services Act and Digital Markets Act.
 :::
 
-## And Europe’s Rules Travel
+## Europe’s Rules Get Exported
 
 ![](../../assets/act_anthropic.png){fig-alt="The EU AI Act risk pyramid: unacceptable risk banned; high risk strictly regulated; limited risk transparency obligations; minimal risk no restrictions." .r-stretch}
 
@@ -395,7 +377,6 @@ Rescission of EO 14110, January 20, 2025; "Winning the Race: America's AI Action
 ::: {.column width="56%"}
 - With no binding AI safety law, frontier labs wrote **voluntary** policies
 - Danger thresholds, safety tests, promises to slow down if safeguards lag
-- The most detailed private safety frameworks in any industry
 :::
 
 ::::
@@ -455,7 +436,7 @@ The empirical answer to "can firms control themselves," from the strongest test 
 :::::
 
 ::: {.dep-takeaway}
-Each side controls something the other needs. But frontier capabilities are harder to replace. Dependence on frontier capabilities for economic growth and national security currently **shifts the balance toward firms.**
+Firms hold scarce capabilities. This gives frontier firms control—for now.
 :::
 
 ::: {.notes}
